@@ -66,7 +66,7 @@ export default function CookieModal({
             alignItems: "center",
             justifyContent: "space-between",
             padding: "18px 24px",
-            borderBottom: "2px solid #c0392b",
+            borderBottom: "2px solid #FF0000",
             flexShrink: 0,
           }}
         >

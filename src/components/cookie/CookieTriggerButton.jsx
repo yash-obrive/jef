@@ -24,7 +24,7 @@ export default function CookieTriggerButton({ onClick }) {
         transition: "background 0.2s, transform 0.2s",
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.background = "#c0392b";
+        e.currentTarget.style.background = "#FF0000";
         e.currentTarget.style.transform = "scale(1.04)";
       }}
       onMouseLeave={(e) => {

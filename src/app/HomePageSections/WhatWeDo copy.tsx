@@ -592,7 +592,7 @@ const background = isCLPS
                             md:w-10
                             md:h-10
                             rounded-full
-                            bg-[#C61F26]/30
+                            bg-[#FF0000]/30
                             animate-ping
                           "
                         />
@@ -631,7 +631,7 @@ const background = isCLPS
                           ${
                             isActive
                               ? "bg-white scale-110"
-                              : "bg-[#C61F26] animate-pulse"
+                              : "bg-[#FF0000] animate-pulse"
                           }
                         `}
                       />

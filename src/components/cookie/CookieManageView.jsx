@@ -22,7 +22,7 @@ export default function CookieManageView({
             background: "none",
             border: "none",
             cursor: "pointer",
-            color: "#c0392b",
+            color: "#FF0000",
             fontSize: 20,
             padding: 0,
             lineHeight: 1,

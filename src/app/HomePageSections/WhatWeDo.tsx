@@ -448,7 +448,7 @@ export default function WhatWeDoSection() {
                             sm:h-9
                             md:h-10
                             rounded-full
-                            bg-[#C61F26]/30
+                            bg-[#FF0000]/30
                             animate-ping
                           "
                         />
@@ -484,7 +484,7 @@ export default function WhatWeDoSection() {
                           md:h-5
                           transition-all
                           duration-500
-                          ${isActive ? "bg-white scale-110" : "bg-[#C61F26] animate-pulse"}
+                          ${isActive ? "bg-white scale-110" : "bg-[#FF0000] animate-pulse"}
                         `}
                       />
                     </button>

@@ -13,7 +13,7 @@ export default function CookieToggle({ checked, onChange }) {
         border: "none",
         cursor: "pointer",
         padding: 2,
-        background: checked ? "#c0392b" : "#ccc",
+        background: checked ? "#FF0000" : "#ccc",
         transition: "background 0.25s",
         flexShrink: 0,
         display: "flex",

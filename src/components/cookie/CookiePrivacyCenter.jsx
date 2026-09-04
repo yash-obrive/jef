@@ -34,7 +34,7 @@ export default function CookiePrivacyCenter({
         href="/cookiepolicy"
         style={{
           fontSize: 13,
-          color: "#c0392b",
+          color: "#FF0000",
           textDecoration: "underline",
           display: "inline-block",
           marginBottom: 24,
@@ -49,7 +49,7 @@ export default function CookiePrivacyCenter({
         style={{
           display: "block",
           padding: "12px 28px",
-          background: "#c0392b",
+          background: "#FF0000",
           color: "#fff",
           border: "none",
           borderRadius: 4,
@@ -60,8 +60,8 @@ export default function CookiePrivacyCenter({
           marginBottom: 28,
           transition: "background 0.2s",
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.background = "#a93226")}
-        onMouseLeave={(e) => (e.currentTarget.style.background = "#c0392b")}
+        onMouseEnter={(e) => (e.currentTarget.style.background = "#FF0000")}
+        onMouseLeave={(e) => (e.currentTarget.style.background = "#FF0000")}
       >
         Allow All
       </button>
@@ -101,7 +101,7 @@ export default function CookiePrivacyCenter({
           onMouseLeave={(e) => (e.currentTarget.style.background = "#fafafa")}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ color: "#c0392b", fontSize: 16, fontWeight: 300, minWidth: 14 }}>
+            <span style={{ color: "#FF0000", fontSize: 16, fontWeight: 300, minWidth: 14 }}>
               +
             </span>
             <span style={{ fontWeight: 600, fontSize: 14, color: "#1a1a1a" }}>
@@ -110,7 +110,7 @@ export default function CookiePrivacyCenter({
           </div>
 
           {cat.alwaysActive ? (
-            <span style={{ fontSize: 12, color: "#c0392b", fontWeight: 600, flexShrink: 0 }}>
+            <span style={{ fontSize: 12, color: "#FF0000", fontWeight: 600, flexShrink: 0 }}>
               Always Active
             </span>
           ) : (

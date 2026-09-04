@@ -36,7 +36,7 @@ export default function CookieAccordionRow({
             style={{
               fontSize: 18,
               fontWeight: 300,
-              color: "#c0392b",
+              color: "#FF0000",
               lineHeight: 1,
               minWidth: 14,
               textAlign: "center",
@@ -50,7 +50,7 @@ export default function CookieAccordionRow({
         </div>
 
         {cat.alwaysActive ? (
-          <span style={{ fontSize: 12, color: "#c0392b", fontWeight: 600, flexShrink: 0 }}>
+          <span style={{ fontSize: 12, color: "#FF0000", fontWeight: 600, flexShrink: 0 }}>
             Always Active
           </span>
         ) : (

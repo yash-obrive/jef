@@ -358,7 +358,7 @@ const services = useMemo(() => [
 </p>
 
         </header>
-        <div className="flex ContactUsAnimation flex-col self-center mt-3 max-w-full text-sm md:text-base leading-6 text-center text-[#BD222A]  w-[770px] max-md:mt-10">
+        <div className="flex ContactUsAnimation flex-col self-center mt-3 max-w-full text-sm md:text-base leading-6 text-center text-[#FF0000]  w-[770px] max-md:mt-10">
           <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
             Get in touch for any queries and real-life case-studies
           </p>

@@ -49,12 +49,12 @@ export default function CookieFooterButtons({ onRejectAll, onConfirm }) {
         onClick={onConfirm}
         style={{
           ...btnBase,
-          background: "#c0392b",
+          background: "#FF0000",
           color: "#fff",
-          border: "2px solid #c0392b",
+          border: "2px solid #FF0000",
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.background = "#a93226")}
-        onMouseLeave={(e) => (e.currentTarget.style.background = "#c0392b")}
+        onMouseEnter={(e) => (e.currentTarget.style.background = "#FF0000")}
+        onMouseLeave={(e) => (e.currentTarget.style.background = "#FF0000")}
       >
         Confirm My Choices
       </button>
