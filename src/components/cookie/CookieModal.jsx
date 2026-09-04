@@ -74,7 +74,7 @@ export default function CookieModal({
 
           <div style={{ display: "flex", alignItems: "center" }}>
             <img
-              src="/HomePageImg/NavbarImg/JefTechno_logo_ 2.png"
+              src="/jef-logo.svg"
               alt="JEF Logo"
               style={{
                 height: 40,

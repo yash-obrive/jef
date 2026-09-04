@@ -33,7 +33,7 @@ export default function WhoWeAreSection() {
               ease: [0.22, 1, 0.36, 1],
             }}
             viewport={{ once: true }}
-            src="/HomePageImg/NavbarImg/JefTechno_logo_ 2.png"
+            src="/jef-logo.svg"
             alt="company logo"
             className="w-[65px] md:w-[80px]"
           />
