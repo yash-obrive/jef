@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Earthing & Grounding System Studies | JEF",
     description: "Expert earthing and grounding system analysis and testing services.",
-    url: "https://www.jefuae.com/earthing-studies",
+    url: "https://www.jeftechno.com/earthing-studies",
     siteName: "JEF UAE",
     images: [{ url: "/SerivePage/EarthingStudiesLogo.png" }],
     locale: "en_US",

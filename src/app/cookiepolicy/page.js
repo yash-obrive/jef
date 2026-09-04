@@ -11,12 +11,12 @@ export const metadata = {
         "cookies management"
     ],
     alternates: {
-        canonical: "https://www.jefuae.com/cookiepolicy",
+        canonical: "https://www.jeftechno.com/cookiepolicy",
     },
     openGraph: {
         title: "Understanding Cookies | Jef UAE",
         description: "Understand how Jef UAE uses cookies to enhance your browsing experience.",
-        url: "https://www.jefuae.com/cookiepolicy",
+        url: "https://www.jeftechno.com/cookiepolicy",
         siteName: "Understanding Cookies | Jef UAE",
     },
 };

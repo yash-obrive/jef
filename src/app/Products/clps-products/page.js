@@ -10,7 +10,7 @@ export const metadata = {
     title: "Comprehensive Lightning Protection Solutions (CLPS) | JEF",
     description:
       "Advanced lightning protection systems compliant with the latest international standards. Type-tested to 200 kA.",
-    url: "https://www.jefuae.com/clps-products",
+    url: "https://www.jeftechno.com/clps-products",
     siteName: "JEF UAE",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata = {
     images: ["/clps/clpf-logo.png"],
   },
   alternates: {
-    canonical: "https://www.jefuae.com/clps-products",
+    canonical: "https://www.jeftechno.com/clps-products",
   },
 };
 

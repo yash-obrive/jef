@@ -12,12 +12,12 @@ export const metadata = {
         "data handling"
     ],
     alternates: {
-        canonical: "https://www.jefuae.com/privacypolicy",
+        canonical: "https://www.jeftechno.com/privacypolicy",
     },
     openGraph: {
         title: "Privacy Policy | Jef UAE",
         description: "Learn how Jef UAE protects your privacy and handles your personal data..",
-        url: "https://www.jefuae.com/privacypolicy",
+        url: "https://www.jeftechno.com/privacypolicy",
         siteName: "Privacy Policy | Jef UAE",
     },
 };

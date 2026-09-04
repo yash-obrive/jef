@@ -7,10 +7,10 @@ export const metadata = {
     keywords:
         'power utilities solutions, JEF UAE, electrical solutions, energy efficiency, utilities safety, operational reliability, power sector services',
     alternates: {
-        canonical: 'https://www.jefuae.com/industries/powerutilities',
+        canonical: 'https://www.jeftechno.com/industries/powerutilities',
     },
     openGraph: {
-        url: 'https://www.jefuae.com/industries/powerutilities',
+        url: 'https://www.jeftechno.com/industries/powerutilities',
         description:
             'JEF UAE provides innovative electrical solutions for the power and utilities sector, enhancing efficiency, safety, and reliability across operations.',
         siteName: 'Power & Utilities Solutions | JEF UAE',

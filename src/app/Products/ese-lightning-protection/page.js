@@ -10,7 +10,7 @@ export const metadata = {
     title: "ESE Lightning Protection | JEF",
     description:
       "Advanced ESE lightning protection systems with wide-area coverage and high lightning current withstand capacity.",
-    url: "https://www.jefuae.com/ese-lightning-protection",
+    url: "https://www.jeftechno.com/ese-lightning-protection",
     siteName: "JEF UAE",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata = {
     images: ["/SerivePage/EMIEMCLogo.png"],
   },
   alternates: {
-    canonical: "https://www.jefuae.com/ese-lightning-protection",
+    canonical: "https://www.jeftechno.com/ese-lightning-protection",
   },
 };
 

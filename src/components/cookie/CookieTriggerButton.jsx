@@ -14,7 +14,7 @@ export default function CookieTriggerButton({ onClick }) {
         width: 42,
         height: 42,
         borderRadius: "50%",
-        background: "#1a1a1a",
+        background: "#FF0000",
         border: "none",
         cursor: "pointer",
         display: "flex",
@@ -24,11 +24,11 @@ export default function CookieTriggerButton({ onClick }) {
         transition: "background 0.2s, transform 0.2s",
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.background = "#FF0000";
+        e.currentTarget.style.background = "#cc0000";
         e.currentTarget.style.transform = "scale(1.04)";
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.background = "#1a1a1a";
+        e.currentTarget.style.background = "#FF0000";
         e.currentTarget.style.transform = "scale(1)";
       }}
     >

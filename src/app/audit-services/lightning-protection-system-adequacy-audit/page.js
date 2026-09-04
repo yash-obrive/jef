@@ -6,7 +6,7 @@ export const metadata = {
     description: 'Protect your assets with JEF’s lightning protection system (LPS) adequacy audit. We provide detailed risk assessment and compliance checks to IEC 62305:2024.',
     keywords: 'lightning protection audit, LPS adequacy, lightning risk assessment, IEC 62305 compliance, surge protection audit, JEF engineering',
     alternates: {
-        canonical: 'https://www.jefuae.com/audit-services/lightning-protection-system-adequacy-audit',
+        canonical: 'https://www.jeftechno.com/audit-services/lightning-protection-system-adequacy-audit',
     },
 }
 

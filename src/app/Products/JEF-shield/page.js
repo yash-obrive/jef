@@ -10,7 +10,7 @@ export const metadata = {
     title: "JEF Shield | JEF",
     description:
       "Advanced JEF Shield lightning protection systems for wide-area coverage and engineered safety.",
-    url: "https://www.jefuae.com/JEF-shield",
+    url: "https://www.jeftechno.com/JEF-shield",
     siteName: "JEF UAE",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata = {
     images: ["/nav-jef-shield.png"],
   },
   alternates: {
-    canonical: "https://www.jefuae.com/JEF-shield",
+    canonical: "https://www.jeftechno.com/JEF-shield",
   },
 };
 

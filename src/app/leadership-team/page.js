@@ -7,13 +7,13 @@ export const metadata = {
   keywords:
     "JEF UAE business, electrical solutions, safety systems, engineering services, industry solutions, electrical services, innovative engineerin",
   openGraph: {
-    url: "https://www.jefuae.com/leadership-team",
+    url: "https://www.jeftechno.com/leadership-team",
     siteName: "Leadership Team | JEF UAE",
     description:
       "Meet the visionary leaders driving JEF UAE's success. Our leadership team brings expertise and innovation to deliver top-tier electrical and safety solutions",
   },
   alternates: {
-    canonical: "https://www.jefuae.com/leadership-team",
+    canonical: "https://www.jeftechno.com/leadership-team",
   },
 };
 

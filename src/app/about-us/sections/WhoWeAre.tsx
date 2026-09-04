@@ -35,7 +35,7 @@ export default function WhoWeAreSection() {
             viewport={{ once: true }}
             src="/jef-logo.svg"
             alt="company logo"
-            className="w-[65px] md:w-[80px]"
+            className="w-[100px] md:w-[130px]"
           />
 
           {/* HEADING */}

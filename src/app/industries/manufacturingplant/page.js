@@ -7,10 +7,10 @@ export const metadata = {
     keywords:
         'manufacturing plant solutions, JEF UAE, plant safety, operational efficiency, electrical services, industrial solutions, performance optimization',
     alternates: {
-        canonical: 'https://www.jefuae.com/industries/manufacturingplant',
+        canonical: 'https://www.jeftechno.com/industries/manufacturingplant',
     },
     openGraph: {
-        url: 'https://www.jefuae.com/industries/manufacturingplant',
+        url: 'https://www.jeftechno.com/industries/manufacturingplant',
         description:
             'Enhance the performance, safety, and efficiency of your manufacturing plant with JEF UAE’s specialized electrical solutions and expert services.',
         siteName: 'Manufacturing Plant Solutions | JEF UAE',

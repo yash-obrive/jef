@@ -3,10 +3,10 @@ import RenewableEnergyResource from "./recontent";
 export const metadata = {
     title: 'Renewable Energy Solutions | JEF UAE',
     alternates: {
-        canonical: 'https://www.jefuae.com/industries/renewableenergy',
+        canonical: 'https://www.jeftechno.com/industries/renewableenergy',
     },
     openGraph: {
-        url: 'https://www.jefuae.com/industries/renewableenergy',
+        url: 'https://www.jeftechno.com/industries/renewableenergy',
         siteName: 'Renewable Energy Solutions | JEF UAE',
     },
 }

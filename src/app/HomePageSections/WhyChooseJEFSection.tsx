@@ -80,7 +80,7 @@ export default function WhyChooseJEFSection() {
             className="w-full lg:w-[45%] flex flex-col gap-5 md:gap-8"
           >
             {/* SMALL TITLE */}
-            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-[#FF0000] font-montserrat">
+            <p style={{ color: '#FF0000' }} className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase font-montserrat">
               Why choose JEF ?
             </p>
 
@@ -163,7 +163,7 @@ export default function WhyChooseJEFSection() {
             className="w-full lg:w-[45%] flex flex-col gap-5 md:gap-8"
           >
             {/* SMALL TITLE */}
-            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-[#FF0000] font-montserrat">
+            <p style={{ color: '#FF0000' }} className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase font-montserrat">
               Why choose JEF ?
             </p>
 

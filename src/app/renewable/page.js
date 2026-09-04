@@ -6,7 +6,7 @@ export const metadata = {
     description: 'Specialized engineering services for renewable energy projects. Expert studies in solar PV, wind power integration, energy storage, and grid compliance.',
     keywords: 'renewable energy engineering, solar PV studies, wind power integration, BESS, grid connection studies, power system analysis, JEF',
     alternates: {
-        canonical: 'https://www.jefuae.com/renewable',
+        canonical: 'https://www.jeftechno.com/renewable',
     },
 }
 

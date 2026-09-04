@@ -8,9 +8,9 @@ import Image from "next/image";
 const menuItems = [
   { label: "About", hasDropdown: true },
   { label: "Our Business", hasDropdown: true },
-  { label: "Our Blogs", hasDropdown: false, path: "/blog" },
+  { label: "Our Blogs", hasDropdown: false, path: "/blogs" },
   //{ label: "Our Industries", hasDropdown: true },
-  { label: "JEF UAE", hasDropdown: false , path:"https://www.jefuae.com/"},
+  { label: "JEF UAE", hasDropdown: false , path:"https://www.jeftechno.com/"},
   { label: "JEF SHIELD", hasDropdown: false,path:"https://www.jeftechno.com/JEF_SHIELD/login.php" },
   { label: "JEF SAFE", hasDropdown: false, path: "/coming-soon" },
  

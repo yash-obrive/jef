@@ -138,22 +138,18 @@ const Overview = () => {
               <div
                 className="
                   relative
-
-                 
-
-                  sm:w-[100px]
-                  sm:h-[100px]
-
-                  md:w-[130px]
-                  md:h-[130px]
-                  lg:w-[150px]
-                  lg:h-[150px]
-                  xl:w-[180px]
-                  xl:h-[180px]
-
+                  w-[70px]
+                  h-[70px]
+                  sm:w-[60px]
+                  sm:h-[60px]
+                  md:w-[80px]
+                  md:h-[80px]
+                  lg:w-[100px]
+                  lg:h-[100px]
+                  xl:w-[120px]
+                  xl:h-[120px]
                   transition-transform
                   duration-500
-
                   group-hover:scale-105
                 "
               >

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Surge Protective Devices (SPD) | JEF",
     description: "Advanced surge protection solutions for critical infrastructure.",
-    url: "https://www.jefuae.com/surge-protective-devices",
+    url: "https://www.jeftechno.com/surge-protective-devices",
     siteName: "JEF UAE",
     images: [{ url: "/nav-ese.png" }],
     locale: "en_US",

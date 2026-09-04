@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Lightning Protection System Studies | JEF",
     description: "Expert lightning protection system analysis and scientific design services.",
-    url: "https://www.jefuae.com/lightning-protection-studies",
+    url: "https://www.jeftechno.com/lightning-protection-studies",
     siteName: "JEF UAE",
     images: [{ url: "/SerivePage/LightningStudiesLogo.png" }],
     locale: "en_US",

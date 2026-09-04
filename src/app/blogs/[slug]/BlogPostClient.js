@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useParams } from 'next/navigation';
-import { blogData } from '../MainBlogPage';
+import { blogData } from '../blogData';
 
 const socialLinks = [
   { icon: "/FooterLogo/Link - Facebook.png", href: "https://www.facebook.com/JEFTECHNO/", alt: "Facebook" },
@@ -15,54 +15,28 @@ const socialLinks = [
 ];
 
 const BlogPostPage = () => {
-  const { id } = useParams();
-  const post = blogData[id];
+  const { slug } = useParams();
+  const post = blogData[slug];
 
   if (!post) {
     return (
       <div className="bg-[#121212] min-h-screen font-montserrat pt-[100px] flex items-center justify-center text-white">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Post Not Found</h1>
-          <Link href="/blog" className="text-[#FF0000] hover:underline">Back to Blog</Link>
+          <Link href="/blogs" className="text-[#FF0000] hover:underline">Back to Blog</Link>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="bg-[#232427] min-h-screen font-montserrat pt-[80px] md:pt-[90px]">
-      {/* News & Media Header (Same as MainBlogPage) */}
-      <motion.div
-        initial={{ opacity: 0, y: -15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.45 }}
-        className="w-full bg-[#2D2E30] border-b border-white/5 py-4 md:py-6"
-      >
-        <div className="section-container px-4 sm:px-6 lg:px-0 flex flex-col md:flex-row justify-between items-center  lg:py-5 gap-4">
-          <span className="text-white/60 text-xs md:text-sm tracking-[2px] uppercase font-medium">
-            Blog
-          </span>
-          <nav className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-10">
-            {['ALL BLOGS', 'RESOURCES', 'EVENTS'].map((item) => (
-              <Link
-                key={item}
-                href="/blog"
-                className={`text-[10px] md:text-xs tracking-[1.5px] uppercase  transition-colors ${item === 'ALL BLOGS' ? 'text-white' : 'text-white hover:text-white'
-                  }`}
-              >
-                {item}
-              </Link>
-            ))}
-          </nav>
-        </div>
-      </motion.div>
-
+    <div className="bg-[#232427] min-h-screen font-montserrat pt-[100px] md:pt-[120px] lg:pt-[140px]">
       {/* Breadcrumbs */}
       <div className="w-full bg-[#2D2E30] py-4 border-b border-white/5">
         <div className="section-container px-4 sm:px-6 lg:px-0 flex flex-wrap items-center gap-2 text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1px] uppercase">
           <Link href="/" className="text-[#FF0000]">Home</Link>
           <span className="text-white/20">›</span>
-          <Link href="/blog" className="text-[#FF0000] hover:text-[#FF0000]">Our Blogs</Link>
+          <Link href="/blogs" className="text-[#FF0000] hover:text-[#FF0000]">Our Blogs</Link>
           <span className="text-white/20">›</span>
           <span className="text-[#FF0000]">Consulting Services</span>
           <span className="text-white/20">›</span>

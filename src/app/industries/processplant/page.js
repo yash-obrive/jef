@@ -7,10 +7,10 @@ export const metadata = {
     keywords:
         'process plant solutions, JEF UAE, electrical safety, grounding systems, lightning protection, AC interference studies, industrial safety, process plant reliability',
     alternates: {
-        canonical: 'https://www.jefuae.com/industries/processplant',
+        canonical: 'https://www.jeftechno.com/industries/processplant',
     },
     openGraph: {
-        url: 'https://www.jefuae.com/industries/processplant',
+        url: 'https://www.jeftechno.com/industries/processplant',
         description:
             'JEF UAE offers specialized electrical safety solutions for process plants, including comprehensive grounding, lightning protection, and AC interference studies to ensure operational reliability and safety.',
         siteName: 'Process Plant Solutions | JEF UAE',

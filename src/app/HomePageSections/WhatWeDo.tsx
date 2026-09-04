@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import "./components/whatwedo.css";
 
 export default function WhatWeDoSection() {
@@ -52,7 +53,7 @@ export default function WhatWeDoSection() {
 
   const sections = {
     products: {
-      png: "/HomePageImg/J.png",
+      png: "/jef-logo.svg",
       dots: [
         {
           heading: "CLPS\n ",
@@ -220,13 +221,15 @@ export default function WhatWeDoSection() {
       "
     >
       {/* BG */}
-      <img
+      <Image
         src={background}
-        
-        className={`absolute inset-0 w-full h-full object-cover transition-all duration-[1800ms] ease-in-out ${
+        fill
+        alt="JEF Techno Engineering Services Background"
+        className={`object-cover transition-all duration-[1800ms] ease-in-out ${
           showContent ? "opacity-100 scale-100" : "opacity-0 scale-105"
         }`}
-       loading="lazy" />
+        priority
+       />
 
       {/* VIDEO */}
       <video
@@ -283,7 +286,7 @@ export default function WhatWeDoSection() {
                     xl:text-[30px]
                     tracking-[4px]
                     uppercase
-                    text-white
+                    text-[#FF0000]
                     xl:whitespace-nowrap
                   "
                 >
@@ -353,15 +356,12 @@ export default function WhatWeDoSection() {
             `}
           >
             {/* The character image now explicitly mounts and handles scaling on mobile */}
-            <img
+            <Image
               key={activeSection}
               src={currentSection.png}
-              
+              fill
+              alt={`${activeSection} section illustration`}
               className="
-                absolute
-                inset-0
-                w-full
-                h-full
                 object-contain
                 opacity-90
                 pointer-events-none
@@ -373,7 +373,7 @@ export default function WhatWeDoSection() {
                 animate-[fadeScale_0.7s_ease]
                 rotate-[-20deg]
               "
-             loading="lazy" />
+             />
 
             {currentSection.dots.map((dot, index) => {
               const isActive = activeCard === index;

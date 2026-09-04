@@ -22,8 +22,8 @@ const MobileMenu = () => {
       { label: "About", key: "about" },
       { label: "Our Business", key: "business" },
       
-      { label: "Blogs", path: "/blog" },
-      { label: "JEF UAE", path: "https://www.jefuae.com/" },
+      { label: "Blogs", path: "/blogs" },
+      { label: "JEF UAE", path: "https://www.jeftechno.com/" },
       { label: "JEF SHIELD", path: "https://www.jeftechno.com/JEF_SHIELD/login.php" },
       { label: "JEF SAFE", path: "https://www.jeftechno.com/" },
     ],

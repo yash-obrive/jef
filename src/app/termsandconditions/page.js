@@ -13,12 +13,12 @@ export const metadata = {
         "legal terms"
     ],
     alternates: {
-        canonical: "https://www.jefuae.com/termsandconditions",
+        canonical: "https://www.jeftechno.com/termsandconditions",
     },
     openGraph: {
         title: "Terms and Conditions | Jef UAE",
         description: "Review the terms and conditions for using Jef UAE's services and website.",
-        url: "https://www.jefuae.com/termsandconditions",
+        url: "https://www.jeftechno.com/termsandconditions",
         siteName: "Terms and Conditions | Jef UAE",
     },
 };
@@ -186,7 +186,7 @@ const TermsAndConditions = () => {
                     <p className="mt-16  text-lg text-gray-700 leading-6 max-md:mt-10 max-md:max-w-full">
                         JEF Group of Companies ("JEF," "we," "our," or "us") is committed to protecting your privacy and ensuring that your personal data is handled in compliance with the applicable laws and regulations of the United Arab Emirates (UAE), including the UAE Personal Data Protection Law (PDPL). This Privacy Policy explains how we collect, use, disclose, and
                         <br />
-                        safeguard your information when you visit our website [www.jefuae.com] (the "Site") or interact with us in other ways.
+                        safeguard your information when you visit our website [www.jeftechno.com] (the "Site") or interact with us in other ways.
                     </p>
                     {sections.map((section, index) => (
                         <section key={index}>

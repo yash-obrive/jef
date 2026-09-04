@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://www.jefuae.com'),
+  metadataBase: new URL('https://www.jeftechno.com'),
   title: "Industrial Electrical Engineering Services | JEF Techno",
   description:
     "JEF Techno delivers industrial electrical engineering, lightning protection, and technical solutions with expert support, quality service, and trusted results.",
@@ -21,7 +21,7 @@ export const metadata = {
     "industrial electrical engineering services, electrical engineering company, industrial electrical solutions, electrical engineering consultant, electrical services provider, electrical system design, industrial power solutions, electrical maintenance services, engineering consultancy services, industrial automation solutions, lightning protection services, lightning protection system, earthing solutions, electrical safety solutions, electrical inspection services, power distribution solutions, industrial electrical services India, manufacturing electrical solutions, commercial electrical engineering, infrastructure electrical solutions, industrial safety solutions",
   openGraph: {
     title: "Industrial Electrical Engineering Services | JEF Techno",
-    url: "https://www.jefuae.com/",
+    url: "https://www.jeftechno.com/",
     description:
       "JEF Techno provides industrial electrical engineering, lightning protection, and reliable technical solutions for businesses.",
     siteName: "JEF Techno",
@@ -46,7 +46,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.jefuae.com/",
+    canonical: "https://www.jeftechno.com/",
   },
   icons: {
     icon: "/HomePageImg/NavbarImg/JefTechno_logo_ 2.png",

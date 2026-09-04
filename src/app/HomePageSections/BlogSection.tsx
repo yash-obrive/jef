@@ -11,21 +11,21 @@ export default function BlogsSection() {
       imageSrc: "/BlogImg/HomePageBlog4.png",
       description:
         "Discover how JEF built the world's first complete sequentially type-tested 200kA lightning protection system for the Shree Ram Janmabhoomi Temple in Ayodhya.",
-      path: "/blog/blog8",
+      path: "/blogs/ram-mandir-lightning-protection",
     },
     {
       id: 1,
       title:
         "EARTHING AND LIGHTNING PROTECTION FOR RELIGIOUS STRUCTURES",
       imageSrc: "/BlogImg/blog-1.png",
-      path:"/blog/blog1"
+      path:"/blogs/earthing-lightning-protection-for-religious-structures"
       
     },
     {
       id: 3,
       title: "MEASUREMENT, SIMULATION, VALIDATION – THE 3 KEY STEPS OF POWER SYSTEM STUDIES",
       imageSrc: "/BlogImg/blog-5.png",
-      path:"blog/blog2"
+      path:"/blogs/3-key-steps-of-power-system-studies"
     
     },
     {
@@ -33,7 +33,7 @@ export default function BlogsSection() {
       title:
         "CHALLENGES FOR ELECTRICAL SYSTEM DESIGN AND ENGINEERING IN GREENFIELD PROJECTS",
       imageSrc: "/BlogImg/blog-3.png",
-      path:"/blog/blog3"
+      path:"/blogs/electrical-safety-for-greenfield-projects"
     
     },
   ];
@@ -100,7 +100,7 @@ export default function BlogsSection() {
               viewport={{ once: true }}
               style={{ willChange: "transform, opacity" }}
               onClick={()=>{
-                window.location.href = `/blog`
+                window.location.href = `/blogs`
               }}
               className="
                 relative
