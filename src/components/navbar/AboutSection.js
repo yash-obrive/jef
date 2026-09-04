@@ -29,7 +29,7 @@ const AboutSection = () => {
                     key={index}
                     className="flex gap-7 items-center mt-11 uppercase tracking-[3.36px] max-md:mt-10"
                   >
-                    <div className="self-stretch my-auto text-base text-red-700">
+                    <div className="self-stretch my-auto text-base text-brand">
                       {item.number}
                     </div>
                     <Link
@@ -43,9 +43,9 @@ const AboutSection = () => {
                     <div className="flex items-center">
                       <img
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bb3117bb1e657fdbc997cd15e47263db3ce1251843c4a3543e9042a61e0fd2a"
-                        alt=""
+                        alt="2Bb3117Bb1E657Fdbc997Cd15E47263Db3Ce1251843C4A3543E9042A61E0Fd2A"
                         className="w-2"
-                      />
+                       loading="lazy" />
                     </div>
                   </div>
                 ))}

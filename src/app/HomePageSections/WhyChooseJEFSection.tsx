@@ -67,7 +67,7 @@ export default function WhyChooseJEFSection() {
                         ease-out
                         hover:scale-105
                       "
-                    />
+                     loading="lazy" />
           </motion.div>
 
           {/* CONTENT */}
@@ -258,7 +258,7 @@ export default function WhyChooseJEFSection() {
                     ease-out
                     hover:scale-105
                   "
-                />
+                 loading="lazy" />
               </motion.div>
         </div>
       </div>

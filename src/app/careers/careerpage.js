@@ -189,7 +189,7 @@ const Career = () => {
                       <option value="los-angeles">Los Angeles</option>
                       <option value="chicago">Chicago</option>
                     </select>
-                    <img loading="lazy" src="http://b.io/ext_35-" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="http://b.io/ext_35-" alt="Ext 35 " className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                   </div>
                   <div className="flex gap-3 items-center h-full">
                     <label htmlFor="category" className="sr-only my-auto">Select Category</label>
@@ -205,12 +205,12 @@ const Career = () => {
                       <option value="finance">Finance</option>
                       <option value="healthcare">Healthcare</option>
                     </select>
-                    <img loading="lazy" src="http://b.io/ext_35-" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="http://b.io/ext_35-" alt="Ext 35 " className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                   </div>
                 </div>
               </div>
-              <button type="submit" className="flex overflow-hidden gap-2.5 justify-center items-center px-7 py-3.5 h-full text-lg font-semibold text-white bg-red-700 max-md:px-5">
-                <img loading="lazy" src="http://b.io/ext_36-" alt="" className="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" />
+              <button type="submit" className="flex overflow-hidden gap-2.5 justify-center items-center px-7 py-3.5 h-full text-lg font-semibold text-white bg-brand max-md:px-5">
+                <img loading="lazy" src="http://b.io/ext_36-" alt="Ext 36 " className="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" />
                 <span className="self-stretch my-auto">Search Job</span>
               </button>
             </form>
@@ -218,8 +218,8 @@ const Career = () => {
           <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[600px] max-md:mt-10">
             {statistics.map((stat, index) => (
               <div key={index} className="flex gap-3 items-center self-stretch my-auto w-40">
-                <div className="flex overflow-hidden gap-2.5 justify-center items-center self-stretch p-1 my-auto bg-red-700 w-[3vw] rounded-full aspect-square">
-                  <img loading="lazy" src={stat.icon} alt="" className="object-cover self-stretch my-auto aspect-square" />
+                <div className="flex overflow-hidden gap-2.5 justify-center items-center self-stretch p-1 my-auto bg-brand w-[3vw] rounded-full aspect-square">
+                  <img loading="lazy" src={stat.icon} alt="JEFTECHNO Image" className="object-cover self-stretch my-auto aspect-square" />
                 </div>
                 <div className="flex flex-col self-stretch my-auto whitespace-nowrap">
                   <div className="text-xl font-bold text-white">{stat.count}</div>
@@ -233,7 +233,7 @@ const Career = () => {
         </div> */}
         {/* <div className="flex flex-wrap gap-10 justify-between px-20 py-10 w-full bg-stone-900 max-md:px-5">
           {companyLogos.map((logo, index) => (
-            <img key={index} loading="lazy" src={logo} alt={`Company logo ${index + 1}`} className="object-contain shrink-0 h-auto" />
+            <img key={index} loading="lazy" src={logo} alt={`Company logo ${index + 1}`} className="object-contain shrink-0 h-auto"  alt="JEFTECHNO Image" />
           ))}
         </div> */}
       </section>
@@ -244,17 +244,17 @@ const Career = () => {
             Current Openings
             </h2>
           </div>
-          <a href="#" className="text-xl font-semibold text-red-700">View all</a>
+          <a href="#" className="text-xl font-semibold text-brand">View all</a>
         </div>
         <div className="flex card-slider flex-col items-center mt-16 w-full max-md:mt-10 max-md:max-w-full">
           {jobs.map((job) => (
             <div key={job.id} className="Y-axis-card-anm flex flex-col p-10 mt-6 max-w-full bg-white rounded-3xl shadow-[0px_3px_8px_rgba(48,150,137,0.08)] w-[1296px] max-md:px-5">
               <div className="flex flex-col w-full max-md:max-w-full">
-                <div className="flex flex-wrap gap-10 justify-end items-start w-full text-base text-red-700 max-md:max-w-full">
-                  <img loading="lazy" src="/CareerPage/BookmarkLogo.png" alt="" className="object-contain shrink-0 w-6 aspect-square" />
+                <div className="flex flex-wrap gap-10 justify-end items-start w-full text-base text-brand max-md:max-w-full">
+                  <img loading="lazy" src="/CareerPage/BookmarkLogo.png" alt="Bookmarklogo" className="object-contain shrink-0 w-6 aspect-square" />
                 </div>
                 <div className="flex flex-wrap gap-5 items-start self-start mt-6 text-stone-900 max-md:max-w-full">
-                  <img loading="lazy" src={job.logo} alt={`${job.company} logo`} className="object-contain shrink-0 w-10 aspect-square" />
+                  <img loading="lazy" src={job.logo} alt={`${job.company} logo`} className="object-contain shrink-0 w-10 aspect-square"  alt="JEFTECHNO Image" />
                   <div className="flex flex-col min-w-[240px] max-md:max-w-full">
                     <h3 className="text-3xl font-semibold max-md:max-w-full">{job.title}</h3>
                     <p className="mt-2 text-base">{job.company}</p>
@@ -264,24 +264,24 @@ const Career = () => {
               <div className="flex flex-wrap gap-10 justify-between items-end mt-7 w-full text-base font-semibold max-md:max-w-full">
                 <div className="flex flex-wrap gap-6 items-end text-gray-500 min-w-[240px] max-md:max-w-full">
                   {/* <div className="flex gap-3 items-center">
-                    <img loading="lazy" src="/CareerPage/Redbriefcase.png" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="/CareerPage/Redbriefcase.png" alt="Redbriefcase" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                     <div className="self-stretch my-auto">{job.category}</div>
                   </div> */}
                   <div className="flex gap-3 items-center">
-                    <img loading="lazy" src="/CareerPage/clock.png" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="/CareerPage/clock.png" alt="Clock" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                     <div className="self-stretch my-auto">{job.type}</div>
                   </div>
                   {/* <div className="flex gap-3 items-center whitespace-nowrap">
-                    <img loading="lazy" src="/CareerPage/Wallet.png" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="/CareerPage/Wallet.png" alt="Wallet" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                     <div className="self-stretch my-auto">{job.salary}</div>
                   </div> */}
                   <div className="flex gap-3 items-center">
-                    <img loading="lazy" src="/CareerPage/map-pin.png" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="/CareerPage/map-pin.png" alt="Map Pin" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                     <div className="self-stretch my-auto">{job.location}</div>
                   </div>
                 </div>
                <Link href={job.path}>
-               <button className="overflow-hidden gap-2.5 self-stretch px-5 py-2 text-white capitalize bg-red-700 rounded-lg min-h-[40px]">
+               <button className="overflow-hidden gap-2.5 self-stretch px-5 py-2 text-white capitalize bg-brand rounded-lg min-h-[40px]">
                   Job details
                 </button>
                </Link>

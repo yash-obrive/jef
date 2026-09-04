@@ -154,7 +154,7 @@ export default function BlogsSection() {
                   duration-300
                   group-hover:translate-x-1
                 "
-              />
+               loading="lazy" />
             </motion.button>
           </header>
 
@@ -185,7 +185,7 @@ export default function BlogsSection() {
                   duration-500
                   hover:scale-105
                 "
-              />
+               alt="JEFTECHNO Image"  loading="lazy" />
             </motion.div>
 
             {/* RIGHT CONTENT */}
@@ -278,7 +278,7 @@ export default function BlogsSection() {
               
 brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7470%) hue-rotate(356deg) brightness(98%) contrast(118%)
               "
-            />
+             loading="lazy" />
           </div>
         </Link>
             </motion.div>
@@ -354,7 +354,7 @@ function BlogCard({ imageSrc, title, path }) {
             hover:scale-105
             
           "
-        />
+         alt="JEFTECHNO Image" />
       </div>
 
       {/* CONTENT */}
@@ -424,7 +424,7 @@ function BlogCard({ imageSrc, title, path }) {
               
 brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7470%) hue-rotate(356deg) brightness(98%) contrast(118%)
               "
-            />
+             loading="lazy" />
           </div>
         </Link>
       </div>

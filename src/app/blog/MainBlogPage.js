@@ -691,7 +691,7 @@ export const blogData = {
           <p>
             JEF Shield is a unique automated user-friendly tool for Lightning Protection Risk Assessment as per IS/IEC 62305. This tool helps you to carry out a comprehensive risk assessment with the required data about the structure & equipment that needs protection. JEF Shield is a "ONE STOP SOLUTION" to assess the overall risk of lightning and propose a conceptual design & tentative bill of materials for any green field project.
           </p>
-          <img src="/BlogImg/blog-9.1.png" alt="JEF SHIELD - Lightning Protection Risk Assessment Tool" className="w-full mt-4 rounded-lg" />
+          <img src="/BlogImg/blog-9.1.png" alt="JEF SHIELD - Lightning Protection Risk Assessment Tool" className="w-full mt-4 rounded-lg"  loading="lazy" />
         </div>
 
         <div>
@@ -1047,7 +1047,7 @@ export const blogData = {
         <p>
           We call this software <a href="https://www.jeftechno.com/JEF_SHIELD/login.php" className="underline">JEF SHIELD</a>. The working premise of JEF SHIELD is that it identifies the risk, analyses it, and then determines your RISK LEVEL. And it can be found on <strong>www.jeftechno.com!</strong>
         </p>
-        <img src="/BlogImg/blog-9.1.png" alt="JEF SHIELD" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-9.1.png" alt="JEF SHIELD" className="w-full h-auto rounded-lg"  loading="lazy" />
 
         <p>
           All you have to do is give ACCURATE input data as and when it asks. Your risk assessment results are solely dependent on your INPUT DATA. More the accuracy of your input data, more the accuracy of your risk level!
@@ -1195,7 +1195,7 @@ export const blogData = {
         <p>
           The average wattage losses in a typical industrial facility can be 15-20% of total demanded power. These wattage losses can be reduced by improving the power factor closer to unity and reducing the voltage and current harmonic distortion below 5%.
         </p>
-        <img src="/BlogImg/blog-16.1.png" alt="Power Factor and Harmonic Studies" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-16.1.png" alt="Power Factor and Harmonic Studies" className="w-full h-auto rounded-lg"  loading="lazy" />
 
         <p>
           True/Total PF = Displacement PF × Distortion Factor. The distortion power factor is contributed by harmonics in the network and reduction in harmonic levels can improve the total power factor to reduce the overall Energy cost.
@@ -1248,7 +1248,7 @@ export const blogData = {
           </p>
           <p className="mt-2">Typical line losses as a percentage of Power Demand: <strong>1% to 3%</strong></p>
         </div>
-        <img src="/BlogImg/blog-16.2.png" alt="Power Factor and Harmonic Studies" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-16.2.png" alt="Power Factor and Harmonic Studies" className="w-full h-auto rounded-lg"  loading="lazy" />
 
         <p>
           The <a href="https://www.jeftechno.com/product_quality.php" className="underline">Power Quality</a> experts at JEF Techno Solutions have extensive experience and knowledge of all the factors impacting the operating efficiencies of each of these components. Our Power Quality service team are equipped with state-of-the-art test and analysis equipment to conduct site evaluation of electrical system losses.
@@ -1407,12 +1407,12 @@ export const blogData = {
         <p>
           Low voltage is defined as any AC RMS voltage up to 1000 V or DC peak voltage up to 1500 V. In general, <a href="https://www.jeftechno.com/surge-protection-device.php" className="underline">SPDs</a> need to be installed at main DB, sub DB and at equipment level.
         </p>
-        <img src="/BlogImg/blog-19.1.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-19.1.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>Figure 1-Example of installation of Class I, class II and class III tested SPDs <br/>
 In the above figure instead of Class I and Class II, Class I + II can be used if Iimp value is taken care
 It is because SPDs provide an “effective” protection distance of a maximum of 10 meters. It means, if the distance between the SPD and the equipment to be protected is greater than 10 meters, additional SPDs will be required. The crucial point to note in this case is that the “actual” wire length needs to be calculated rather than the physical distance between the SPD and equipment.
 </p>
-<img src="/BlogImg/blog-19.2.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+<img src="/BlogImg/blog-19.2.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
 <p>
   Figure 2- Difference between physical distance and actual distance.<br/>
 Physical location of equipment is important to select the quantity of SPDs. In the below Figure 3- 2 examples are given. In Example1, the number of PCs are 5 & in Example 2, the number of PCs are 4.. But in Example 1, one SPD is enough to protect all the 5 PCs as the “actual ‘ distance from SPD to the farthest PC- PC 3 is only 5 meters, because all the PCs are kept in one room, next to each other. Whereas. In Example 2, 4 number of SPDs are needed to protect 4 PCs , because 1 PC is located in each floor and the ‘actual” distance exceeds 10 m in Floors 1, 2 & 3.Only PC 1 does not require any additional SPD because the “actual’ distance from the SPD which is in Sub DB is only 5 meters away from PC1.
@@ -1420,8 +1420,8 @@ Physical location of equipment is important to select the quantity of SPDs. In t
 </p>
 
 
-<img src="/BlogImg/blog-19.3.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
-<img src="/BlogImg/blog-19.4.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+<img src="/BlogImg/blog-19.3.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
+<img src="/BlogImg/blog-19.4.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
 <p>
    
 Figure 2- Difference between physical distance and actual distance.<br/>
@@ -1459,15 +1459,15 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
           </ul>
           <p className="mt-2">Only connection type CT-2 need to be followed, due to the constraint in Voltage Protection level and the installation bottleneck.</p>
         </div>
-        <img src="/BlogImg/blog-19.5.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-19.5.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           Figure- 4 -Connection type CT1 (4+0 configuration) for a 3 phase system with separate neutral and earth terminals (Common mode protection)
         </p>
-        <img src="/BlogImg/blog-19.6.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-19.6.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           Figure- 5 - Connection type CT1 (3+0 configuration) for a 3 phase system with separate neutral and earth terminals (Combination of common mode and differential mode protection)
         </p>
-        <img src="/BlogImg/blog-19.7.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-19.7.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           Figure- 6 - Connection type CT1 (3+1 configuration) for a 3 phase system with separate neutral and earth terminals (Combination of common mode and differential mode protection)
         </p>
@@ -1484,11 +1484,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
           <p>
             The total length of the cable — from live wire to OCPD, from OCPD to SPD, and from SPD to earth terminal — has to be <strong>below 0.5 meter</strong> to ensure protection of equipment.
           </p>
-          <img src="/BlogImg/blog-19.8.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-19.8.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
           <p className="text-white/60 font-bold text-sm">
             Figure 7- Class I or Class I+II SPD installation to decrease the lead length of SPD supply conductors.
           </p>
-          <img src="/BlogImg/blog-19.9.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-19.9.png" alt="SPD Selection & Installation Myths & Facts" className="w-full h-auto rounded-lg"  loading="lazy" />
           <p className="text-white/60 font-bold text-sm">
             Figure 8- Class I or Class II SPD installation to decrease the lead length of SPD supply conductors.
           </p>
@@ -1854,11 +1854,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
         <p>
           An electrically independent <a href="https://www.jeftechno.com/grounding-system-solutions" className="underline">earth electrode</a> is defined as one that is positioned "at such a distance from the nearest electrode that the greatest current likely to pass through one of them does not appreciably affect the potential of other electrodes." The distance mentioned is nothing but a distance more than the "sphere of influence".
         </p>
-        <img src="/BlogImg/blog-26.1.png" alt="Sphere of Influence of an Earth Electrode" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-26.1.png" alt="Sphere of Influence of an Earth Electrode" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           <strong>IEC 61000 Electromagnetic compatibility (EMC) - Part 5: Installation and mitigation guidelines - Section 2: Earthing and cabling, i.e. IEC 61000-5-2.</strong>
         </p>
-        <img src="/BlogImg/blog-26.2.png" alt="IEC 61000-5-2 - Earthing and Cabling" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-26.2.png" alt="IEC 61000-5-2 - Earthing and Cabling" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           Generally, Electronics and Instrumentation Engineers feel that <a href="https://www.jeftechno.com/blog/role-of-grounding-in-electrical-safety" className="underline">electrical earthing</a> is "dirty earthing" and their equipment will fail if all earthing systems are interconnected. They wish to keep a separate earthing system for their application. Though Electronic equipment can have independent earth electrodes, they should be connected to other earthing systems below the ground.
         </p>
@@ -1913,17 +1913,17 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
             <li><strong>LPZ 1:</strong> Entry point of power &amp; signal cables from the windmill tower to the building (second level of attenuation)</li>
             <li><strong>LPZ 2:</strong> Place where sensitive electronic equipment is located (final level of attenuation where electric &amp; magnetic fields are very minimum)</li>
           </ul>
-          <img src="/BlogImg/blog-27.1.png" alt="LPZ in Windmill Systems" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-27.1.png" alt="LPZ in Windmill Systems" className="w-full h-auto rounded-lg"  loading="lazy" />
         </div>
         <p>
-          <img src="/BlogImg/blog-27.2.png" alt="LPZ in Windmill Systems" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-27.2.png" alt="LPZ in Windmill Systems" className="w-full h-auto rounded-lg"  loading="lazy" />
           <strong>Shielding:</strong> Nacelle are made of metal which is a closed structure by itself to protect from radiated effects of lightning. Shielded cables shall be used with 360-degree bonding at entry &amp; exit points connected to EBB (Equipotential Bonding Bar) on either side of the cable.
         </p>
         <p>
           <strong>Earthing:</strong> "Global earthing" as explained in IS3043 latest edition (2018) shall be followed, including the structural steel reinforcement of the wind turbine with the earth grid surrounding the windmill &amp; the building.
         </p>
         <p>
-          <img src="/BlogImg/blog-27.3.png" alt="Global Earthing in Windmill Systems" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-27.3.png" alt="Global Earthing in Windmill Systems" className="w-full h-auto rounded-lg"  loading="lazy" />
 
           <strong>SPDs:</strong> While radiated surges are limited by shielding technique, conducted surges are reduced below the withstanding level of equipment by using <a href="https://www.jeftechno.com/blog/power-line-and-data-line-spd-protection" className="underline">SPDs for power, data, and communication lines</a>. Either Class I or Class I+II 3-phase SPD with 400/690 V compatible with minimum Iimp of 12.5 kA for TN-C system shall be employed in parallel at the main DB.
         </p>
@@ -1955,14 +1955,14 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
         <p>
           Soil resistivity can be measured in a variety of methods. Electrical profiling is the best approach for assessing <a href="https://www.jeftechno.com/blog/soil-treatment-for-good-earthing" className="underline">soil resistivity for the design of earthing and safety requirements</a>. Wenner's Four-Point Method is the most popular and user-friendly method. In this method, four spikes with equal spacing are connected to the soil resistivity meter. The current is injected through the extreme spikes and the potential drop is measured between the inner (potential) spikes.
         </p>
-        <img src="/BlogImg/blog-28.1.png" alt="Wenner's Four-Point Method for Soil Resistivity Measurement" className="w-full h-auto rounded-lg" />
-        <img src="/BlogImg/blog-28.2.png" alt="Wenner's Four-Point Method for Soil Resistivity Measurement" className=" mt-5 w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-28.1.png" alt="Wenner's Four-Point Method for Soil Resistivity Measurement" className="w-full h-auto rounded-lg"  loading="lazy" />
+        <img src="/BlogImg/blog-28.2.png" alt="Wenner's Four-Point Method for Soil Resistivity Measurement" className=" mt-5 w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           The resistivity of the soil is dependent on salt content, moisture, and temperature. The resistivity of the soil cannot stay uniform throughout the life of the system as the soil can be eroded due to wind, rain, floods, and manmade actions.
         </p>
-        <img src="/BlogImg/blog-28.3.png" alt="Factors Affecting Soil Resistivity" className="w-full h-auto rounded-lg" />
-        <img src="/BlogImg/blog-28.4.png" alt="Factors Affecting Soil Resistivity" className="mt-6 w-full h-auto rounded-lg" />
-        <img src="/BlogImg/blog-28.5.png" alt="Factors Affecting Soil Resistivity" className="mt-6 w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-28.3.png" alt="Factors Affecting Soil Resistivity" className="w-full h-auto rounded-lg"  loading="lazy" />
+        <img src="/BlogImg/blog-28.4.png" alt="Factors Affecting Soil Resistivity" className="mt-6 w-full h-auto rounded-lg"  loading="lazy" />
+        <img src="/BlogImg/blog-28.5.png" alt="Factors Affecting Soil Resistivity" className="mt-6 w-full h-auto rounded-lg"  loading="lazy" />
         <div>
           <h3 className="text-white font-bold mb-4 uppercase">Parameters Impacting the Soil Resistivity Measurement</h3>
           <ul className="list-disc pl-5 flex flex-col gap-3">
@@ -1974,8 +1974,8 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
           </ul>
         </div>
         <p>
-          <img src="/BlogImg/blog-28.6.png" alt="Parameters Impacting Soil Resistivity Measurement" className="w-full h-auto rounded-lg" />
-          <img src="/BlogImg/blog-28.7.png" alt="Parameters Impacting Soil Resistivity Measurement" className="mt-6 w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-28.6.png" alt="Parameters Impacting Soil Resistivity Measurement" className="w-full h-auto rounded-lg"  loading="lazy" />
+          <img src="/BlogImg/blog-28.7.png" alt="Parameters Impacting Soil Resistivity Measurement" className="mt-6 w-full h-auto rounded-lg"  loading="lazy" />
           If variation in readings exceeds 30% in a given direction, the soil is deemed non-uniform and a multilayer soil model shall be used for designing. While using a simple average of measured soil resistivity values for design, the margin of error in safety parameters can easily exceed 100%.
         </p>
         <p>
@@ -2012,11 +2012,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
         <p>
           One form of lightning is where a discharge takes place from the negatively charged portion to the positively charged portion within the cloud. This is commonly known as intra-cloud lightning.
         </p>
-        <img src="/BlogImg/blog-29.1.png" alt="Intra Cloud Lightning" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-29.1.png" alt="Intra Cloud Lightning" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           Occasionally, the charged mass from the base of a cloud moves towards earth in steps. This stream of charge is known as a natural down streamer and it induces a charge of opposite polarity at any sharp points on the earth's surface. The sharp points on the earth send out their own upward streamers. Since the two streamers are opposite in polarity, they are attracted towards each other. When they meet, the air gap between the cloud and the earth breaks down, resulting in the cloud being wired to the earth. All the energy in the cloud flows down this corridor to the earth — this is termed as lightning. This energy can be of the order of a few hundred mega joules and it hits the earth in a few microseconds.
         </p>
-        <img src="/BlogImg/blog-29.2.png" alt="Cloud to Ground Lightning" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-29.2.png" alt="Cloud to Ground Lightning" className="w-full h-auto rounded-lg"  loading="lazy" />
         <p>
           It is important to note that for any given downstream from the cloud, there can be many up streamers going from the earth's surface. Whichever up streamer manages to establish contact with the downstream first will route the lightning strike to the point where the up streamer has originated. This entire phenomenon occurs in a few milliseconds and is invisible to the human eye. Given the above, it is almost impossible to predict when and where lightning will strike. Hence, we must be adequately prepared at all times to protect ourselves against these dangerous natural phenomena.
         </p>
@@ -2057,7 +2057,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
         <p>
           <a href="https://www.jeftechno.com/blog/earthing-misconceptions" className="underline">Another myth revolves around the concept of Global Grounding.</a> As per the concept of "Global earthing", electrical earthing, electronic earthing, instrumentation earthing, communication earthing, structure earthing and lightning protection system earthing should be interconnected below the ground. This is recommended in IS 3043, IS/IEC 62305, IEC 61000-5-2, and IEEE 142 Standards.
         </p>
-        <img src="/BlogImg/blog-30.1.png" alt="Global Earthing Concept" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-30.1.png" alt="Global Earthing Concept" className="w-full h-auto rounded-lg"  loading="lazy" />
         <div>
           <h3 className="text-white font-bold mb-4 uppercase">Grounding System Design</h3>
           <p>
@@ -2212,7 +2212,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
             <li>IS/IEC 62305-4: Protection of electrical &amp; electronic systems within the structure</li>
           </ul>
         </div>
-        <img src="/BlogImg/blog-33.1.png" alt="IS/IEC 62305 Protection Against Lightning" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-33.1.png" alt="IS/IEC 62305 Protection Against Lightning" className="w-full h-auto rounded-lg"  loading="lazy" />
         <div>
           <h3 className="text-white font-bold mb-4 uppercase">4 Sources of Damage</h3>
           <ul className="list-disc pl-5 flex flex-col gap-2">
@@ -2222,7 +2222,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
             <li>S4: Lightning striking near the service</li>
           </ul>
         </div>
-        <img src="/BlogImg/blog-33.2.png" alt="Sources of Damage from Lightning" className="w-full h-auto rounded-lg" />
+        <img src="/BlogImg/blog-33.2.png" alt="Sources of Damage from Lightning" className="w-full h-auto rounded-lg"  loading="lazy" />
         <div>
           <h3 className="text-white font-bold mb-4 uppercase">3 Types of Damages</h3>
           <ul className="list-disc pl-5 flex flex-col gap-2">
@@ -2230,7 +2230,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
             <li>D2: Physical damage to the structure</li>
             <li>D3: Failure of electrical &amp; electronic equipment</li>
           </ul>
-          <img src="/BlogImg/blog-33.3.png" alt="Types of Damages from Lightning" className="w-full h-auto rounded-lg" />
+          <img src="/BlogImg/blog-33.3.png" alt="Types of Damages from Lightning" className="w-full h-auto rounded-lg"  loading="lazy" />
         </div>
         <p>
           These damages must be controlled within tolerable levels to minimize 4 types of losses: Loss of Human life, Loss of essential public services, Loss of cultural damage, and Economic loss.
@@ -2775,7 +2775,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
             </li>
           </ul>
         </div>
-        <img src="/BlogImg/blog-44-1.png" alt="Power Quality Events" className="w-full rounded-lg" />
+        <img src="/BlogImg/blog-44-1.png" alt="Power Quality Events" className="w-full rounded-lg"  loading="lazy" />
         <p>Please let us know if you need further assistance or have any requirements: marketing@jeftechno.com</p>
       </div>
     )
@@ -3199,7 +3199,7 @@ const NewsCard = ({ category, title, date, imageUrl, path, index }) => (
           src={imageUrl} 
           alt={title} 
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-        />
+         alt="JEFTECHNO Image"  loading="lazy" />
       </div>
       <div className="mt-4 sm:mt-5 md:mt-6 flex flex-col gap-3">
         <span className="text-white text-[10px] md:text-xs tracking-[2px] uppercase">
@@ -3331,7 +3331,7 @@ const MainBlogPage = () => {
               currentPage === 1 ? 'opacity-20 cursor-not-allowed' : 'hover:border-white hover:text-white'
             }`}
           >
-            <ChevronLeft size={20} />
+            <ChevronLeft size={20} className="text-brand" />
           </button>
           <div className="flex items-center gap-2">
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
@@ -3355,7 +3355,7 @@ const MainBlogPage = () => {
               currentPage === totalPages ? 'opacity-20 cursor-not-allowed' : 'hover:border-white hover:text-white'
             }`}
           >
-            <ChevronRight size={20} />
+            <ChevronRight size={20} className="text-brand" />
           </button>
         </motion.div>
       </main>

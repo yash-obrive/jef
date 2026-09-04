@@ -8,7 +8,7 @@ const IndustriesItem = ({ path, icon, text }) => (
     <img
       loading="lazy"
       src={icon}
-      alt=""
+      alt="JEFTECHNO Image"
       className="object-contain shrink-0 self-stretch my-auto w-9 aspect-square"
     />
     <Link href={path}>
@@ -35,11 +35,11 @@ const IndustriesComponent = () => {
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-2/5 max-md:w-full">
             <div className="flex gap-7 items-center mt-14 max-md:mt-10">
-              <div className="text-base font-medium text-red-700 uppercase tracking-[3.36px]">01</div>
+              <div className="text-base font-medium text-brand uppercase tracking-[3.36px]">01</div>
               <div className="flex gap-10 items-center">
                 <h2 className="text-lg font-medium text-white uppercase tracking-[3.36px]">OUR INDUSTRIES</h2>
                 <div className="flex items-center">
-                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bb3117bb1e657fdbc997cd15e47263db3ce1251843c4a3543e9042a61e0fd2a" alt="" className="w-2" />
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bb3117bb1e657fdbc997cd15e47263db3ce1251843c4a3543e9042a61e0fd2a" alt="2Bb3117Bb1E657Fdbc997Cd15E47263Db3Ce1251843C4A3543E9042A61E0Fd2A" className="w-2"  loading="lazy" />
                 </div>
               </div>
             </div>

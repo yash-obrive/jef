@@ -285,7 +285,7 @@ const PQS = () => {
   ]
 
   const buttons = [
-    { text: 'CONTACT US', className: 'bg-red-700' }
+    { text: 'CONTACT US', className: 'bg-brand' }
   ];
 
 
@@ -306,7 +306,7 @@ const PQS = () => {
             </h1>
             <div className="flex gap-6 items-center self-start mt-8 text-lg uppercase text-neutral-900  max-md:mt-10">
               <Link href={'/get-in-touch'}>
-                <button className="px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-red-700 hover:text-white uppercase 2xl:min-h-[64px] rounded-[50px]">
+                <button className="px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-brand hover:text-white uppercase 2xl:min-h-[64px] rounded-[50px]">
                   Get in touch
                 </button>
               </Link>
@@ -328,14 +328,14 @@ const PQS = () => {
             <div className="flex items-center h-full min-w-[240px]">
               {navItems.map((item, index) => (
                 <div key={index} className="flex items-center self-stretch my-auto">
-                  <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-red-700' : 'text-neutral-300'}`}>
+                  <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-brand' : 'text-neutral-300'}`}>
                     {item.label}
                   </div>
                   {item.isActive && (
                     <div className="flex flex-col self-stretch px-2.5 my-auto w-[27px]">
                       <div className="flex items-center w-[7px]">
                         <div className="flex flex-col justify-center self-stretch my-auto min-h-[7px] w-[7px]">
-                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/98403646f26f29fd8d19e6e57b2e9f8b5de2f748795475a0d9039378b1786404?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="" className="object-contain flex-1 w-full aspect-square" />
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/98403646f26f29fd8d19e6e57b2e9f8b5de2f748795475a0d9039378b1786404?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="98403646F26F29Fd8D19E6E57B2E9F8B5De2F748795475A0D9039378B1786404?Placeholderifabsent=True&Apikey=7904Fd7Afaaf4Ee2B0837Ab86D91B244" className="object-contain flex-1 w-full aspect-square" />
                         </div>
                       </div>
                     </div>
@@ -361,7 +361,7 @@ const PQS = () => {
             affect your operations.
           </p>
         </header>
-        <div className="ContactUsAnimation flex flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-red-700 w-[770px] max-md:mt-10">
+        <div className="ContactUsAnimation flex flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-brand w-[770px] max-md:mt-10">
           <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
             Get in touch for any queries and real-life case-studies
           </p>
@@ -369,7 +369,7 @@ const PQS = () => {
         </div>
         <Link href='/get-in-touch' className="ContactUsAnimation flex gap-3.5 justify-center items-center self-center py-4 px-10 max-w-full text-sm tracking-wider leading-none text-center text-white uppercase border border-white border-solid rounded-[60px]">
           <span className="self-stretch my-auto">CONTACT US</span>
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad33562234bc92238f0281eafa23a9b3c49a837f5ae8d3662c67bc1d8b919e14?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad33562234bc92238f0281eafa23a9b3c49a837f5ae8d3662c67bc1d8b919e14?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="Ad33562234Bc92238F0281Eafa23A9B3C49A837F5Ae8D3662C67Bc1D8B919E14?Placeholderifabsent=True&Apikey=7904Fd7Afaaf4Ee2B0837Ab86D91B244" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
         </Link>
       </section>
 
@@ -399,13 +399,13 @@ const PQS = () => {
                 <img
                   ref={imgRef}
                   src={backgroundImage}
-                  alt=""
+                  alt="JEFTECHNO Image"
                   className="absolute inset-0 w-full h-full object-cover"
-                />
+                 loading="lazy" />
               </div>
             )}
             <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-              <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+              <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                 Our Services
               </h2>
               <div className="circle-slider flex flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -450,13 +450,13 @@ const PQS = () => {
                 <img
                   ref={imgRef}
                   src={backgroundImage}
-                  alt=""
+                  alt="JEFTECHNO Image"
                   className="absolute inset-0 w-full h-full object-cover"
-                />
+                 loading="lazy" />
               </div>
             )}
             <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-              <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+              <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                 Our Services
               </h2>
               <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -557,7 +557,7 @@ function TestimonialsSection() {
               </div>
               <div className="flex flex-wrap justify-center mt-10 max-w-full tracking-wider text-white uppercase w-full   mx-auto">
                 <Link href={'/get-in-touch'}>
-                  <button className={`flex overflow-hidden text-sm justify-center bg-red-700 items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
+                  <button className={`flex overflow-hidden text-sm justify-center bg-brand items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
                     CONTACT US
                   </button>
                 </Link>
@@ -577,7 +577,7 @@ const ServiceItem = React.forwardRef(({ path, text, onMouseEnter, onMouseLeave }
     <div
       ref={ref}
       className={`flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-red-600"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
       onMouseEnter={() => {
         if (text !== "") {
           onMouseEnter();
@@ -603,7 +603,7 @@ const ServiceItem2 = React.forwardRef(({ path, text, onMouseEnter, onMouseLeave 
     <div
       ref={ref}
       className={`flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-red-600"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
       onMouseEnter={() => {
         if (text !== "") {
           onMouseEnter();
@@ -665,7 +665,7 @@ function CarouselSection({ components }) {
   return (
     <section className="flex xl:px-[100px] lg:px-[60px] flex-col items-start px-5 pt-16 pb-32 bg-black">
       <div className="flex flex-wrap gap-5 justify-between w-full">
-        <h2 className="md:text-3xl text-2xl font-bold leading-none text-red-700 uppercase">
+        <h2 className="md:text-3xl text-2xl font-bold leading-none text-brand uppercase">
           KEY COMPONENTS OF THE STUDY
         </h2>
         <div className="flex self-end flex-col min-h-[60px]">
@@ -718,8 +718,8 @@ function CarouselSection({ components }) {
                 flex: `0 0 ${100 / visibleCards}%`, // Adjust width of each card based on visibleCards
               }}
             >
-              <img src={component.imageSrc} alt={component.title} className="h-[3rem]" />
-              <h3 className="text-red-700 font-normal w-[80vw] sm:w-[90%] text-2xl sm:text-start my-5 text-center">{component.title}</h3>
+              <img src={component.imageSrc} alt={component.title} className="h-[3rem]"  alt="JEFTECHNO Image"  loading="lazy" />
+              <h3 className="text-brand font-normal w-[80vw] sm:w-[90%] text-2xl sm:text-start my-5 text-center">{component.title}</h3>
               <p className=" text-gray-400 text-center w-[80vw] sm:w-[70%] font-thin lg:w-[80%] sm:text-start text-lg max-w-screen-xl">{component.description}</p>
             </div>
           ))}
@@ -827,7 +827,7 @@ failures and/or inefficiencies.|Ensuring compliance with international standards
                   onClick={() => handleClick(index)}
                 >
                   {activeIndex === index && (
-                    <div className="bg-red-500 w-1 h-full mr-4"></div>
+                    <div className="bg-brand w-1 h-full mr-4"></div>
                   )}
                   <div
                     className={`xl:w-[80%] uppercase min-w-[20%] ${activeIndex === index ? "text-white" : "text-gray-400"
@@ -849,14 +849,14 @@ failures and/or inefficiencies.|Ensuring compliance with international standards
               {cardContents.map((content, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col items-start text-2xl  md:text-3xl text-red-700 mt-12 lg:mt-0 lg:w-full ${isScreenTall ? 'h-screen 2xl:min-h-[120vh]' : 'h-screen'}`}
+                  className={`flex flex-col items-start text-2xl  md:text-3xl text-brand mt-12 lg:mt-0 lg:w-full ${isScreenTall ? 'h-screen 2xl:min-h-[120vh]' : 'h-screen'}`}
                 >
                   <img
                     loading="lazy"
                     src={content.imgSrc}
                     alt={content.title}
                     className="object-contain max-w-full  w-[6rem] 2xl:w-[124px] transition-opacity duration-500 ease-in-out"
-                  />
+                   alt="JEFTECHNO Image" />
                   <ul className="hidden mx-auto justify-center space-y-5 my-4 max-w-full text-sm leading-6 text-gray-400 w-[90%] ">
                     {benefitItems.slice(0, 1).map((item, index) => (
                       <li
@@ -868,7 +868,7 @@ failures and/or inefficiencies.|Ensuring compliance with international standards
                         onClick={() => handleClick(index)}
                       >
                         {activeIndex === index && (
-                          <div className="bg-red-500 w-1 h-full mr-4"></div>
+                          <div className="bg-brand w-1 h-full mr-4"></div>
                         )}
                         <div
                           className={`w-[80%] uppercase min-w-[20%] ${activeIndex === index ? "text-white" : "text-gray-400"
@@ -895,7 +895,7 @@ failures and/or inefficiencies.|Ensuring compliance with international standards
                             </span>
                             <p className="sm:ml-4 text-base lg:text-xs 2xl:text-base font-light 2xl:leading-7 tracking-widest text-white max-md:max-w-full">
                               {["Enhanced Safety:", "Operational Reliability:", "Standards Compliance:", "Cost Savings:"].includes(sentence.trim()) ? (
-                                <span className="text-red-500 !important">{sentence.trim()}</span> // Add the color red forcibly
+                                <span className="text-brand !important">{sentence.trim()}</span> // Add the color red forcibly
                               ) : (
                                 sentence.trim() // Render the rest of the text as normal
                               )}

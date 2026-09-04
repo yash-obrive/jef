@@ -99,7 +99,7 @@ const BlogPostPage = () => {
               src={post.imageUrl}
               alt={post.title}
               className="w-full h-auto object-cover"
-            />
+             alt="JEFTECHNO Image"  loading="lazy" />
           </motion.div>
 
           {/* Article Text */}
@@ -130,7 +130,7 @@ const BlogPostPage = () => {
                     src={social.icon}
                     alt={social.alt}
                     className="w-6 h-6 object-contain"
-                  />
+                   alt="JEFTECHNO Image"  loading="lazy" />
                 </a>
               ))}
             </div>

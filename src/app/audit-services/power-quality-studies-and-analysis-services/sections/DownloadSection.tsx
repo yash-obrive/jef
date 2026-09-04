@@ -68,7 +68,7 @@ export default function DownloadSection() {
                     md:h-[300px]
                     object-cover
                   "
-                />
+                 alt="JEFTECHNO Image"  loading="lazy" />
               </motion.div>
 
               <motion.div

@@ -239,7 +239,7 @@ const pages = [
 //         src="/clps/µs.png"
 //         alt="µs"
 //         className=" md:mt-2 inline-block sm:w-[18px] md:w-[30px] h-auto align-middle"
-//       />
+//        loading="lazy" />
 //     </span>
 //   </>
 // )

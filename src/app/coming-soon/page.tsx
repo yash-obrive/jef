@@ -7,8 +7,8 @@ export default function ComingSoonPage() {
     <div className="min-h-screen flex flex-col bg-[#f9f9fc] text-gray-900 relative overflow-hidden">
       
       {/* 🔴 Background Blobs */}
-      <div className="absolute -z-10 w-[600px] h-[600px] bg-red-500/5 rounded-full blur-[120px] -top-20 -left-20"></div>
-      <div className="absolute -z-10 w-[400px] h-[400px] bg-red-500/5 rounded-full blur-[100px] bottom-0 right-0"></div>
+      <div className="absolute -z-10 w-[600px] h-[600px] bg-brand/5 rounded-full blur-[120px] -top-20 -left-20"></div>
+      <div className="absolute -z-10 w-[400px] h-[400px] bg-brand/5 rounded-full blur-[100px] bottom-0 right-0"></div>
 
       {/* 🔴 NAVBAR */}
       <header className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-sm">
@@ -18,18 +18,18 @@ export default function ComingSoonPage() {
           </div>
 
           <div className="hidden md:flex gap-8 items-center">
-            <span className="text-gray-500 hover:text-red-600 cursor-pointer">
+            <span className="text-gray-500 hover:text-brand cursor-pointer">
               Platform
             </span>
-            <span className="text-gray-500 hover:text-red-600 cursor-pointer">
+            <span className="text-gray-500 hover:text-brand cursor-pointer">
               Vision
             </span>
-            <span className="text-gray-500 hover:text-red-600 cursor-pointer">
+            <span className="text-gray-500 hover:text-brand cursor-pointer">
               Manifesto
             </span>
           </div>
 
-          <button className="bg-red-600 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-red-700 transition">
+          <button className="bg-brand text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-brand transition">
             Get Early Access
           </button>
         </nav>
@@ -42,7 +42,7 @@ export default function ComingSoonPage() {
           {/* Progress Bar */}
           <div className="flex justify-center">
             <div className="w-48 h-1 bg-gray-200 rounded-full overflow-hidden">
-              <div className="h-full bg-red-600 w-1/3 animate-pulse"></div>
+              <div className="h-full bg-brand w-1/3 animate-pulse"></div>
             </div>
           </div>
 

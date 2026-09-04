@@ -289,13 +289,13 @@ function OilandGas() {
                                 <img
                                     ref={imgRef}
                                     src={backgroundImage}
-                                    alt=""
+                                    alt="JEFTECHNO Image"
                                     className="absolute inset-0 w-full h-full object-cover"
-                                />
+                                 loading="lazy" />
                             </div>
                         )}
                         <section className="flex flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Services
                             </h2>
                             <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -377,7 +377,7 @@ const NavigationItem = ({ text, href, isActive, isLast }) => (
     <Link href={href}>
       <div
         className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase cursor-pointer transition-colors duration-200 ${
-          isActive ? "text-white" : "text-red-700 hover:text-white"
+          isActive ? "text-white" : "text-brand hover:text-white"
         }`}
       >
         {text}
@@ -391,7 +391,7 @@ const NavigationItem = ({ text, href, isActive, isLast }) => (
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3113f381f331fdc6efbe3c0ae79c9bb98472ae04eaff8d3d44a215b51f8c5927"
-              alt=""
+              alt="3113F381F331Fdc6Efbe3C0Ae79C9Bb98472Ae04Eaff8D3D44A215B51F8C5927"
               className="object-contain flex-1 w-full aspect-square"
             />
           </div>
@@ -446,7 +446,7 @@ const ServiceItem = React.forwardRef(({ path, text, data, onMouseEnter, onMouseL
         <div
             ref={ref}
             className={` flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-red-600"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
             onMouseEnter={(e) => {
                 setIsHovered(true);
                 onMouseEnter(e); // Calls the main onMouseEnter function to handle background image changes

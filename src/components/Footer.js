@@ -123,10 +123,10 @@ function Footer() {
                     FOLLOW jef ON SOCIAL MEDIA
                 </div>
                 <div className="flex X-axis-card-anm-footer flex-row items-center h-full space-x-12 lg:space-x-6">
-                    <a href="https://www.youtube.com/@JEFgroup" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Youtube.png" alt="YoutubeImg" /></a>
-                    <a href="https://www.facebook.com/JEFTECHNO/" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Facebook.png" alt="FacebookImg" /></a>
-                    <a href="https://www.linkedin.com/company/jefgroup/" target="_blank" className="object-contain  card-slider-footer"><img src="../FooterLogo/Link - Linkedin.png" alt="LinkedInImg" /></a>
-                    <a href="https://x.com/JeftechnoIndia" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Twitter.png" alt="TwitterImg" /></a>
+                    <a href="https://www.youtube.com/@JEFgroup" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Youtube.png" alt="YoutubeImg"  loading="lazy" /></a>
+                    <a href="https://www.facebook.com/JEFTECHNO/" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Facebook.png" alt="FacebookImg"  loading="lazy" /></a>
+                    <a href="https://www.linkedin.com/company/jefgroup/" target="_blank" className="object-contain  card-slider-footer"><img src="../FooterLogo/Link - Linkedin.png" alt="LinkedInImg"  loading="lazy" /></a>
+                    <a href="https://x.com/JeftechnoIndia" target="_blank" className="object-contain card-slider-footer"><img src="../FooterLogo/Link - Twitter.png" alt="TwitterImg"  loading="lazy" /></a>
 
                 </div>
             </div>
@@ -157,7 +157,7 @@ function Footer() {
                                 src="../FooterLogo/obrive-footer-logo.png"
                                 alt="ObnovLogo"
                                 className="h-4 object-contain"
-                            />
+                             loading="lazy" />
                         </a>
                     </div>
 
@@ -194,7 +194,7 @@ function Section({ title, items }) {
     return (
         <section className="flex card-slider-footer X-axis-card-anm-footer flex-col min-h-[234px] w-full sm:w-[219px]">
 
-            <header className="w-full text-xl font-bold tracking-widest text-red-700 uppercase whitespace-nowrap">
+            <header className="w-full text-xl font-bold tracking-widest text-brand uppercase whitespace-nowrap">
                 {title}
             </header>
 
@@ -330,7 +330,7 @@ const FAQComponent = () => {
         return (
             <div className="flex flex-col justify-center p-px self-center border-b w-full px-5 border-solid bg-transparent bg-opacity-70 max-md:max-w-full">
                 <div onClick={onToggle} className="flex gap-10 justify-between items-start py-5 md:py-10 w-full max-md:max-w-full">
-                    <h2 className="self-stretch py-px leading-relaxed my-auto font-semibold text-lg md:text-xl tracking-wider uppercase text-red-600">
+                    <h2 className="self-stretch py-px leading-relaxed my-auto font-semibold text-lg md:text-xl tracking-wider uppercase text-brand">
                         {question}
                     </h2>
                     <div className="flex flex-col items-start self-stretch my-auto min-h-[40px]">
@@ -346,7 +346,7 @@ const FAQComponent = () => {
                                         ? "../AboutUs/DropUpArr.png"
                                         : "../AboutUs/DropDownArr.png"
                                 }
-                                alt=""
+                                alt="JEFTECHNO Image"
                                 className="object-contain flex-1 w-full aspect-square"
                             />
                         </button>

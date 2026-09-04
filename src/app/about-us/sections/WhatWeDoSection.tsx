@@ -94,7 +94,7 @@ export default function AboutUsServicesSection() {
         src={background}
         alt="background"
         className="absolute inset-0 w-full h-full object-cover transition-all duration-1000"
-      />
+       loading="lazy" />
 
       <div className="absolute inset-0 bg-black/40 z-10" />
       {/* Main layout */}
@@ -161,7 +161,7 @@ export default function AboutUsServicesSection() {
               opacity-90
               rotate-[-20deg]
             "
-          />
+           loading="lazy" />
              {/* hidden  removed above*/}
           {services.map((service) => {
             const isActive = activeCard === service.id;

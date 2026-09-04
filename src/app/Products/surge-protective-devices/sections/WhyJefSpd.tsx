@@ -179,7 +179,7 @@ export default function WhyRca() {
                       duration-700
                       group-hover:scale-105
                     "
-                  />
+                   alt="JEFTECHNO Image"  loading="lazy" />
                 </div>
 
                 {/* Content */}

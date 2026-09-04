@@ -182,7 +182,7 @@ function LeadershipSection() {
                   src={leader.image}
                   alt={leader.name}
                   className="w-full h-full object-cover transition duration-500"
-                />
+                 alt="JEFTECHNO Image"  loading="lazy" />
               </div>
 
               {/* Name */}
@@ -201,7 +201,7 @@ function LeadershipSection() {
                 className="mt-4 w-6 h-6 flex items-center transition-transform duration-300 hover:translate-x-1"
                 aria-label={`View ${leader.name}'s profile`}
               >
-                <img src="./AboutUs/arrow.png" alt="Arrow" />
+                <img src="./AboutUs/arrow.png" alt="Arrow"  loading="lazy" />
               </button>
             </article>
           ))}
@@ -254,7 +254,7 @@ function LeadershipSection() {
                         src={selectedLeader.image}
                         alt={selectedLeader.name}
                         className="w-full h-full object-cover"
-                      />
+                       alt="JEFTECHNO Image"  loading="lazy" />
                     </div>
 
                     {/* Name + Role */}

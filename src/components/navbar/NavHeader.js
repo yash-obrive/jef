@@ -115,7 +115,7 @@ const NavHeader = ({
           <div className="flex lg:hidden gap-6 items-center self-stretch my-auto text-center">
             {/* Hamburger Icon for Mobile */}
             <button
-              className="p-2 text-white hover:text-red-500 transition-colors duration-200"
+              className="p-2 text-white hover:text-brand transition-colors duration-200"
               onClick={toggleSlideMenu}
               aria-label="Open menu"
             >

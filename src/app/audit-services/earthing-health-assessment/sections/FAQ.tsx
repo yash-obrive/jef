@@ -147,7 +147,7 @@ const FAQ = () => {
                           style={{ 
                             filter: "brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7470%) hue-rotate(356deg) brightness(98%) contrast(118%)" 
                           }}
-                        />
+                         loading="lazy" />
                       </div>
                     </div>
                   </button>

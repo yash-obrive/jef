@@ -169,7 +169,7 @@ const pages = [
                 src="/ESE/ese-label-1.png" 
                 alt="ESE Performance Validation Flowchart" 
                 className="w-full max-w-[450px] h-auto object-contain p-4 rounded-lg"
-              />
+               loading="lazy" />
             </div>
           </div>
         ),

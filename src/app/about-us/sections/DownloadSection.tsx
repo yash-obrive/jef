@@ -53,7 +53,7 @@ export default function DownloadSection() {
                
                 object-cover
               "
-            />
+             loading="lazy" />
           </motion.div>
 
           {/* Text Content */}

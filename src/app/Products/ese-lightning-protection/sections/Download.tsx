@@ -29,7 +29,7 @@ const Download = () => {
               src="/AboutUs/Download.png"
               alt="ESE Lightning Protection Guide"
               className="max-w-[554px] max-h-[369px] object-cover transition-transform duration-500 hover:scale-105"
-            />
+             loading="lazy" />
           </div>
 
           <div className="flex flex-col gap-4">
@@ -55,7 +55,7 @@ const Download = () => {
                   src="/clps/download-icon.png"
                   alt="Download"
                   className="w-4 h-4 group-hover:invert transition-all invert"
-                />
+                 loading="lazy" />
               </div>
             </a>
           </div>

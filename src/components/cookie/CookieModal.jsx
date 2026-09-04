@@ -81,7 +81,7 @@ export default function CookieModal({
                 width: "auto",
                 objectFit: "contain",
               }}
-            />
+             loading="lazy" />
           </div>
 
           <button

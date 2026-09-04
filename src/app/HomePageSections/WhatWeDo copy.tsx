@@ -321,13 +321,13 @@ const background = isCLPS
       {/* BG */}
       <img
         src={background}
-        alt=""
+        alt="JEFTECHNO Image"
         className={`absolute inset-0 w-full h-full object-cover transition-all duration-[1800ms] ease-in-out ${
           showContent
             ? "opacity-100 scale-100"
             : "opacity-0 scale-105"
         }`}
-      />
+       loading="lazy" />
 
       {/* VIDEO */}
       <video
@@ -495,7 +495,7 @@ const background = isCLPS
               <img
                 key={activeSection}
                 src={currentSection.png}
-                alt=""
+                alt="JEFTECHNO Image"
                 className={`
                   absolute
                   inset-0
@@ -516,7 +516,7 @@ const background = isCLPS
 
                 rotate-[-20deg]
                 `}
-              />
+               loading="lazy" />
             )}
 
             {currentSection.dots.map((dot, index) => {

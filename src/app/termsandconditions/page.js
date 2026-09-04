@@ -122,7 +122,7 @@ const TermsAndConditions = () => {
     ];
 
     const SectionHeader = ({ title }) => (
-        <h2 className="mt-14 text-2xl tracking-wide font-normal leading-none text-red-700 max-md:mt-10">
+        <h2 className="mt-14 text-2xl tracking-wide font-normal leading-none text-brand max-md:mt-10">
             {title}
         </h2>
     );
@@ -163,7 +163,7 @@ const TermsAndConditions = () => {
                     return <ListItem key={index} content={item.listItem} />;
                 } else if (item.email) {
                     return (
-                        <p key={index} className="mt-8 font-semibold text-red-700">
+                        <p key={index} className="mt-8 font-semibold text-brand">
                             Email: <span className="underline">{item.email}</span>
                         </p>
                     );

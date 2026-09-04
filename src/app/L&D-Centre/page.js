@@ -7,10 +7,10 @@ function LDCentre() {
         <>
             <main className="flex overflow-hidden flex-col pb-36 bg-neutral-100 max-md:pb-24">
                 <header className="flex overflow-hidden flex-col w-full bg-white max-md:max-w-full">
-                    <img loading="lazy" src="/HomePageImg/Our L&D Centre 1.png" alt="" className="object-cover w-full h-screen" />
+                    <img loading="lazy" src="/HomePageImg/Our L&D Centre 1.png" alt="Our L&D Centre 1" className="object-cover w-full h-screen" />
                 </header>
                 <section className="flex  overflow-hidden -mt-28 z-10 flex-col items-start self-center px-12 py-16 ml-4 max-w-full bg-white w-4/5 lg:w-3/5 max-md:px-5">
-                    <h1 className="text-3xl font-bold leading-none text-red-700 uppercase">
+                    <h1 className="text-3xl font-bold leading-none text-brand uppercase">
                         L&D Centre
                     </h1>
                     <p className="self-stretch mt-7 text-base font-thin leading-6 text-zinc-800 max-md:max-w-full">
@@ -37,7 +37,7 @@ function Button({ text, icon }) {
                 {text}
             </span>
             {icon && (
-                <img loading="lazy" src={icon} alt="" className="object-contain flex-1 w-full aspect-square max-w-[19px]" />
+                <img loading="lazy" src={icon} alt="JEFTECHNO Image" className="object-contain flex-1 w-full aspect-square max-w-[19px]" />
             )}
         </button>
     );

@@ -115,7 +115,7 @@ export default function ProductIntro() {
 
 
 
-                {/* <div className="flex ContactUsAnimation flex-col self-center mt-8 max-w-full text-sm md:text-base leading-6 text-center text-red-700 w-[770px] max-md:mt-10">
+                {/* <div className="flex ContactUsAnimation flex-col self-center mt-8 max-w-full text-sm md:text-base leading-6 text-center text-brand w-[770px] max-md:mt-10">
                     <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
                         Get in touch for any queries and real-life case-studies
                     </p>
@@ -123,7 +123,7 @@ export default function ProductIntro() {
                 </div>
                 <Link href='/get-in-touch' className="ContactUsAnimation flex gap-3.5 justify-center items-center self-center py-4 px-10 max-w-full text-sm tracking-wider leading-none text-center text-white uppercase border border-white border-solid rounded-[60px]">
                     <span className="self-stretch my-auto">CONTACT US</span>
-                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad33562234bc92238f0281eafa23a9b3c49a837f5ae8d3662c67bc1d8b919e14?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad33562234bc92238f0281eafa23a9b3c49a837f5ae8d3662c67bc1d8b919e14?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="Ad33562234Bc92238F0281Eafa23A9B3C49A837F5Ae8D3662C67Bc1D8B919E14?Placeholderifabsent=True&Apikey=7904Fd7Afaaf4Ee2B0837Ab86D91B244" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
                 </Link> */}
 
 

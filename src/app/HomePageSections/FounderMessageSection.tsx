@@ -20,7 +20,7 @@ export default function FounderMessageSection() {
           style={{ willChange: "transform, opacity" }}
           className="flex flex-col w-full lg:w-1/2 xl:w-3/5 2xl:w-1/2 py-16"
         >
-          <div className="flex z-10 lg:mt-12 2xl:mt-0 flex-col items-start mr-0 font-light text-red-700 max-md:mt-10 max-md:max-w-full">
+          <div className="flex z-10 lg:mt-12 2xl:mt-0 flex-col items-start mr-0 font-light text-brand max-md:mt-10 max-md:max-w-full">
 
             {/* HEADING */}
             <h1 className="text-3xl Y-axis-text font-bold uppercase tracking-[3px] max-md:max-w-full ">
@@ -92,7 +92,7 @@ export default function FounderMessageSection() {
                       aspect-auto
                       transform-gpu
                     "
-          />
+           loading="lazy" />
         </motion.div>
       </div>
     </section>

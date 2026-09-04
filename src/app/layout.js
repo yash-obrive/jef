@@ -5,10 +5,8 @@ import Navbar from '../components/Navbar';
 import MainFooter from '../components/Footer';
 import Script from 'next/script';
 import CookieConsentProvider from "../components/cookie/CookieConsentProvider.jsx";
-import SmoothScroll from '@/components/SmoothScroll';
-import script from 'next/script'
-
-
+import dynamic from 'next/dynamic';
+const SmoothScroll = dynamic(() => import('@/components/SmoothScroll'), { ssr: false });
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
@@ -91,7 +89,7 @@ export default function RootLayout({ children }) {
           <SmoothScroll />
           {children}
           {/* Twak.io live chat widget */}
-          <script>{`
+          <Script id="tawk-io" strategy="lazyOnload">{`
               var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
               (function(){
               var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -101,7 +99,7 @@ export default function RootLayout({ children }) {
               s1.setAttribute('crossorigin','*');
               s0.parentNode.insertBefore(s1,s0);
               })();
-            `}</script>
+            `}</Script>
           <MainFooter />
           <CookieConsentProvider />
         </TranslationProvider>

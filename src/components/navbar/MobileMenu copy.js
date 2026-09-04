@@ -104,7 +104,7 @@ const MobileMenu = () => {
                 src="/AboutUs/DropDownArr.png"
                 alt="→"
                 className="w-4 h-4 object-contain -rotate-90"
-              />
+               loading="lazy" />
             </div>
           ),
         )}
@@ -124,7 +124,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>ABOUT</span>
         </div>
         {faqData.about.map((item, index) => (
@@ -150,7 +150,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>OUR BUSINESS</span>
         </div>
         {faqData.business.map((item, index) => (
@@ -173,7 +173,7 @@ const MobileMenu = () => {
                 src="/AboutUs/DropDownArr.png"
                 alt="→"
                 className="w-3 h-3 object-contain -rotate-90"
-              />
+               loading="lazy" />
             </div>
           )
         ))}
@@ -193,7 +193,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>OUR PRODUCTS</span>
         </div>
         {faqData.products.map((item, index) => (
@@ -219,7 +219,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>AUDIT SERVICES</span>
         </div>
         {faqData.audit.map((item, index) => (
@@ -245,7 +245,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>CONSULTING SERVICES</span>
         </div>
         {faqData.consulting.map((item, index) => (
@@ -270,7 +270,7 @@ const MobileMenu = () => {
                   className={`w-3 h-3 object-contain transition-transform duration-300 ${
                     expandedItems[item.label] ? "rotate-0" : "-rotate-90"
                   }`}
-                />
+                 loading="lazy" />
               </div>
             ) : item.path ? (
               <Link href={item.path}>
@@ -292,7 +292,7 @@ const MobileMenu = () => {
                   className={`w-3 h-3 object-contain transition-transform duration-300 ${
                     expandedItems[item.label] ? "rotate-0" : "-rotate-90"
                   }`}
-                />
+                 loading="lazy" />
               </div>
             )}
 
@@ -326,7 +326,7 @@ const MobileMenu = () => {
             src="/AboutUs/DropDownArr.png"
             alt="back"
             className="w-3 h-3 object-contain rotate-90"
-          />
+           loading="lazy" />
           <span>INDUSTRIES</span>
         </div>
         {faqData.industries.map((item, index) => (

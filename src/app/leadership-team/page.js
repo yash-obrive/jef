@@ -30,10 +30,10 @@ export default function Team() {
         <header className="relative h-screen overflow-hidden">
           <img
             src="/LeadershipTeamImg/JEF Leadership image.png"
-            alt=""
+            alt="Jef Leadership Image"
             className="absolute inset-0 w-full h-full object-cover z-10"
             aria-hidden="true"
-          />
+           loading="lazy" />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="relative z-10 lg:mx-[5%] p-3 h-full flex flex-col justify-end pb-16">
             <h1 className="text-white text-3xl lg:text-5xl font-bold tracking-wider">
@@ -54,7 +54,7 @@ export default function Team() {
                   className="flex items-center self-stretch my-auto"
                 >
                   <div
-                    className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? "text-red-700" : "text-neutral-300"}`}
+                    className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? "text-brand" : "text-neutral-300"}`}
                   >
                     {item.label}
                   </div>
@@ -65,7 +65,7 @@ export default function Team() {
                           <img
                             loading="lazy"
                             src="/AboutUs/DropDownArr.png"
-                            alt=""
+                            alt="Dropdownarr"
                             className="object-contain w-[10px] h-[10px] rotate-[-90deg] brightness-0"
                             style={{
                               filter:

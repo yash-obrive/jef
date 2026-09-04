@@ -71,7 +71,7 @@ const PrivacyPolicy = () => {
                     <h1 className="text-4xl font-normal leading-none uppercase tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                         PRIVACY POLICY
                     </h1>
-                    <h2 className="mt-16 text-2xl font-normal leading-none text-red-700 max-md:mt-10 max-md:max-w-full">
+                    <h2 className="mt-16 text-2xl font-normal leading-none text-brand max-md:mt-10 max-md:max-w-full">
                         PRIVACY POLICY OF JEF TECHNO SOLUTIONS PVT LTD.
                     </h2>
                     <p className="mt-14 text-xl font-light leading-loose max-md:mt-10">
@@ -87,12 +87,12 @@ const PrivacyPolicy = () => {
                         This Privacy Policy does not apply to the practices of third parties that JEF Techno does not own or control, or to individuals that JEF Techno does not employ or manage. This Privacy Policy also does not apply to information that we receive or handle on behalf of our subscribers in our role as a service provider, such as information that we receive through the JEF Techno 'Marketing Products or Services' or other JEF Techno services, including any apps we make available for use by Services subscribers in future (collectively, the "Services"). Such information is governed by the terms of the applicable services agreement, rather than this Privacy Policy.
                     </p>
                     <p className="mt-8 text-lg max-md:max-w-full">
-                        You can request a copy of this Privacy Policy by contacting us at <span className="font-semibold text-base text-red-700">info@jeftechno.com</span>
+                        You can request a copy of this Privacy Policy by contacting us at <span className="font-semibold text-base text-brand">info@jeftechno.com</span>
                     </p>
 
                     {sections.map((section, index) => (
                         <article key={index}>
-                            <h2 className="mt-11 text-2xl font-normal leading-none text-red-700 max-md:mt-10 max-md:max-w-full">
+                            <h2 className="mt-11 text-2xl font-normal leading-none text-brand max-md:mt-10 max-md:max-w-full">
                                 {section.title}
                             </h2>
                             {section.subsections.map((subsection, subIndex) => (

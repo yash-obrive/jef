@@ -22,7 +22,7 @@ const FAQ = ({ faqData }) => {
               <button onClick={() => toggleFAQ(item.id)} className="w-full px-6 py-4 flex items-center justify-between text-left">
                 <span className="text-white font-medium">{item.question}</span>
                 <div className={`transition-transform duration-300 ${openId === item.id ? "rotate-180" : ""}`}>
-                  <img src="/clps/Vector.png" alt="v" className="w-3" style={{ filter: "invert(1)" }} />
+                  <img src="/clps/Vector.png" alt="v" className="w-3" style={{ filter: "invert(1)" }}  loading="lazy" />
                 </div>
               </button>
               <AnimatePresence>

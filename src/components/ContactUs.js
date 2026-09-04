@@ -83,10 +83,10 @@ const ContactUs = () => {
     return (
         <section className="flex overflow-hidden flex-col text-base font-light  text-stone-300">
             <div className="flex relative flex-col justify-center items-start px-20 py-24 w-full min-h-[628px] max-md:px-5 max-md:pb-24 max-md:max-w-full">
-                <img src="/HomePageImg/ContactUsMainImg.png" alt="" className="object-cover z-10 absolute inset-0 size-full" />
+                <img src="/HomePageImg/ContactUsMainImg.png" alt="Contactusmainimg" className="object-cover z-10 absolute inset-0 size-full"  loading="lazy" />
                 <div className="flex z-20 lg:mx-[1%] relative flex-col items-start mb-0 max-w-full w-[521px] max-md:mb-2.5">
 
-                    <h1 className="text-2xl Y-axis-text lg:text-3xl font-semibold text-red-700 uppercase tracking-[2px] max-md:text-4xl">
+                    <h1 className="text-2xl Y-axis-text lg:text-3xl font-semibold text-brand uppercase tracking-[2px] max-md:text-4xl">
                         Contact us
                     </h1>
 
@@ -94,7 +94,7 @@ const ContactUs = () => {
                         Get in touch with us for any business enquiry.
                     </p>
                     {showConfirmation ? (
-                        <div className='w-full flex flex-col items-start gap-12 thank-you mt-16 text-xl Y-axis-text lg:text-2xl font-semibold text-red-700 uppercase tracking-[2px]'>
+                        <div className='w-full flex flex-col items-start gap-12 thank-you mt-16 text-xl Y-axis-text lg:text-2xl font-semibold text-brand uppercase tracking-[2px]'>
                             <div className='leading-tight'>Thank You…!! </div>
                             <div className='leading-tight'>Our team has received your information, will get in touch with you within the next 24 hours to discuss how we can help bring your vision to life.</div>
                         </div>
@@ -150,7 +150,7 @@ const ContactUs = () => {
                             </div>
                             <button
                                 form="userDetailsForm" type="submit"
-                                className="overflow-hidden Y-axis-text px-16 py-3 mt-2 max-w-full text-xl font-semibold text-white whitespace-nowrap bg-red-700 rounded-3xl w-[380px] max-md:px-5"
+                                className="overflow-hidden Y-axis-text px-16 py-3 mt-2 max-w-full text-xl font-semibold text-white whitespace-nowrap bg-brand rounded-3xl w-[380px] max-md:px-5"
                             >
                                 Submit
                             </button>

@@ -205,7 +205,7 @@ export default function OurIndustriesSection() {
                           : "opacity-80 scale-95"
                       }
                     `}
-                  />
+                   alt="JEFTECHNO Image"  loading="lazy" />
 
                   <h2
                     className={`
