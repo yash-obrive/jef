@@ -1327,8 +1327,8 @@ const GetInTouchForm = () => {
                                             <div className="flex flex-col w-full max-md:max-w-full">
                                                 <div className="flex relative gap-4 lg:gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="name" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
-                                                        <span className="text-brand font-normal">FIRST NAME </span>
-                                                        <span className="text-brand">*</span>
+                                                        <span className="text-[#FF0000] font-normal">FIRST NAME </span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute right-px self-start h-3 font-light tracking-wide leading-none min-h-[12px] text-gray-400">
                                                         40 characters
@@ -1355,8 +1355,8 @@ const GetInTouchForm = () => {
                                             <div className="flex flex-col w-full max-md:max-w-full">
                                                 <div className="flex relative gap-4 lg:gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="name" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
-                                                        <span className="text-brand font-normal">LAST NAME </span>
-                                                        <span className="text-brand">*</span>
+                                                        <span className="text-[#FF0000] font-normal">LAST NAME </span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute right-px self-start h-3 font-light tracking-wide leading-none min-h-[12px] text-gray-400">
                                                         80 characters
@@ -1384,8 +1384,8 @@ const GetInTouchForm = () => {
                                             <div className="flex flex-col w-full max-md:max-w-full">
                                                 <div className="flex relative gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="email" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
-                                                        <span className="text-brand">Business Email address </span>
-                                                        <span className="text-brand">*</span>
+                                                        <span className="text-[#FF0000]">Business Email address </span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute -right-px self-start h-3 font-normal tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                         100 characters
@@ -1409,8 +1409,8 @@ const GetInTouchForm = () => {
                                     <div className="flex flex-col grow justify-center max-md:mt-10 max-md:max-w-full">
                                         <div className="flex flex-col w-full max-md:max-w-full">
                                             <div className="flex flex-wrap gap-1 items-start pb-px w-full text-xs max-md:max-w-full">
-                                                <label htmlFor="phone" className="tracking-widest leading-tight uppercase text-brand">
-                                                    Phone number <span className="text-brand">*</span>
+                                                <label htmlFor="phone" className="tracking-widest leading-tight uppercase text-[#FF0000]">
+                                                    Phone number <span className="text-[#FF0000]">*</span>
                                                 </label>
                                             </div>
                                             <div className="flex flex-wrap gap-5 justify-center mt-2.5 w-full text-sm font-thin max-md:max-w-full">
@@ -1454,9 +1454,9 @@ const GetInTouchForm = () => {
                                     <div className="flex flex-col grow min-h-[126px] max-md:mt-10 max-md:max-w-full">
                                         <div className="flex flex-col w-full max-md:max-w-full">
                                             <div className="flex relative gap-10 w-full text-xs max-md:max-w-full">
-                                                <label htmlFor="company" className="tracking-widest leading-tight uppercase min-w-[240px] text-brand w-[473px] max-md:max-w-full">
+                                                <label htmlFor="company" className="tracking-widest leading-tight uppercase min-w-[240px] text-[#FF0000] w-[473px] max-md:max-w-full">
                                                     <span>Company name </span>
-                                                    <span className="text-brand">*</span>
+                                                    <span className="text-[#FF0000]">*</span>
                                                 </label>
                                                 <div className="absolute -right-px self-start h-3 font-normal tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                     100 characters
@@ -1479,9 +1479,9 @@ const GetInTouchForm = () => {
                                     <div className="flex flex-col grow text-xs min-h-[126px]">
                                         <div className="flex flex-col w-full max-md:max-w-full">
                                             <div className="flex relative gap-10 w-full max-md:max-w-full">
-                                                <label htmlFor="query" className="tracking-widest leading-tight uppercase min-w-[240px] text-brand w-[473px] max-md:max-w-full">
+                                                <label htmlFor="query" className="tracking-widest leading-tight uppercase min-w-[240px] text-[#FF0000] w-[473px] max-md:max-w-full">
                                                     <span>Query </span>
-                                                    <span className="text-brand">*</span>
+                                                    <span className="text-[#FF0000]">*</span>
                                                 </label>
                                                 <div className="absolute -right-px self-start h-3 font-thin tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                     1000 characters
@@ -1502,14 +1502,14 @@ const GetInTouchForm = () => {
                             <div className="flex flex-col py-0.5 mt-9 w-full max-md:max-w-full">
                                 <div className="flex flex-col justify-center pb-2.5 w-full h-6 text-xs tracking-widest leading-tight uppercase max-md:max-w-full">
                                     <div className="flex flex-wrap gap-1 items-start w-full h-[15px] max-md:max-w-full">
-                                        <div className="text-brand">Marketing Permissions</div>
-                                        <div className="text-brand">*</div>
+                                        <div className="text-[#FF0000]">Marketing Permissions</div>
+                                        <div className="text-[#FF0000]">*</div>
                                     </div>
                                 </div>
                                 <div className="flex flex-wrap gap-10 w-full max-md:max-w-full">
                                     <div className="flex flex-wrap flex-auto gap-5 justify-start min-h-[90px] w-full md:w-auto">
                                         <div className="flex flex-col w-[200px]">
-                                            <label className={`flex items-center p-5 bg-[#FFF0F0] rounded cursor-pointer border ${marketing === 'Yes' ? 'border-brand' : 'border-transparent'}`}>
+                                            <label className={`flex items-center p-5 bg-[#FFF0F0] rounded cursor-pointer border ${marketing === 'Yes' ? 'border-[#FF0000]' : 'border-transparent'}`}>
                                                 <input
                                                     required
                                                     type="radio"
@@ -1523,7 +1523,7 @@ const GetInTouchForm = () => {
                                             </label>
                                         </div>
                                         <div className="flex flex-col w-[200px]">
-                                            <label className={`flex items-center p-5 bg-[#FFF0F0] rounded cursor-pointer border ${marketing === 'No' ? 'border-brand' : 'border-transparent'}`}>
+                                            <label className={`flex items-center p-5 bg-[#FFF0F0] rounded cursor-pointer border ${marketing === 'No' ? 'border-[#FF0000]' : 'border-transparent'}`}>
                                                 <input
                                                     required
                                                     type="radio"
@@ -1540,8 +1540,8 @@ const GetInTouchForm = () => {
                                     <div className="hidden lg:flex flex-col flex-1 grow shrink-0 text-sm font-normal leading-5 basis-0 min-h-[90px] text-white w-fit max-md:max-w-full">
                                         <p className="z-10 pt-0 pb-7 w-full max-md:max-w-full">
                                             By completing this form you are agreeing to being contacted by JEF, If you would also like to hear updates from other parts of JEF please select Yes. We will treat your information carefully. See our{" "}
-                                            <a href="/termsandconditions" className="font-medium text-brand">terms and Conditions</a>{" "}
-                                            and <a href="/privacypolicy" className="font-medium text-brand">privacy policy</a>{" "}
+                                            <a href="/termsandconditions" className="font-medium text-[#FF0000]">terms and Conditions</a>{" "}
+                                            and <a href="/privacypolicy" className="font-medium text-[#FF0000]">privacy policy</a>{" "}
                                             for more details.
                                         </p>
                                     </div>
@@ -1549,14 +1549,14 @@ const GetInTouchForm = () => {
                                 <div className="flex lg:hidden flex-col flex-1 grow shrink-0 text-sm font-normal leading-5 basis-0 min-h-[90px] w-fit max-md:max-w-full">
                                     <p className="z-10 pt-0 pb-7 w-full max-md:max-w-full text-white" >
                                         By completing this form you are agreeing to being contacted by JEF, If you would also like to hear updates from other parts of JEF please select Yes. We will treat your information carefully. See our{" "}
-                                        <a href="#" className="font-medium text-brand">terms of use</a>{" "}
-                                        and <a href="#" className="font-medium text-brand">privacy policy</a>{" "}
+                                        <a href="#" className="font-medium text-[#FF0000]">terms of use</a>{" "}
+                                        and <a href="#" className="font-medium text-[#FF0000]">privacy policy</a>{" "}
                                         for more details.
                                     </p>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center items-start pt-1 mt-9 w-full text-lg font-extralight tracking-widest leading-none text-center text-white uppercase whitespace-nowrap max-md:max-w-full">
-                                <button form="userDetailsForm" type="submit" className="flex overflow-hidden uppercase w-40 h-14 justify-center items-center self-center lg:self-stretch px-7 py-3.5 my-auto bg-brand rounded-full ">
+                                <button form="userDetailsForm" type="submit" className="flex overflow-hidden uppercase w-40 h-14 justify-center items-center self-center lg:self-stretch px-7 py-3.5 my-auto bg-[#FF0000] rounded-full ">
                                     Submit
                                 </button>
                             </div>
@@ -1608,7 +1608,7 @@ export function OfficeLocations() {
     return (
         <main className="flex flex-col items-center bg-[#232427] px-5 sm:px-8 md:px-12 2xl:px-20 pt-10 xl:pt-0 pb-12 sm:pb-16 md:pb-20 ">
             <section className="w-full max-w-[1300px] mx-auto">
-                <h1 className="text-3xl font-bold text-brand text-center mb-16 uppercase tracking-[2px]">
+                <h1 className="text-3xl font-bold text-[#FF0000] text-center mb-16 uppercase tracking-[2px]">
                     JEF offices
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
@@ -1617,7 +1617,7 @@ export function OfficeLocations() {
                             key={index}
                             className="flex flex-col rounded-lg bg-[#232427]"
                         >
-                            <h2 className="text-sm font-bold text-brand mb-6 uppercase min-h-[40px]">
+                            <h2 className="text-sm font-bold text-[#FF0000] mb-6 uppercase min-h-[40px]">
                                 {office.title}
                             </h2>
                             <p
@@ -1625,10 +1625,10 @@ export function OfficeLocations() {
                             >
                                 {office.address}
                             </p>
-                            <p className="text-[15px] font-light text-brand mb-1">
+                            <p className="text-[15px] font-light text-[#FF0000] mb-1">
                                 Ph. No: {office.phone}
                             </p>
-                            <p className="text-[15px] font-light text-brand">
+                            <p className="text-[15px] font-light text-[#FF0000]">
                                 Email:{' '}
                                 <a href={`mailto:${office.email}`} className="underline hover:text-black transition-colors">
                                     {office.email}

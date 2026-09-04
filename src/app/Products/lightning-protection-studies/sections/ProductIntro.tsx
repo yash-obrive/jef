@@ -21,7 +21,7 @@ export default function ProductIntro() {
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] sm:text-[11px] md:text-xs tracking-tight md:tracking-[1.2px] uppercase flex-shrink-0 ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -47,7 +47,7 @@ export default function ProductIntro() {
         />
 
         <motion.h1
-          className="text-brand font-bold text-[20px] sm:text-[24px] md:text-[32px] tracking-[1.5px] md:tracking-[2px] uppercase font-montserrat leading-[1.35]"
+          className="text-[#FF0000] font-bold text-[20px] sm:text-[24px] md:text-[32px] tracking-[1.5px] md:tracking-[2px] uppercase font-montserrat leading-[1.35]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -86,7 +86,7 @@ export default function ProductIntro() {
                 className="overflow-hidden"
               >
                 {/* <div className="mt-8 text-left max-w-[1400px] mx-auto">
-                  <h2 className="text-brand font-montserrat text-[18px] md:text-[22px] font-medium mb-6">
+                  <h2 className="text-[#FF0000] font-montserrat text-[18px] md:text-[22px] font-medium mb-6">
                     Features
                   </h2>
 
@@ -124,7 +124,7 @@ export default function ProductIntro() {
           onClick={() => setExpanded(!expanded)}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
-          className="mt-2 text-white uppercase tracking-[2px] text-xs md:text-sm pb-1 hover:text-brand transition-all"
+          className="mt-2 text-white uppercase tracking-[2px] text-xs md:text-sm pb-1 hover:text-[#FF0000] transition-all"
         >
           {expanded ? "READ LESS" : "READ MORE"}
         </motion.button> */}

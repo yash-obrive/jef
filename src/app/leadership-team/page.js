@@ -54,7 +54,7 @@ export default function Team() {
                   className="flex items-center self-stretch my-auto"
                 >
                   <div
-                    className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? "text-brand" : "text-neutral-300"}`}
+                    className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? "text-[#FF0000]" : "text-neutral-300"}`}
                   >
                     {item.label}
                   </div>

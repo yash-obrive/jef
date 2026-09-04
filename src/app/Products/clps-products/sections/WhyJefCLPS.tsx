@@ -95,7 +95,7 @@ export default function WhyRca() {
           className="flex flex-col gap-6"
         >
           <h2
-            className=" font-montserrat  text-[24px] md:text-[32px] uppercase font-bold tracking-[2px] md:tracking-[4px] text-brand">
+            className=" font-montserrat  text-[24px] md:text-[32px] uppercase font-bold tracking-[2px] md:tracking-[4px] text-[#FF0000]">
             WHY JEF CLPS?
           </h2> 
 
@@ -158,7 +158,7 @@ export default function WhyRca() {
                       duration-700
                       group-hover:scale-105
                     "
-                   alt="JEFTECHNO Image"  loading="lazy" />
+                     loading="lazy" />
                 </div>
 
                 {/* Content */}

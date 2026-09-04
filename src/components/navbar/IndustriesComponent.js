@@ -8,7 +8,7 @@ const IndustriesItem = ({ path, icon, text }) => (
     <img
       loading="lazy"
       src={icon}
-      alt="JEFTECHNO Image"
+      
       className="object-contain shrink-0 self-stretch my-auto w-9 aspect-square"
     />
     <Link href={path}>
@@ -35,7 +35,7 @@ const IndustriesComponent = () => {
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-2/5 max-md:w-full">
             <div className="flex gap-7 items-center mt-14 max-md:mt-10">
-              <div className="text-base font-medium text-brand uppercase tracking-[3.36px]">01</div>
+              <div className="text-base font-medium text-[#FF0000] uppercase tracking-[3.36px]">01</div>
               <div className="flex gap-10 items-center">
                 <h2 className="text-lg font-medium text-white uppercase tracking-[3.36px]">OUR INDUSTRIES</h2>
                 <div className="flex items-center">

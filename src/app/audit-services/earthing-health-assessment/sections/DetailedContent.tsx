@@ -160,7 +160,7 @@ const pages = [
     content: (
       <div className="grid gap-14 lg:grid-cols-2">
         <div>
-          <h3 className="mb-5 text-brand text-[18px] md:text-[20px] font-bold uppercase tracking-[1px] leading-[1.4]">
+          <h3 className="mb-5 text-[#FF0000] text-[18px] md:text-[20px] font-bold uppercase tracking-[1px] leading-[1.4]">
             EHV SUBSTATION <br /> EARTHING ASSESSMENT
           </h3>
 
@@ -184,7 +184,7 @@ const pages = [
         </div>
 
         <div>
-          <h3 className="mb-5 text-brand text-[18px] md:text-[20px] font-bold uppercase tracking-[1px] leading-[1.4]">
+          <h3 className="mb-5 text-[#FF0000] text-[18px] md:text-[20px] font-bold uppercase tracking-[1px] leading-[1.4]">
             LV EARTHING ASSESSMENT <br /> INDUSTRIAL AND COMMERCIAL
           </h3>
 
@@ -333,7 +333,7 @@ export default function DetailedContent() {
             initial={{ opacity: 0, x: -18 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.45 }}
-            className="text-brand text-[20px] md:text-[26px] font-bold uppercase tracking-[1px] md:tracking-[1.49px] leading-[1.4]"
+            className="text-[#FF0000] text-[20px] md:text-[26px] font-bold uppercase tracking-[1px] md:tracking-[1.49px] leading-[1.4]"
           >
             {page.title}
           </motion.h2>
@@ -351,7 +351,7 @@ export default function DetailedContent() {
               type="button"
               onClick={handleNextPage}
               aria-label="Next tab"
-              className="rounded-full h-12 w-12 border border-brand text-brand text-[20px] md:text-[14px] transition-colors duration-300 hover:border-white hover:text-white"
+              className="rounded-full h-12 w-12 border border-[#FF0000] text-[#FF0000] text-[20px] md:text-[14px] transition-colors duration-300 hover:border-white hover:text-white"
             >
               →
             </button>
@@ -389,7 +389,7 @@ export default function DetailedContent() {
                 >
                   <div className="relative mb-3 h-0.5 w-full bg-[#d4d0c8]/80">
                     <motion.div
-                      className="absolute left-0 top-0 h-full bg-brand"
+                      className="absolute left-0 top-0 h-full bg-[#FF0000]"
                       animate={{ width: isCurrent ? "100%" : "0%" }}
                       transition={{ ease: "linear" }}
                     />
@@ -398,7 +398,7 @@ export default function DetailedContent() {
                   <span
                     className={`whitespace-pre-line text-[12px] md:text-[18px] uppercase tracking-[1px] md:tracking-[2.5px] font-medium leading-[1.35] transition-all ${
                       isCurrent
-                        ? "text-brand"
+                        ? "text-[#FF0000]"
                         : "text-[#d4d0c8] group-hover:text-white"
                     }`}
                   >

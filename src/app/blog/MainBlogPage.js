@@ -3199,13 +3199,13 @@ const NewsCard = ({ category, title, date, imageUrl, path, index }) => (
           src={imageUrl} 
           alt={title} 
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-         alt="JEFTECHNO Image"  loading="lazy" />
+           loading="lazy" />
       </div>
       <div className="mt-4 sm:mt-5 md:mt-6 flex flex-col gap-3">
         <span className="text-white text-[10px] md:text-xs tracking-[2px] uppercase">
           {category}
         </span>
-        <h3 className="text-white text-sm md:text-[15px]  tracking-[2px] leading-[1.4] uppercase tracking-wide group-hover:text-brand transition-colors">
+        <h3 className="text-white text-sm md:text-[15px]  tracking-[2px] leading-[1.4] uppercase tracking-wide group-hover:text-[#FF0000] transition-colors">
           {title}
         </h3>
         <span className="text-gray-400 text-xs md:text-sm font-light">
@@ -3288,9 +3288,9 @@ const MainBlogPage = () => {
       {/* Breadcrumbs */}
       <div className="w-full bg-[#2D2E30] py-4 border-t border-white/5">
         <div className="section-container px-4 sm:px-6 lg:px-0 flex flex-wrap items-center gap-2 text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1px] uppercase">
-          <Link href="/" className="text-white/40 hover:text-brand">Home</Link>
+          <Link href="/" className="text-white/40 hover:text-[#FF0000]">Home</Link>
           <span className="text-white/20">›</span>
-          <Link href="/blog" className="text-brand hover:text-brand">Our Blogs</Link>
+          <Link href="/blog" className="text-[#FF0000] hover:text-[#FF0000]">Our Blogs</Link>
           
           
         </div>
@@ -3304,7 +3304,7 @@ const MainBlogPage = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-brand text-2xl md:text-3xl font-bold tracking-[2px] uppercase mb-10 sm:mb-12"
+          className="text-[#FF0000] text-2xl md:text-3xl font-bold tracking-[2px] uppercase mb-10 sm:mb-12"
         >
           All BLOGS
         </motion.h2>
@@ -3331,7 +3331,7 @@ const MainBlogPage = () => {
               currentPage === 1 ? 'opacity-20 cursor-not-allowed' : 'hover:border-white hover:text-white'
             }`}
           >
-            <ChevronLeft size={20} className="text-brand" />
+            <ChevronLeft size={20} className="text-[#FF0000]" />
           </button>
           <div className="flex items-center gap-2">
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
@@ -3340,7 +3340,7 @@ const MainBlogPage = () => {
                 onClick={() => handlePageChange(page)}
                 className={`w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all ${
                   page === currentPage 
-                  ? 'bg-transparent border border-brand text-brand' 
+                  ? 'bg-transparent border border-[#FF0000] text-[#FF0000]' 
                   : 'text-white/40 hover:text-white'
                 }`}
               >
@@ -3355,7 +3355,7 @@ const MainBlogPage = () => {
               currentPage === totalPages ? 'opacity-20 cursor-not-allowed' : 'hover:border-white hover:text-white'
             }`}
           >
-            <ChevronRight size={20} className="text-brand" />
+            <ChevronRight size={20} className="text-[#FF0000]" />
           </button>
         </motion.div>
       </main>

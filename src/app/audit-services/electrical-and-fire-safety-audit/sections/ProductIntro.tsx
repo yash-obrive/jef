@@ -22,14 +22,14 @@ export default function ProductIntro({
 const expandedText = (
   <div className="flex flex-col gap-6 text-left  justify-center flex items-center">
     <p>
-      <span className="text-brand font-semibold">
+      <span className="text-[#FF0000] font-semibold">
         Electrical Safety
       </span>{" "}
       — 500+ checkpoints, 15+ tests and measurements
     </p>
 
     <p>
-      <span className="text-brand font-semibold">
+      <span className="text-[#FF0000] font-semibold">
         General Fire Safety
       </span>{" "}
       — 200+ checkpoints, Prevention, Life Safety, Active & Passive Fire
@@ -37,7 +37,7 @@ const expandedText = (
     </p>
 
     <p>
-      <span className="text-brand font-semibold">
+      <span className="text-[#FF0000] font-semibold">
         Lift & Escalator
       </span>{" "}
       — 150+ checkpoints, Electrical, control, operational and emergency
@@ -45,7 +45,7 @@ const expandedText = (
     </p>
 
     <p>
-      <span className="text-brand font-semibold">
+      <span className="text-[#FF0000] font-semibold">
         HVAC
       </span>{" "}
       — 100+ checkpoints, Electrical safety and operational performance
@@ -61,7 +61,7 @@ const expandedText = (
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] md:text-[11px] uppercase tracking-tight md:tracking-[1px] ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -86,7 +86,7 @@ const expandedText = (
         />
 
         <motion.h1
-          className="mb-8 text-brand text-[22px] sm:text-[28px] md:text-[34px] font-bold uppercase tracking-[5px]"
+          className="mb-8 text-[#FF0000] text-[22px] sm:text-[28px] md:text-[34px] font-bold uppercase tracking-[5px]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -119,7 +119,7 @@ const expandedText = (
           onClick={() => setExpanded(!expanded)}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
-          className="mt-10 text-[11px] md:text-[13px] uppercase tracking-[2px] text-white transition-all hover:text-brand"
+          className="mt-10 text-[11px] md:text-[13px] uppercase tracking-[2px] text-white transition-all hover:text-[#FF0000]"
         >
           {expanded ? "READ LESS" : "READ MORE"}
         </motion.button>

@@ -22,7 +22,7 @@ export default function ProductIntro() {
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1.2px] uppercase flex-shrink-0 ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -51,7 +51,7 @@ export default function ProductIntro() {
 
         {/* Heading */}
         <motion.h1
-          className="text-brand font-bold text-[28px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
+          className="text-[#FF0000] font-bold text-[28px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -112,7 +112,7 @@ export default function ProductIntro() {
                     >
                      <p>A Lightning Protection System doesn't prevent strikes — it safely intercepts them and directs their energy to ground through a controlled path, preventing damage to structures and systems. This makes LPS an essential requirement across industries, particularly solar power plants.</p>
 
-{/* <p className="mt-6 text-brand">A well-designed LPS delivers four key outcomes:
+{/* <p className="mt-6 text-[#FF0000]">A well-designed LPS delivers four key outcomes:
 <ul className="text-white">
   <li>·  Safe interception of lightning</li>
   <li>·  Controlled conduction of current</li>
@@ -140,7 +140,7 @@ export default function ProductIntro() {
             tracking-[2px]
             text-sm
             pb-1
-            hover:text-brand
+            hover:text-[#FF0000]
             transition-all
           "
         >

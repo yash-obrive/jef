@@ -16,7 +16,7 @@ export default function OurCertification() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="mb-6 text-brand text-[22px] sm:text-[26px] md:text-[32px] font-bold uppercase tracking-[3px] md:tracking-[4px] leading-[1.35]"
+          className="mb-6 text-[#FF0000] text-[22px] sm:text-[26px] md:text-[32px] font-bold uppercase tracking-[3px] md:tracking-[4px] leading-[1.35]"
         >
           Our Certifications and Expertise
         </motion.h2>
@@ -56,7 +56,7 @@ export default function OurCertification() {
               transition={{ duration: 0.55, ease: "easeOut" }}
               className="flex items-start gap-4"
             >
-              <span className="mt-[9px] h-2.5 w-2.5 min-w-2.5 rounded-full bg-brand" />
+              <span className="mt-[9px] h-2.5 w-2.5 min-w-2.5 rounded-full bg-[#FF0000]" />
 
               <p className="text-white text-[13px] sm:text-[15px] md:text-[20px] leading-[1.7]">
                 {item}

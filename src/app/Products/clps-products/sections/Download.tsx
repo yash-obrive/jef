@@ -12,7 +12,7 @@ const Download = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="font-montserrat font-bold text-[32px] md:text-[32px] leading-[1.2] md:leading-[55px] uppercase text-brand"
+          className="font-montserrat font-bold text-[32px] md:text-[32px] leading-[1.2] md:leading-[55px] uppercase text-[#FF0000]"
         >
           Download
         </motion.h2>
@@ -46,11 +46,11 @@ const Download = () => {
               download
               className="flex items-center gap-6 group w-fit"
             >
-              <span className="font-montserrat font-medium text-[14px] uppercase text-white group-hover:text-brand transition-colors duration-300">
+              <span className="font-montserrat font-medium text-[14px] uppercase text-white group-hover:text-[#FF0000] transition-colors duration-300">
                 Select To Download
               </span>
 
-              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-white/10 flex items-center justify-center group-hover:bg-brand group-hover:border-brand transition-all duration-300">
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-white/10 flex items-center justify-center group-hover:bg-[#FF0000] group-hover:border-[#FF0000] transition-all duration-300">
                 <img
                   src="/clps/download-icon.png"
                   alt="Download"

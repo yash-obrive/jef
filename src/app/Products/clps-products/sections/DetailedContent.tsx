@@ -334,7 +334,7 @@ const DetailedContent = () => {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-brand text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] md:line-height-[60px] uppercase"
+              className="text-[#FF0000] text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] md:line-height-[60px] uppercase"
             >
               {page.title}
             </motion.h2>
@@ -349,7 +349,7 @@ const DetailedContent = () => {
             </button>
             <button
               onClick={handleNextPage}
-              className="rounded-full h-12 w-12 border border-brand text-brand text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
+              className="rounded-full h-12 w-12 border border-[#FF0000] text-[#FF0000] text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
             >
               →
             </button>
@@ -386,7 +386,7 @@ const DetailedContent = () => {
           {page.subsections && page.subsections.map((sub, si) => (
             <div key={si} className="mt-4 md:mt-5">
               {sub.heading && (
-                <h3 className="text-brand text-[18px] md:text-[20px] font-bold tracking-[1px] leading-[1.4] uppercase mb-4">
+                <h3 className="text-[#FF0000] text-[18px] md:text-[20px] font-bold tracking-[1px] leading-[1.4] uppercase mb-4">
                   {sub.heading}
                 </h3>
               )}
@@ -426,7 +426,7 @@ const DetailedContent = () => {
                                   className={`text-[16px] md:text-[18px] lg:text-[20px] font-semibold transition-all duration-300 border-b-2 text-left ${
                                     isActive 
                                       ? "text-white border-white" 
-                                      : "text-brand border-brand hover:text-white hover:border-white"
+                                      : "text-[#FF0000] border-[#FF0000] hover:text-white hover:border-white"
                                   }`}
                                 >
                                   {tag}
@@ -463,7 +463,7 @@ const DetailedContent = () => {
                                 className={`text-[16px] md:text-[18px] lg:text-[20px] font-semibold transition-all duration-300 border-b-2 text-left ${
                                   isActive 
                                     ? "text-white border-white" 
-                                    : "text-brand border-brand hover:text-white hover:border-white"
+                                    : "text-[#FF0000] border-[#FF0000] hover:text-white hover:border-white"
                                 }`}
                               >
                                 {tag}
@@ -497,7 +497,7 @@ const DetailedContent = () => {
                       </p>
                       {/* <button
                         onClick={() => setActiveTags({})}
-                        className="text-brand text-[14px] uppercase font-bold hover:underline w-fit"
+                        className="text-[#FF0000] text-[14px] uppercase font-bold hover:underline w-fit"
                       >
                         ← Back to overview
                       </button> */}
@@ -548,7 +548,7 @@ const DetailedContent = () => {
                   {/* Progress bar */}
                   <div className="w-full h-[2px] bg-[#d4d0c8] mb-3 relative z-10">
                     <motion.div
-                        className="absolute top-0 left-0 h-full bg-brand"
+                        className="absolute top-0 left-0 h-full bg-[#FF0000]"
                         initial={{ width: 0 }}
                         animate={{
                           width: isCurrent ? "100%" : "0%",
@@ -571,7 +571,7 @@ const DetailedContent = () => {
                         text-left
                         ${
                           isCurrent
-                            ? "text-brand"
+                            ? "text-[#FF0000]"
                             : "text-[#d4d0c8] group-hover:text-white"
                         }
                       `}

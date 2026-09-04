@@ -78,7 +78,7 @@ const CookiePolicy = () => {
                     <h1 className="text-4xl leading-none font-light uppercase tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                         COOKIE POLICY
                     </h1>
-                    <h2 className={`mt-16 text-2xl font-medium leading-8 text-brand max-md:mt-10 max-md:max-w-full`}>
+                    <h2 className={`mt-16 text-2xl font-medium leading-8 text-[#FF0000] max-md:mt-10 max-md:max-w-full`}>
                         {"ACCEPTANCE COOKIES AND ACCESSIBILITIES OF JEF TECHNO SOLUTIONS PVT LTD"}
                     </h2>
                     {sections.map((section, index) => (

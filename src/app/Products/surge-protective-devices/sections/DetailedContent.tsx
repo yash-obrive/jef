@@ -129,15 +129,15 @@ const pages = [
         </p>
         <br />
         <p>
-          • <span className="text-brand">Type 1 — at the LPZ 0 / LPZ 1 Boundary (Main Distribution Board)</span> - Type 1 devices are rated to handle partial lightning current — the portion of the full strike current that may be conducted into the building through external supply cables when a direct strike occurs nearby. Tested using a 10/350 μs current impulse representing direct lightning current. Under IS/IEC 62305 and NBC 2016, Type 1 SPDs are mandatory wherever an external lightning protection system is installed.
+          • <span className="text-[#FF0000]">Type 1 — at the LPZ 0 / LPZ 1 Boundary (Main Distribution Board)</span> - Type 1 devices are rated to handle partial lightning current — the portion of the full strike current that may be conducted into the building through external supply cables when a direct strike occurs nearby. Tested using a 10/350 μs current impulse representing direct lightning current. Under IS/IEC 62305 and NBC 2016, Type 1 SPDs are mandatory wherever an external lightning protection system is installed.
         </p>
         <br />
         <p>
-          • <span className="text-brand">Type 2 — at the LPZ 1 / LPZ 2 Boundary (Sub-Distribution Boards)</span> - Type 2 devices are installed at sub-distribution boards and entry points to local panels deeper within the installation. They handle the energy remaining after Type 1 devices have conducted the primary partial current, including the more frequent surges from switching operations within the network. Tested using the 8/20 μs waveform.
+          • <span className="text-[#FF0000]">Type 2 — at the LPZ 1 / LPZ 2 Boundary (Sub-Distribution Boards)</span> - Type 2 devices are installed at sub-distribution boards and entry points to local panels deeper within the installation. They handle the energy remaining after Type 1 devices have conducted the primary partial current, including the more frequent surges from switching operations within the network. Tested using the 8/20 μs waveform.
         </p>
         <br />
         <p>
-          • <span className="text-brand">Type 3 — at the LPZ 2 / LPZ 3 Boundary (Point of Use)</span> - Type 3 devices are installed at or very close to the equipment being protected — at socket outlets, within equipment enclosures, or at local panels serving sensitive electronic equipment. They address residual low-amplitude surges passing through upstream protection. Tested using the combined wave (1.2/50 μs voltage, 8/20 μs current). Type 3 devices must always be used in conjunction with Type 1 or Type 2 upstream — they are not rated to handle primary surge currents independently.
+          • <span className="text-[#FF0000]">Type 3 — at the LPZ 2 / LPZ 3 Boundary (Point of Use)</span> - Type 3 devices are installed at or very close to the equipment being protected — at socket outlets, within equipment enclosures, or at local panels serving sensitive electronic equipment. They address residual low-amplitude surges passing through upstream protection. Tested using the combined wave (1.2/50 μs voltage, 8/20 μs current). Type 3 devices must always be used in conjunction with Type 1 or Type 2 upstream — they are not rated to handle primary surge currents independently.
         </p>
       </>
     ),
@@ -199,7 +199,7 @@ const DetailedContent = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-brand text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] uppercase"
+            className="text-[#FF0000] text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] uppercase"
           >
             {page.title}
           </motion.h2>
@@ -215,7 +215,7 @@ const DetailedContent = () => {
             <button
               onClick={handleNextPage}
               aria-label="Next tab"
-              className="rounded-full h-12 w-12 border border-brand text-brand text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
+              className="rounded-full h-12 w-12 border border-[#FF0000] text-[#FF0000] text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
             >
               →
             </button>
@@ -276,7 +276,7 @@ const DetailedContent = () => {
                           [si]: prev[si] === ti ? undefined : ti,
                         }))
                       }
-                      className="text-brand text-[16px] md:text-[18px] lg:text-[20px] font-semibold underline underline-offset-4 text-left"
+                      className="text-[#FF0000] text-[16px] md:text-[18px] lg:text-[20px] font-semibold underline underline-offset-4 text-left"
                     >
                       • {tag}
                     </button>
@@ -348,7 +348,7 @@ const DetailedContent = () => {
                   >
                     <div className="w-full h-[2px] bg-[#d4d0c8] mb-3 relative z-10">
                       <motion.div
-                        className="absolute top-0 left-0 h-full bg-brand"
+                        className="absolute top-0 left-0 h-full bg-[#FF0000]"
                         animate={{ width: isCurrent ? "100%" : "0%" }}
                         transition={{ ease: "linear" }}
                       />
@@ -357,7 +357,7 @@ const DetailedContent = () => {
                     <span
                       className={`text-[12px] md:text-[18px] tracking-[1px] md:tracking-[2.5px] font-medium uppercase mt-1 transition-all duration-300 text-left whitespace-pre-line ${
                         isCurrent
-                          ? "text-brand"
+                          ? "text-[#FF0000]"
                           : "text-[#d4d0c8] group-hover:text-white"
                       }`}
                     >

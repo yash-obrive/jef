@@ -22,7 +22,7 @@ const ProductIntro = () => {
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1.2px] uppercase flex-shrink-0 ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -51,7 +51,7 @@ const ProductIntro = () => {
 
         {/* Title */}
         <motion.h1
-          className="text-brand font-bold text-[24px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
+          className="text-[#FF0000] font-bold text-[24px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -95,7 +95,7 @@ We don't offer a study service — we offer specialist engineering capability.`}
           onClick={() => setExpanded(!expanded)}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
-          className="mt-2 text-white uppercase tracking-[2px] text-xs md:text-sm pb-1 hover:text-brand transition-all"
+          className="mt-2 text-white uppercase tracking-[2px] text-xs md:text-sm pb-1 hover:text-[#FF0000] transition-all"
         >
           {expanded ? "READ LESS" : "READ MORE"}
         </motion.button>

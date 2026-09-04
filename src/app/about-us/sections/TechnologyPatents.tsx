@@ -156,7 +156,7 @@ export default function TechnologyPatents() {
                 className="flex items-start gap-4 sm:gap-5"
               >
                 {/* RED LINE */}
-                <div className="w-[2px] h-[50px] sm:h-[60px] bg-brand mt-1 shrink-0" />
+                <div className="w-[2px] h-[50px] sm:h-[60px] bg-[#FF0000] mt-1 shrink-0" />
                 <div className="flex flex-col gap-1 sm:gap-2">
                   {/* ICON */}
                   {item.icon && (

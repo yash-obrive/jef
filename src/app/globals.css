@@ -6,8 +6,17 @@
 
 @theme {
   --color-brand: #FF0000;
-  --color-red-600: var(--color-brand);
-  --color-red-700: var(--color-brand);
+  --color-red-50: #FF0000;
+  --color-red-100: #FF0000;
+  --color-red-200: #FF0000;
+  --color-red-300: #FF0000;
+  --color-red-400: #FF0000;
+  --color-red-500: #FF0000;
+  --color-red-600: #FF0000;
+  --color-red-700: #FF0000;
+  --color-red-800: #FF0000;
+  --color-red-900: #FF0000;
+  --color-red-950: #FF0000;
 }
 
 body {

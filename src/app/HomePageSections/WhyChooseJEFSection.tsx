@@ -80,7 +80,7 @@ export default function WhyChooseJEFSection() {
             className="w-full lg:w-[45%] flex flex-col gap-5 md:gap-8"
           >
             {/* SMALL TITLE */}
-            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-brand font-montserrat">
+            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-[#FF0000] font-montserrat">
               Why choose JEF ?
             </p>
 
@@ -111,7 +111,7 @@ export default function WhyChooseJEFSection() {
                 rounded-full
                 border
                 border-[#1D1F221A]
-                bg-brand
+                bg-[#FF0000]
                 flex
                 items-center
                 justify-center
@@ -124,7 +124,7 @@ export default function WhyChooseJEFSection() {
                 transition-colors
                 duration-300
                 hover:bg-[#F9F7F2]
-                hover:text-brand
+                hover:text-[#FF0000]
                 transform-gpu
                 will-change-transform
               "
@@ -163,7 +163,7 @@ export default function WhyChooseJEFSection() {
             className="w-full lg:w-[45%] flex flex-col gap-5 md:gap-8"
           >
             {/* SMALL TITLE */}
-            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-brand font-montserrat">
+            <p className="text-[11px] sm:text-[12px] font-semibold tracking-[1.47px] uppercase text-[#FF0000] font-montserrat">
               Why choose JEF ?
             </p>
 
@@ -193,7 +193,7 @@ export default function WhyChooseJEFSection() {
                 rounded-full
                 border
                 border-[#1D1F221A]
-                bg-brand
+                bg-[#FF0000]
                 flex
                 items-center
                 justify-center
@@ -206,7 +206,7 @@ export default function WhyChooseJEFSection() {
                 transition-colors
                 duration-300
                 hover:bg-[#F9F7F2]
-                hover:text-brand
+                hover:text-[#FF0000]
                 transform-gpu
                 will-change-transform
               "

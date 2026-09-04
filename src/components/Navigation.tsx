@@ -64,7 +64,7 @@ export default function Navigation({
           <Link
             href="/"
             className="
-              text-brand
+              text-[#FF0000]
               hover:text-white 
               transition-colors
               duration-300

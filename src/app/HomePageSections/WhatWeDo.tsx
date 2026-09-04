@@ -222,7 +222,7 @@ export default function WhatWeDoSection() {
       {/* BG */}
       <img
         src={background}
-        alt="JEFTECHNO Image"
+        
         className={`absolute inset-0 w-full h-full object-cover transition-all duration-[1800ms] ease-in-out ${
           showContent ? "opacity-100 scale-100" : "opacity-0 scale-105"
         }`}
@@ -307,7 +307,7 @@ export default function WhatWeDoSection() {
                   >
                     <div className="relative h-[1px] bg-white/20 overflow-hidden mb-2 lg:mb-3">
                       <span
-                        className={`absolute left-0 top-0 h-full bg-brand transition-all duration-500 ${
+                        className={`absolute left-0 top-0 h-full bg-[#FF0000] transition-all duration-500 ${
                           activeSection === item.id ? "w-full" : "w-0 group-hover:w-full"
                         }`}
                       />
@@ -315,12 +315,12 @@ export default function WhatWeDoSection() {
 
                     <div
                       className={`text-[12px] sm:text-[14px] md:text-[15px] xl:whitespace-nowrap tracking-[1.5px] uppercase transition-all duration-300 flex items-center justify-between gap-2 ${
-                        activeSection === item.id ? "text-brand" : "text-white"
+                        activeSection === item.id ? "text-[#FF0000]" : "text-white"
                       }`}
                     >
                       {item.title}
                       {activeSection === item.id && (
-                        <span className="text-brand text-[25px] hidden md:inline ml-2 lg:text-[30px]">
+                        <span className="text-[#FF0000] text-[25px] hidden md:inline ml-2 lg:text-[30px]">
                           →
                         </span>
                       )}
@@ -356,7 +356,7 @@ export default function WhatWeDoSection() {
             <img
               key={activeSection}
               src={currentSection.png}
-              alt="JEFTECHNO Image"
+              
               className="
                 absolute
                 inset-0
@@ -510,7 +510,7 @@ export default function WhatWeDoSection() {
               z-[60]
             `}
           >
-            <div className="w-full h-[2px] bg-brand mb-4 lg:mb-6" />
+            <div className="w-full h-[2px] bg-[#FF0000] mb-4 lg:mb-6" />
 
             <div
               key={activeCard + activeSection}

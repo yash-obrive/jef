@@ -157,7 +157,7 @@ function LeadershipSection() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 h-4 text-brand"
+                className="w-4 h-4 text-[#FF0000]"
               >
                 <path
                   strokeLinecap="round"
@@ -182,7 +182,7 @@ function LeadershipSection() {
                   src={leader.image}
                   alt={leader.name}
                   className="w-full h-full object-cover transition duration-500"
-                 alt="JEFTECHNO Image"  loading="lazy" />
+                   loading="lazy" />
               </div>
 
               {/* Name */}
@@ -191,7 +191,7 @@ function LeadershipSection() {
               </h2>
 
               {/* Role */}
-              <p className="mt-3 min-h-[48px] text-[14px] leading-[24px] font-light text-brand uppercase">
+              <p className="mt-3 min-h-[48px] text-[14px] leading-[24px] font-light text-[#FF0000] uppercase">
                 {leader.title}
               </p>
 
@@ -241,7 +241,7 @@ function LeadershipSection() {
                   {/* Close Button */}
                   <button
                     onClick={() => setSelectedLeader(null)}
-                    className="absolute top-10 right-10 w-[54px] h-[54px] rounded-full bg-brand flex items-center justify-center text-white text-2xl font-light"
+                    className="absolute top-10 right-10 w-[54px] h-[54px] rounded-full bg-[#FF0000] flex items-center justify-center text-white text-2xl font-light"
                   >
                     ×
                   </button>
@@ -254,7 +254,7 @@ function LeadershipSection() {
                         src={selectedLeader.image}
                         alt={selectedLeader.name}
                         className="w-full h-full object-cover"
-                       alt="JEFTECHNO Image"  loading="lazy" />
+                         loading="lazy" />
                     </div>
 
                     {/* Name + Role */}
@@ -262,7 +262,7 @@ function LeadershipSection() {
                       <h2 className="text-[21px] leading-[40px] font-medium text-[#1A1A1A]">
                         {selectedLeader.name}
                       </h2>
-                      <p className="text-[16px] leading-[24px] font-light text-brand">
+                      <p className="text-[16px] leading-[24px] font-light text-[#FF0000]">
                         {selectedLeader.title}
                       </p>
                     </div>

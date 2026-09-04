@@ -31,7 +31,7 @@ export default function ProductIntro({
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] md:text-[11px] uppercase tracking-tight md:tracking-[1px] ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -57,7 +57,7 @@ export default function ProductIntro({
         />
 
         <motion.h1
-          className="mb-8 text-brand text-[22px] sm:text-[28px] md:text-[34px] font-bold uppercase tracking-[5px] whitespace-pre-wrap"
+          className="mb-8 text-[#FF0000] text-[22px] sm:text-[28px] md:text-[34px] font-bold uppercase tracking-[5px] whitespace-pre-wrap"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -92,7 +92,7 @@ export default function ProductIntro({
           onClick={() => setExpanded(!expanded)}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
-          className="mt-10 text-[11px] md:text-[13px] uppercase tracking-[2px] text-white transition-all hover:text-brand"
+          className="mt-10 text-[11px] md:text-[13px] uppercase tracking-[2px] text-white transition-all hover:text-[#FF0000]"
         >
           {expanded ? "READ LESS" : "READ MORE"}
         </motion.button> */}

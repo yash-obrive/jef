@@ -67,7 +67,7 @@ export default function BlogsSection() {
                   leading-none
                   tracking-[3.36px]
                   uppercase
-                  text-brand
+                  text-[#FF0000]
                 "
               >
                 Latest Blogs
@@ -122,8 +122,8 @@ export default function BlogsSection() {
                 tracking-[2px]
                 transition-colors
                 duration-300
-                hover:bg-brand
-                hover:border-brand
+                hover:bg-[#FF0000]
+                hover:border-[#FF0000]
               "
             >
               <span
@@ -141,20 +141,10 @@ export default function BlogsSection() {
                 Explore More
               </span>
 
-              <img
-                src="/HomePageImg/LeftArrow.png"
-                alt="Arrow"
-                className="
-                  relative
-                  z-10
-                  w-[18px]
-                  rotate-180
-                  brightness-100
-                  transition-transform
-                  duration-300
-                  group-hover:translate-x-1
-                "
-               loading="lazy" />
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="relative z-10 w-[18px] transition-transform duration-300 group-hover:translate-x-1">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
             </motion.button>
           </header>
 
@@ -185,7 +175,7 @@ export default function BlogsSection() {
                   duration-500
                   hover:scale-105
                 "
-               alt="JEFTECHNO Image"  loading="lazy" />
+               loading="lazy" />
             </motion.div>
 
             {/* RIGHT CONTENT */}
@@ -266,19 +256,10 @@ export default function BlogsSection() {
               group
             "
           >
-            <img
-              src="/BlogImg/HomePageBlogLeftArrow.png"
-              alt="Arrow"
-              className="
-             
-                transition-transform
-                duration-300
-                group-hover:translate-x-1
-                w-[25px]
-              
-brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7470%) hue-rotate(356deg) brightness(98%) contrast(118%)
-              "
-             loading="lazy" />
+            <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#FF0000] transition-transform duration-300 group-hover:translate-x-1">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
           </div>
         </Link>
             </motion.div>
@@ -354,7 +335,7 @@ function BlogCard({ imageSrc, title, path }) {
             hover:scale-105
             
           "
-         alt="JEFTECHNO Image" />
+         />
       </div>
 
       {/* CONTENT */}
@@ -412,19 +393,10 @@ function BlogCard({ imageSrc, title, path }) {
               group
             "
           >
-            <img
-              src="/BlogImg/HomePageBlogLeftArrow.png"
-              alt="Arrow"
-              className="
-             
-                transition-transform
-                duration-300
-                group-hover:translate-x-1
-                w-[25px]
-              
-brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7470%) hue-rotate(356deg) brightness(98%) contrast(118%)
-              "
-             loading="lazy" />
+            <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#FF0000] transition-transform duration-300 group-hover:translate-x-1">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
           </div>
         </Link>
       </div>

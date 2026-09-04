@@ -36,8 +36,8 @@ function JobDetails() {
 
                 <section className="flex p-4 lg:p-10 xl:p-10 flex-col items-start self-center mt-24 w-full max-w-[81rem] max-md:mt-10 max-md:max-w-full">
                     <article className="flex flex-col self-stretch pt-8 w-full rounded-3xl  max-md:max-w-full">
-                        <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-brand max-md:max-w-full">
-                            <span className="flex flex-col justify-center py-1 px-2 rounded-xl bg-brand/10">
+                        <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-[#FF0000] max-md:max-w-full">
+                            <span className="flex flex-col justify-center py-1 px-2 rounded-xl bg-[#FF0000]/10">
                                 30 min ago
                             </span>
                             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bbbc56d84eb925a582acb30e6b9d6a52b24cb413a44e882b3923619e273f5f71?placeholderIfAbsent=true&apiKey=ec02862acd164f0aad3ceef0d2a999c3" alt="Bbbc56D84Eb925A582Acb30E6B9D6A52B24Cb413A44E882B3923619E273F5F71?Placeholderifabsent=True&Apikey=Ec02862Acd164F0Aad3Ceef0D2A999C3" className="object-contain shrink-0 w-6 aspect-square" />
@@ -59,7 +59,7 @@ function JobDetails() {
                                     <IconText key={index} icon={item.icon} text={item.text} />
                                 ))}
                             </div>
-                            <button className="overflow-hidden gap-2.5 self-stretch py-2 px-5 text-white bg-brand rounded-lg min-h-[3.125rem] min-w-[15rem] w-[18.813rem]">
+                            <button className="overflow-hidden gap-2.5 self-stretch py-2 px-5 text-white bg-[#FF0000] rounded-lg min-h-[3.125rem] min-w-[15rem] w-[18.813rem]">
                                 Apply Job
                             </button>
                         </div>
@@ -84,7 +84,7 @@ function JobDetails() {
 function IconText({ icon, text }) {
     return (
         <div className="flex gap-3 items-center">
-            <img loading="lazy" src={icon} alt="JEFTECHNO Image" className="object-contain shrink-0 self-stretch my-auto w-4 md:w-5 aspect-square" />
+            <img loading="lazy" src={icon}  className="object-contain shrink-0 self-stretch my-auto w-4 md:w-5 aspect-square" />
             <span className="self-stretch text-xs md:text-sm my-auto">{text}</span>
         </div>
     );
@@ -104,12 +104,12 @@ function JobOverviewCard({ data }) {
     ];
 
     return (
-        <section className="flex overflow-hidden flex-col px-5 pt-7 pb-5 mx-auto w-full rounded-3xl bg-brand/10 max-md:mt-6">
+        <section className="flex overflow-hidden flex-col px-5 pt-7 pb-5 mx-auto w-full rounded-3xl bg-[#FF0000]/10 max-md:mt-6">
             <h3 className="text-lg font-bold text-stone-900">Job Overview</h3>
             <div className="flex flex-col mt-8 w-full text-base">
                 {overviewItems.map((item, index) => (
                     <div key={index} className="flex gap-5 items-start mt-7 w-full first:mt-0">
-                        <img loading="lazy" src={item.icon} alt="JEFTECHNO Image" className="object-contain shrink-0 w-6 aspect-square" />
+                        <img loading="lazy" src={item.icon}  className="object-contain shrink-0 w-6 aspect-square" />
                         <div className="flex flex-col flex-1 shrink basis-0">
                             <div className="font-medium text-stone-900">{item.label}</div>
                             <div className=" text-gray-500">{item.value}</div>
@@ -185,7 +185,7 @@ function JobInfoSection() {
             <div className="flex flex-col grow items-start mt-6 text-base text-stone-900 max-md:mt-10 max-md:max-w-full">
                 {/* Rest of the content remains the same as in original, just wrapped in semantic HTML tags */}
                 <article className="flex flex-col self-stretch max-md:max-w-full">
-                    <h2 className="text-2xl text-brand font-semibold">About JEF</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold">About JEF</h2>
                     <p className="mt-8 leading-6 max-md:max-w-full">
                         JEF is an innovative company with Indian roots and an extensive international presence across 23 countries in the ASEAN, Middle Eastern, African and European regions. We have been the preferred vendor for prestigious projects in many countries with 3000+ global customers and an outounding 90% customer retention rate.
                     </p>
@@ -231,7 +231,7 @@ function JobInfoSection() {
                     </Paragraph>
 
 
-                    <h3 className="text-2xl text-brand font-semibold mt-10">Your Profile</h3>
+                    <h3 className="text-2xl text-[#FF0000] font-semibold mt-10">Your Profile</h3>
                     <ul className="list-none">
                         {Profile.map((Profile, index) => (
                             <ServiceItem key={index}>{Profile}</ServiceItem>
@@ -239,27 +239,27 @@ function JobInfoSection() {
                     </ul>
 
 
-                    <h3 className="text-2xl text-brand font-semibold mt-10">Roles & Responsibilities:</h3>
+                    <h3 className="text-2xl text-[#FF0000] font-semibold mt-10">Roles & Responsibilities:</h3>
                     <ul className="list-none">
                         {Responsibility.map((Profile, index) => (
                             <ServiceItem key={index}>{Profile}</ServiceItem>
                         ))}
                     </ul>
 
-                    <h2 className="text-2xl text-brand font-semibold mt-10">What We Offer</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold mt-10">What We Offer</h2>
                     <ul className="list-none">
                         {whatweoffer.map((Profile, index) => (
                             <ServiceItem key={index}>{Profile}</ServiceItem>
                         ))}
                     </ul>
 
-                    <h2 className="text-2xl text-brand font-semibold mt-10">Reporting Line:</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold mt-10">Reporting Line:</h2>
                     <h2 className="text-xl font-light mt-6">Designation: Field Engineer</h2>
                     <h2 className="text-xl font-light mt-3">Reporting To: Deputy Manager</h2>
 
                     <div className='mt-16 gap-8 hidden'>
 
-                        <div className='text-2xl text-brand font-semibold'>Share Job:</div>
+                        <div className='text-2xl text-[#FF0000] font-semibold'>Share Job:</div>
                         <div className='flex h-8 gap-5'>
                             <img src="/CareerPage/FbLogo.png" alt="FbLogo"  loading="lazy" />
                             <img src="/CareerPage/Xlogo.png" alt="Xlogo"  loading="lazy" />
@@ -273,7 +273,7 @@ function JobInfoSection() {
     );
 }
 const SectionTitle = ({ children }) => (
-    <h2 className="text-2xl text-brand font-semibold mt-14 max-md:mt-10">
+    <h2 className="text-2xl text-[#FF0000] font-semibold mt-14 max-md:mt-10">
         {children}
     </h2>
 );

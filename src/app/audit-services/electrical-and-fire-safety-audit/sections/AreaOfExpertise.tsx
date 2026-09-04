@@ -97,7 +97,7 @@ const sectors = [
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-brand uppercase mb-6 text-[26px] md:text-[32px] tracking-[3px] md:tracking-[4.53px] font-bold"
+            className="text-[#FF0000] uppercase mb-6 text-[26px] md:text-[32px] tracking-[3px] md:tracking-[4.53px] font-bold"
           >
               JEF'S PATENTED SMART SAFETY AUDIT TOOL
           </motion.h1>
@@ -172,7 +172,7 @@ const sectors = [
                     <div
                       className={`absolute left-0 rounded-full z-10 ${
                         isActive
-                          ? "w-[14px] h-[14px] bg-brand"
+                          ? "w-[14px] h-[14px] bg-[#FF0000]"
                           : "w-2.5 h-2.5 bg-white"
                       }`}
                     />

@@ -291,13 +291,13 @@ function RenewableEnergyResource() {
                                 <img
                                     ref={imgRef}
                                     src={backgroundImage}
-                                    alt="JEFTECHNO Image"
+                                    
                                     className="absolute inset-0 w-full h-full object-cover"
                                  loading="lazy" />
                             </div>
                         )}
                         <section className="flex flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Services
                             </h2>
                             <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -378,7 +378,7 @@ const NavigationItem = ({ text, href, isActive, isLast }) => (
     <Link href={href}>
       <div
         className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase cursor-pointer transition-colors duration-200 ${
-          isActive ? "text-white" : "text-brand hover:text-white"
+          isActive ? "text-white" : "text-[#FF0000] hover:text-white"
         }`}
       >
         {text}
@@ -447,7 +447,7 @@ const ServiceItem = React.forwardRef(({ path, text, data, onMouseEnter, onMouseL
         <div
             ref={ref}
             className={` flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-[#FF0000]"}`}
             onMouseEnter={(e) => {
                 setIsHovered(true);
                 onMouseEnter(e); // Calls the main onMouseEnter function to handle background image changes

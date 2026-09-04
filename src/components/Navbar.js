@@ -156,7 +156,7 @@ const Navbar = () => {
                     ${isSlideOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         <button
-          className="absolute top-5 right-5 p-2 text-white hover:text-brand transition-colors duration-200 z-10"
+          className="absolute top-5 right-5 p-2 text-white hover:text-[#FF0000] transition-colors duration-200 z-10"
           onClick={toggleSlideMenu}
           aria-label="Close menu"
         >

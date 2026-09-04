@@ -5,8 +5,8 @@ import Navbar from '../components/Navbar';
 import MainFooter from '../components/Footer';
 import Script from 'next/script';
 import CookieConsentProvider from "../components/cookie/CookieConsentProvider.jsx";
-import dynamic from 'next/dynamic';
-const SmoothScroll = dynamic(() => import('@/components/SmoothScroll'), { ssr: false });
+import SmoothScroll from '@/components/SmoothScroll';
+import ScrollToTop from '@/components/ScrollToTop';
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
@@ -71,6 +71,19 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-53ZRLRWM');
           `}
         </Script>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-9QGX5CDEGB"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9QGX5CDEGB');
+          `}
+        </Script>
       </head>
       <body
         className={`${montserrat.variable} antialiased`}
@@ -102,6 +115,7 @@ export default function RootLayout({ children }) {
             `}</Script>
           <MainFooter />
           <CookieConsentProvider />
+          <ScrollToTop />
         </TranslationProvider>
       </body>
     </html>

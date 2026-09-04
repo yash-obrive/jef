@@ -23,7 +23,7 @@ export default function ReferenceStandards() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="mb-10 text-brand text-[22px] md:text-[32px] font-bold uppercase tracking-[4px]"
+          className="mb-10 text-[#FF0000] text-[22px] md:text-[32px] font-bold uppercase tracking-[4px]"
         >
           Reference Standards
         </motion.h2>
@@ -52,7 +52,7 @@ export default function ReferenceStandards() {
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="flex items-start gap-4"
             >
-              <span className="mt-[8px] h-2.5 w-2.5 min-w-2.5 rounded-full bg-brand" />
+              <span className="mt-[8px] h-2.5 w-2.5 min-w-2.5 rounded-full bg-[#FF0000]" />
 
               <p className="text-white text-[14px] sm:text-[15px] md:text-[17px] leading-[1.7]">
                 {item}

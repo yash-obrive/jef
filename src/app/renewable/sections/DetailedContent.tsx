@@ -79,7 +79,7 @@ const pages = [
       <>
         <p>
           {" "}
-          <span className="text-brand font-bold tracking-[1px]">
+          <span className="text-[#FF0000] font-bold tracking-[1px]">
             GRID INTEGRATION STUDIES (FOR SOLAR, WIND, BESS, HYBRID, GREEN
             HYDROGEN)
           </span>
@@ -158,7 +158,7 @@ const DetailedContent = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-brand text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] uppercase"
+            className="text-[#FF0000] text-[20px] md:text-[26px] font-bold tracking-[1px] md:tracking-[1.49px] leading-[1.4] uppercase"
           >
             {page.title}
           </motion.h2>
@@ -174,7 +174,7 @@ const DetailedContent = () => {
             <button
               onClick={handleNextPage}
               aria-label="Next tab"
-              className="rounded-full h-12 w-12 border border-brand text-brand text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
+              className="rounded-full h-12 w-12 border border-[#FF0000] text-[#FF0000] text-[18px] md:text-[14px] tracking-[1px] uppercase hover:text-white hover:border-white transition-colors duration-300"
             >
               →
             </button>
@@ -235,7 +235,7 @@ const DetailedContent = () => {
                           [si]: prev[si] === ti ? undefined : ti,
                         }))
                       }
-                      className="text-brand text-[16px] md:text-[18px] lg:text-[20px] font-semibold underline underline-offset-4 text-left"
+                      className="text-[#FF0000] text-[16px] md:text-[18px] lg:text-[20px] font-semibold underline underline-offset-4 text-left"
                     >
                       • {tag}
                     </button>
@@ -306,7 +306,7 @@ const DetailedContent = () => {
                   >
                     <div className="w-full h-[2px] bg-[#d4d0c8] mb-3 relative z-10">
                       <motion.div
-                        className="absolute top-0 left-0 h-full bg-brand"
+                        className="absolute top-0 left-0 h-full bg-[#FF0000]"
                         animate={{ width: isCurrent ? "100%" : "0%" }}
                         transition={{ ease: "linear" }}
                       />
@@ -315,7 +315,7 @@ const DetailedContent = () => {
                     <span
                       className={`text-[12px] md:text-[18px] tracking-[1px] md:tracking-[2.5px] font-medium uppercase mt-1 transition-all duration-300 text-left whitespace-pre-line ${
                         isCurrent
-                          ? "text-brand"
+                          ? "text-[#FF0000]"
                           : "text-[#d4d0c8] group-hover:text-white"
                       }`}
                     >

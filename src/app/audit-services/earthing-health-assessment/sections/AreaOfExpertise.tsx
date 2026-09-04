@@ -99,7 +99,7 @@ export default function ExcellenceinElectricalEngineering() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             viewport={{ once: true }}
-            className="text-brand text-[22px] md:text-[32px] font-bold tracking-[3px] uppercase max-w-[150px] md:max-w-none leading-tight md:leading-normal"
+            className="text-[#FF0000] text-[22px] md:text-[32px] font-bold tracking-[3px] uppercase max-w-[150px] md:max-w-none leading-tight md:leading-normal"
           >
               EARTHING HEALTH ASSESSMENT DELIVERABLES
           </motion.h2>
@@ -228,7 +228,7 @@ export default function ExcellenceinElectricalEngineering() {
                   {/* DOT */}
                   <div className="relative w-full h-[2px] flex items-center">
                     {isActive ? (
-                      <div className="absolute left-0 w-[14px] h-[14px] bg-brand rounded-full z-10" />
+                      <div className="absolute left-0 w-[14px] h-[14px] bg-[#FF0000] rounded-full z-10" />
                     ) : (
                       <div className="absolute left-0 w-2.5 h-2.5 bg-white rounded-full z-10" />
                     )}

@@ -22,7 +22,7 @@ export default function ProductIntro() {
             <React.Fragment key={index}>
               <span
                 className={`text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1.2px] uppercase flex-shrink-0 ${
-                  item.isActive ? "text-brand" : "text-neutral-300"
+                  item.isActive ? "text-[#FF0000]" : "text-neutral-300"
                 }`}
               >
                 {item.label}
@@ -51,7 +51,7 @@ export default function ProductIntro() {
 
         {/* Heading */}
         <motion.h1
-          className="text-brand font-bold text-[28px] md:text-[32px] tracking-[2px] uppercase font-montserrat"
+          className="text-[#FF0000] font-bold text-[28px] md:text-[32px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

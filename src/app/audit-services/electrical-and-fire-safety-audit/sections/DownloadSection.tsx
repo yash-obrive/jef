@@ -14,7 +14,7 @@ export default function DownloadSection() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
           className="
-            text-brand
+            text-[#FF0000]
             uppercase
             font-bold
             tracking-[2px]
@@ -104,7 +104,7 @@ export default function DownloadSection() {
                 font-bold
                 tracking-[1px]
                 uppercase
-                hover:text-brand
+                hover:text-[#FF0000]
                 transition-colors
               "
             >

@@ -72,7 +72,7 @@ export default function WhyChooseRootCauseAnalysis() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             viewport={{ once: true }}
-            className="text-brand text-[22px] md:text-[32px] font-bold tracking-[3px] uppercase max-w-[150px] md:max-w-none leading-tight md:leading-normal"
+            className="text-[#FF0000] text-[22px] md:text-[32px] font-bold tracking-[3px] uppercase max-w-[150px] md:max-w-none leading-tight md:leading-normal"
           >
             WHY CHOOSE JEF?
           </motion.h2>
@@ -163,7 +163,7 @@ export default function WhyChooseRootCauseAnalysis() {
 
                   <div className="relative flex h-[2px] w-full items-center">
                     {isActive ? (
-                      <div className="absolute left-0 z-10 h-[14px] w-[14px] rounded-full bg-brand" />
+                      <div className="absolute left-0 z-10 h-[14px] w-[14px] rounded-full bg-[#FF0000]" />
                     ) : (
                       <div className="absolute left-0 z-10 h-2.5 w-2.5 rounded-full bg-white" />
                     )}

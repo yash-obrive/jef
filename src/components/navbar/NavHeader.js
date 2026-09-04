@@ -101,21 +101,17 @@ const NavHeader = ({
               
               
            
-             <Link href="/get-in-touch" >
-             <Image
-        src="/nav-jef-safe.png"
-        alt="Menu"
-        width={20}
-        height={20}
-        className="object-contain w-11 transition-transform duration-300 transform group-hover:rotate-180"
-      />
-        </Link>
+             <Link href="/get-in-touch" className="flex items-center justify-center w-11 h-11 bg-[#FF0000] rounded-full hover:bg-red-700 transition-colors duration-300">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform group-hover:scale-110 transition-transform duration-300">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+             </Link>
           </div>
 
           <div className="flex lg:hidden gap-6 items-center self-stretch my-auto text-center">
             {/* Hamburger Icon for Mobile */}
             <button
-              className="p-2 text-white hover:text-brand transition-colors duration-200"
+              className="p-2 text-white hover:text-[#FF0000] transition-colors duration-200"
               onClick={toggleSlideMenu}
               aria-label="Open menu"
             >

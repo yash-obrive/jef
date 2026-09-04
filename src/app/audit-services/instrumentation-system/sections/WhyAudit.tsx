@@ -94,7 +94,7 @@ export default function WhyRca() {
               font-bold
               tracking-[2px]
               md:tracking-[4px]
-              text-brand
+              text-[#FF0000]
             "
           >
             WHY JEF FOR INSTRUMENTATION EARTHING AUDIT
@@ -159,7 +159,7 @@ export default function WhyRca() {
                       duration-700
                       group-hover:scale-105
                     "
-                   alt="JEFTECHNO Image"  loading="lazy" />
+                     loading="lazy" />
                 </div>
 
                 {/* Content */}

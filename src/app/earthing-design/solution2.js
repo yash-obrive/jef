@@ -299,7 +299,7 @@ const Solution2 = () => {
     ]
 
     const buttons = [
-        { text: 'CONTACT US', className: 'bg-brand' }
+        { text: 'CONTACT US', className: 'bg-[#FF0000]' }
     ];
 
 
@@ -326,7 +326,7 @@ const Solution2 = () => {
                         </h1>
                         <div className="flex gap-6 items-center self-start mt-8 text-lg uppercase text-neutral-900  max-md:mt-10">
                             <Link href={'/get-in-touch'}>
-                                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-brand hover:text-white 2xl:min-h-[64px] rounded-[50px]">
+                                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-[#FF0000] hover:text-white 2xl:min-h-[64px] rounded-[50px]">
                                     Get in touch
                                 </button>
                             </Link>
@@ -348,7 +348,7 @@ const Solution2 = () => {
                         <div className="flex items-center h-full min-w-[240px]">
                             {navItems.map((item, index) => (
                                 <div key={index} className="flex items-center self-stretch my-auto">
-                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-brand' : 'text-neutral-300'}`}>
+                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-[#FF0000]' : 'text-neutral-300'}`}>
                                         {item.label}
                                     </div>
                                     {item.isActive && (
@@ -382,7 +382,7 @@ const Solution2 = () => {
                     </p>
                 </header>
 
-                <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-brand w-[770px]">
+                <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-[#FF0000] w-[770px]">
                     <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
                         Get in touch for Real-Life Case Studies and Testimonials
                     </p>
@@ -420,13 +420,13 @@ const Solution2 = () => {
                                 <img
                                     ref={imgRef}
                                     src={backgroundImage}
-                                    alt="JEFTECHNO Image"
+                                    
                                     className="absolute inset-0 w-full h-full object-cover"
                                  loading="lazy" />
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Solutions
                             </h2>
                             <div className="circle-slider flex flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -471,13 +471,13 @@ const Solution2 = () => {
                                 <img
                                     ref={imgRef}
                                     src={backgroundImage}
-                                    alt="JEFTECHNO Image"
+                                    
                                     className="absolute inset-0 w-full h-full object-cover"
                                  loading="lazy" />
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-brand tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Solutions
                             </h2>
                             <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -579,7 +579,7 @@ function TestimonialsSection() {
                             </div>
                             <div className="flex flex-wrap justify-center mt-10 max-w-full tracking-wider text-white uppercase w-full   mx-auto">
                                 <Link href={'/get-in-touch'}>
-                                    <button className={`flex overflow-hidden text-sm justify-center bg-brand items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
+                                    <button className={`flex overflow-hidden text-sm justify-center bg-[#FF0000] items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
                                         CONTACT US
                                     </button>
                                 </Link>
@@ -600,7 +600,7 @@ const ServiceItem = React.forwardRef(({ path, text, onMouseEnter, onMouseLeave }
         <div
             ref={ref}
             className={`flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-[#FF0000]"}`}
             onMouseEnter={() => {
                 if (text !== "") {
                     onMouseEnter();
@@ -626,7 +626,7 @@ const ServiceItem2 = React.forwardRef(({ path, text, onMouseEnter, onMouseLeave 
         <div
             ref={ref}
             className={`flex w-[7.2rem] h-[7.2rem] lg:h-[9rem] lg:w-[9rem] 2xl:w-[11.5rem] 2xl:h-[11.5rem] rounded-full items-center justify-center p-[0.5%] lg:p-[1.5%] transition-all duration-300 
-        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-brand"}`}
+        ${text === "" ? "bg-transparent" : "border border-solid hover:bg-[#FF0000]"}`}
             onMouseEnter={() => {
                 if (text !== "") {
                     onMouseEnter();
@@ -690,7 +690,7 @@ function CarouselSection({ components }) {
     return (
         <section className="flex xl:px-[100px] lg:px-[60px] flex-col items-start px-5 pt-16 pb-32 bg-black">
             <div className="flex flex-wrap gap-5 justify-between w-full">
-                <h2 className="md:text-3xl text-2xl font-bold leading-none text-brand uppercase">
+                <h2 className="md:text-3xl text-2xl font-bold leading-none text-[#FF0000] uppercase">
                     Value Adds by JEF
                 </h2>
                 <div className="flex self-end flex-col min-h-[60px]">
@@ -743,7 +743,7 @@ function CarouselSection({ components }) {
                                 flex: `0 0 ${100 / visibleCards}%`, // Adjust width of each card based on visibleCards
                             }}
                         >
-                            <img src={component.imageSrc} alt={component.title} className="h-fit max-w-[48px]"  alt="JEFTECHNO Image"  loading="lazy" />
+                            <img src={component.imageSrc} alt={component.title} className="h-fit max-w-[48px]"    loading="lazy" />
                             <div className=" text-gray-400 mt-10 mb-6 text-center w-[80vw] sm:w-[70%] font-thin lg:w-[80%] flex items-start gap-4 sm:text-start text-lg max-w-screen-xl">
                                 {component.description}</div>
                         </div>
@@ -846,7 +846,7 @@ const VerticalCarousel = () => {
                                     onClick={() => handleClick(index)}
                                 >
                                     {activeIndex === index && (
-                                        <div className="bg-brand w-1 h-full mr-4"></div>
+                                        <div className="bg-[#FF0000] w-1 h-full mr-4"></div>
                                     )}
                                     <div
                                         className={`xl:w-[80%] uppercase min-w-[20%] ${activeIndex === index ? "text-white" : "text-gray-400"
@@ -868,14 +868,14 @@ const VerticalCarousel = () => {
                             {cardContents.map((content, index) => (
                                 <div
                                     key={index}
-                                    className="flex flex-col items-start text-2xl  md:text-3xl text-brand mt-12 lg:mt-0 h-screen lg:w-full"
+                                    className="flex flex-col items-start text-2xl  md:text-3xl text-[#FF0000] mt-12 lg:mt-0 h-screen lg:w-full"
                                 >
                                     <img
                                         loading="lazy"
                                         src={content.imgSrc}
                                         alt={content.title}
                                         className="object-contain max-w-full  w-[6rem] 2xl:w-[124px] transition-opacity duration-500 ease-in-out"
-                                     alt="JEFTECHNO Image" />
+                                      />
                                     <ul className="hidden mx-auto justify-center space-y-5 my-4 max-w-full text-sm leading-6 text-gray-400 w-[90%] ">
                                         {benefitItems.slice(0, 1).map((item, index) => (
                                             <li
@@ -887,7 +887,7 @@ const VerticalCarousel = () => {
                                                 onClick={() => handleClick(index)}
                                             >
                                                 {activeIndex === index && (
-                                                    <div className="bg-brand w-1 h-full mr-4"></div>
+                                                    <div className="bg-[#FF0000] w-1 h-full mr-4"></div>
                                                 )}
                                                 <div
                                                     className={`w-[80%] uppercase min-w-[20%] ${activeIndex === index ? "text-white" : "text-gray-400"
