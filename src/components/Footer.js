@@ -42,18 +42,18 @@ function MainFooter() {
 
     const itemsLocation = [
         { name: 'India', path: 'https://www.jeftechno.com/' },
-        { name: 'UAE', path: 'https://www.jefuae.com/', newTab: true },
+        { name: 'UAE', path: 'https://www.jeftechno.com/', newTab: true },
 
     ];
 
     const itemsBusiness = [
-        { name: 'Products', path: '/' },
-        { name: 'Audit Services', path: '/' },
-        { name: 'Consulting Services', path: '/' },
+        { name: 'Products', path: '/Products/clps-products' },
+        { name: 'Audit Services', path: '/audit-services/earthing-health-assessment' },
+        { name: 'Consulting Services', path: '/power-system-studies' },
     ];
 
     const itemNews = [
-        { name: 'All Blogs', path: '/blog' },
+        { name: 'All Blogs', path: '/blogs' },
         { name: "Resources", path: "/coming-soon" },
         { name: 'Events', path: "/coming-soon" },
 
@@ -62,7 +62,7 @@ function MainFooter() {
         { name: 'Employee Login', path: 'https://jef.greythr.com', newTab: true }
     ];
     const itemJefShield = [
-        { name: 'FAQ', path: 'https://www.jeftechno.com/JEF_SHIELD/login.php' }
+        { name: 'FAQ', path: '/faq' }
     ];
 
 
@@ -256,11 +256,9 @@ const FAQComponent = () => {
         {
             question: "Our Business",
             content: [
-                { label: 'Our Products', path: '/power-system-studies' },
-                { label: 'Audit Services', path: '/audit-services' },
-                { label: 'Consulting Services', path: '/consulting-services' },
-
-
+                { label: 'Products', path: '/Products/clps-products' },
+                { label: 'Audit Services', path: '/audit-services/earthing-health-assessment' },
+                { label: 'Consulting Services', path: '/power-system-studies' },
             ],
             isOpen: false
         },
@@ -268,7 +266,7 @@ const FAQComponent = () => {
             question: "Locations",
             content: [
                 { label: 'India', path: '' },
-                { label: "UAE", path: "https://www.jefuae.com/", newTab: true },
+                { label: "UAE", path: "https://www.jeftechno.com/", newTab: true },
                 { label: 'USA', path: '' },
             ],
             isOpen: false
