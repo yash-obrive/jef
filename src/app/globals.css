@@ -19,9 +19,13 @@
   --color-red-950: #FF0000;
 }
 
+html {
+  background-color: #000;
+}
+
 body {
   font-family: var(--font-sans), sans-serif;
-  top: 0px !important;
+  background-color: #000;
 }
 
 @keyframes pulse {

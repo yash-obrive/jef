@@ -219,7 +219,7 @@ const Career = () => {
             {statistics.map((stat, index) => (
               <div key={index} className="flex gap-3 items-center self-stretch my-auto w-40">
                 <div className="flex overflow-hidden gap-2.5 justify-center items-center self-stretch p-1 my-auto bg-[#FF0000] w-[3vw] rounded-full aspect-square">
-                  <img loading="lazy" src={stat.icon}  className="object-cover self-stretch my-auto aspect-square" />
+                  <img loading="lazy" src={stat.icon}  className="object-cover self-stretch my-auto aspect-square"  alt="Image"/>
                 </div>
                 <div className="flex flex-col self-stretch my-auto whitespace-nowrap">
                   <div className="text-xl font-bold text-white">{stat.count}</div>

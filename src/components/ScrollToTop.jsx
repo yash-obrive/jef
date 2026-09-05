@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {
@@ -16,33 +17,57 @@ export default function ScrollToTop() {
 
   // Scroll to top smooth
   const scrollToTop = () => {
+    // Lenis intercepts scrolling, but native 'smooth' behavior fights with Lenis physics
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: "auto",
     });
   };
 
   useEffect(() => {
+    setMounted(true);
     window.addEventListener("scroll", toggleVisibility);
     return () => {
       window.removeEventListener("scroll", toggleVisibility);
     };
   }, []);
 
+  if (!mounted) return null;
+
   return (
-    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[9999]">
+    <div style={{ position: "fixed", bottom: "70px", left: "20px", zIndex: 9999 }}>
       {isVisible && (
         <button
           onClick={scrollToTop}
           aria-label="Scroll to top"
-          className="flex items-center justify-center w-12 h-12 bg-[#FF0000] text-white rounded-full shadow-lg hover:bg-red-700 transition-all duration-300 transform hover:scale-110"
+          style={{
+            width: "36px",
+            height: "36px",
+            borderRadius: "50%",
+            backgroundColor: "#FF0000",
+            border: "none",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.4)",
+            transition: "background 0.2s, transform 0.2s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundColor = "#cc0000";
+            e.currentTarget.style.transform = "scale(1.08)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.backgroundColor = "#FF0000";
+            e.currentTarget.style.transform = "scale(1)";
+          }}
         >
           <svg
-            width="24"
-            height="24"
+            width="16"
+            height="16"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             strokeWidth="2.5"
             strokeLinecap="round"
             strokeLinejoin="round"

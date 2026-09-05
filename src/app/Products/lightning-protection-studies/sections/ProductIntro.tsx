@@ -46,7 +46,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         />
 
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[20px] sm:text-[24px] md:text-[32px] tracking-[1.5px] md:tracking-[2px] uppercase font-montserrat leading-[1.35]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         >
           EXTERNAL LIGHTNING PROTECTION - NIMBUS®
-        </motion.h1>
+        </motion.h2>
 
         <div className="flex flex-col gap-5 md:gap-6 max-w-[1500px]">
 

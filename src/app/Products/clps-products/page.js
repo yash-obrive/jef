@@ -1,35 +1,25 @@
 import Solution6 from "./solution6";
 
 export const metadata = {
-  title: "Comprehensive Lightning Protection Solutions (CLPS) | JEF",
-  description:
-    "JEF Group supplies and designs comprehensive lightning protection systems (CLPS) built to the requirements of IEC 62305:2024. Type-tested components for industrial and commercial facilities.",
-  keywords:
-    "lightning protection, CLPS, IEC 62305:2024, surge protection, earthing system, air termination, down conductors, electrical safety, industrial protection",
+  title: "Conventional Lightning Protection System | JEF Techno",
+  description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
+  keywords: "conventional lightning protection system (CLPS), Franklin rod lightning arrester, mesh cage lightning protection, air termination network, conventional lightning protection system services, conventional lightning protection system company, conventional lightning protection system for industrial plants, conventional lightning protection system consultant, conventional lightning protection system design and installation, conventional lightning protection system (CLPS), Franklin rod lightning arrester, mesh cage lightning protection, air termination network, conventional lightning protection system services, conventional lightning protection system company, conventional lightning protection system for industrial plants, conventional lightning protection system consultant, conventional lightning protection system design and installation, best conventional lightning protection system company in India, conventional lightning protection system company in UAE, how to select a conventional lightning protection system provider for a factory, conventional lightning protection system as per IS/IEC 62305, turnkey conventional lightning protection system for industrial plants, conventional lightning protection system cost for commercial building, certified conventional lightning protection system consultant near me, conventional lightning protection system for data centers and warehouses, earthing system, lightning arrester, surge protection device, soil resistivity, earth pit testing, risk assessment IEC 62305, equipotential bonding, down conductor, touch and step potential, electrical safety compliance, power system reliability, industrial electrical audit, grounding and bonding, 6-10 occurrences across 1,600 words (H1, first 100 words, 2x H2, meta title, meta description, image alt, URL/slug, closing CTA)",
+  alternates: {
+    canonical: "https://www.jeftechno.com/Products/clps-products",
+  },
   openGraph: {
-    title: "Comprehensive Lightning Protection Solutions (CLPS) | JEF",
-    description:
-      "Advanced lightning protection systems compliant with the latest international standards. Type-tested to 200 kA.",
-    url: "https://www.jeftechno.com/clps-products",
-    siteName: "JEF UAE",
-    images: [
-      {
-        url: "/clps/clpf-logo.png",
-        width: 800,
-        height: 600,
-      },
-    ],
-    locale: "en_US",
+    title: "Conventional Lightning Protection System | JEF Techno",
+    description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
+    url: "https://www.jeftechno.com/Products/clps-products",
     type: "website",
+    siteName: "Jef Techno",
+    images: [{ url: "/clps/clpf-logo.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Comprehensive Lightning Protection Solutions (CLPS) | JEF",
-    description: "Advanced lightning protection systems compliant with IEC 62305:2024.",
+    title: "Conventional Lightning Protection System | JEF Techno",
+    description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
     images: ["/clps/clpf-logo.png"],
-  },
-  alternates: {
-    canonical: "https://www.jeftechno.com/clps-products",
   },
 };
 

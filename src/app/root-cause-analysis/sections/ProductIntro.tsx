@@ -44,7 +44,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         />
 
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[22px] md:text-[32px] tracking-[4px] uppercase font-montserrat leading-[1.2]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         >
           ROOT CAUSE ANALYSIS
-        </motion.h1>
+        </motion.h2>
 
         <motion.p
           className="max-w-[1300px] text-white/90 font-montserrat font-light text-[13px] md:text-[17px] leading-[1.7] tracking-[0.2px]"

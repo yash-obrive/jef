@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import Link from 'next/link';
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { usePathname } from 'next/navigation';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -61,8 +62,17 @@ function MainFooter() {
     const itemInternalUse = [
         { name: 'Employee Login', path: 'https://jef.greythr.com', newTab: true }
     ];
+    const pathname = usePathname() || "";
+    
+    // Construct dynamic FAQ path
+    let faqPath = "/faq";
+    if (pathname && pathname !== "/") {
+        // If we are already on a faq page, keep it as is. Otherwise append /faq
+        faqPath = pathname.endsWith("/faq") ? pathname : `${pathname}/faq`;
+    }
+
     const itemJefShield = [
-        { name: 'FAQ', path: '/faq' }
+        { name: 'FAQ', path: faqPath }
     ];
 
 
@@ -361,7 +371,7 @@ const FAQComponent = () => {
                                 }
                                 
                                 className="object-contain flex-1 w-full aspect-square"
-                            />
+                             alt="Image"/>
                         </button>
                     </div>
                 </div>

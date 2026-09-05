@@ -1,8 +1,13 @@
 "use client";
+import { useState, useEffect } from "react";
+
 
 import { motion } from "framer-motion";
 
 export default function FounderMessageSection() {
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => setIsMounted(true), []);
+
   return (
     <section className="overflow-hidden relative w-full h-auto bg-[#232427] -mt-px">
       <div className="section-container flex lg:items-end xl:items-start gap-0 md:gap-6 justify-between max-lg:flex-col">
@@ -70,7 +75,7 @@ export default function FounderMessageSection() {
 
         <motion.div
           suppressHydrationWarning
-          initial={{ opacity: 0, x: typeof window !== 'undefined' && window.innerWidth >= 1024 ? 40 : 0, y: typeof window !== 'undefined' && window.innerWidth < 1024 ? 30 : 0 }}
+          initial={{ opacity: 0, x: isMounted && window.innerWidth >= 1024 ? 40 : 0, y: isMounted && window.innerWidth < 1024 ? 30 : 0 }}
           whileInView={{ opacity: 1, x: 0, y: 0 }}
           transition={{
             duration: 0.6,

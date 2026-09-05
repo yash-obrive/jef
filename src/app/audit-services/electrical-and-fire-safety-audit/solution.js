@@ -6,7 +6,6 @@ import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import WhyAudit from "./sections/WhyAudit";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
-import FAQ from "./sections/FAQ";
 import DownloadSection from "./sections/DownloadSection";
 import GeneralFireSafety from "./sections/GernalFireSafety";
 
@@ -24,8 +23,7 @@ const ElectricalFireSafetyAudit = () => {
       />
       <AreaOfExpertise />
       <GeneralFireSafety/>
-      <FAQ />
-      <DownloadSection />
+<DownloadSection />
     </div>
   );
 };

@@ -7,11 +7,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-1.png",
     metaTags: {
-      title: "Earthing & Lightning Protection for Religious Structures | JEF Techno",
-      description: "Learn the importance of earthing and lightning protection for temples, churches, mosques, and religious structures. Protect people, assets, and heritage buildings from lightning-related risks.",
-      keywords: "earthing system, lightning protection system, temple lightning protection, church grounding, mosque earthing, lightning safety, surge protection, grounding solutions, electrical safety, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning protection for religious structures from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning protection for religious structures, earthing for temples and religious buildings, lightning risk management for heritage structures, LPS for places of worship, structural earthing design for temples, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/earthing-lightning-protection-for-religious-structures",
+      canonical: "https://www.jeftechno.com/blog/blog1",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -97,11 +97,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-5.png",
     metaTags: {
-      title: "3 Key Steps of Power System Studies | Measurement, Simulation & Validation | JEF Techno",
-      description: "Discover the 3 key steps of power system studies—measurement, simulation, and validation. Learn how these processes improve electrical system safety, reliability, efficiency, compliance, and operational performance.",
-      keywords: "Power System Studies, Measurement Simulation Validation, Load Flow Study, Short Circuit Analysis, Arc Flash Study, Harmonic Analysis, Electrical Power System Design, Power System Engineering, Electrical Safety, Power System Reliability, ETAP Analysis, Power Quality Study, Relay Coordination Study, Electrical Grid Analysis, Power System Simulation",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning safety systems from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning safety systems, lightning protection for life safety, why lightning safety matters, JEF lightning protection systems, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/3-key-steps-of-power-system-studies",
+      canonical: "https://www.jeftechno.com/blog/blog5",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -184,11 +184,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-3.png",
     metaTags: {
-      title: "Electrical Safety for Greenfield Projects | Challenges, Design & Risk Management | JEF Techno",
-      description: "Learn the importance of electrical safety in greenfield projects. Discover challenges, electrical system design considerations, grounding, lightning protection, power quality studies, renewable energy integration, and safety compliance strategies.",
-      keywords: "Electrical Safety for Greenfield Projects, Greenfield Project Electrical Design, Electrical Safety Engineering, Grounding Systems, Earthing Design, Lightning Protection System, Power Quality Analysis, Electrical Load Analysis, Electrical Infrastructure Design, Renewable Energy Integration, Electrical Risk Assessment, Electrical Safety Audit, Industrial Electrical Safety, Electrical Engineering Services, Power System Studies",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about electrical design greenfield projects from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "electrical design greenfield projects, electrical safety greenfield construction, greenfield project electrical engineering challenges, grounding systems greenfield sites, renewable energy integration greenfield projects, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/electrical-safety-for-greenfield-projects",
+      canonical: "https://www.jeftechno.com/blog/blog3",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -257,11 +257,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-4.png",
     metaTags: {
-      title: "Importance of Electrical Safety in Chemical and Pharma Industries | Workplace Safety & Risk Prevention | JEF Techno",
-      description: "Learn why electrical safety is critical in chemical and pharmaceutical industries. Explore best practices for preventing workplace accidents, electrical hazards, explosions, fires, equipment failures, and ensuring regulatory compliance.",
-      keywords: "Electrical Safety in Chemical Industry, Pharmaceutical Industry Electrical Safety, Chemical Plant Safety, Electrical Hazard Prevention, Explosion Proof Equipment, Lockout Tagout LOTO, Electrical Safety Audit, Workplace Electrical Safety, Electrical Risk Assessment, Industrial Electrical Safety, Fire and Explosion Prevention, Hazardous Area Classification, Electrical Equipment Maintenance, Arc Flash Protection, Electrical Compliance Standards",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about electrical safety chemical pharma industry from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "electrical safety chemical pharma industry, electrical safety audit pharmaceutical industry, workplace electrical accident prevention chemical plants, explosion-proof electrical equipment pharma, lockout tagout LOTO electrical safety, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/importance-of-electrical-safety-in-chemical-and-pharma-industries",
+      canonical: "https://www.jeftechno.com/blog/blog4",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -303,11 +303,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-2.png",
     metaTags: {
-      title: "Prioritizing Lightning Safety in India | Lightning Protection Systems & Risk Assessment | JEF Techno",
-      description: "Learn why lightning safety is critical in India. Discover lightning protection systems, earthing solutions, surge protection devices, risk assessment methods, safety guidelines, and compliance with IS/IEC 62305 standards.",
-      keywords: "Lightning Safety India, Lightning Protection System India, Lightning Risk Assessment, Lightning Protection Solutions, Earthing and Lightning Protection, Surge Protection Device, Lightning Arrestor, IS IEC 62305, Electrical Safety India, Lightning Hazard Prevention, Industrial Lightning Protection, Building Lightning Protection, Lightning Safety Standards, External Lightning Protection System, Lightning Safety Audit",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about power system studies steps from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "power system studies steps, measurement simulation validation power systems, harmonic study and analysis, transient stability study, arc flash hazard analysis, load flow analysis, breaker coordination study, voltage drop study, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/prioritizing-lightning-safety-in-india",
+      canonical: "https://www.jeftechno.com/blog/blog2",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -348,11 +348,11 @@ export const blogData = {
     date: "April 2026",
     imageUrl: "/BlogImg/blog-6.png",
     metaTags: {
-      title: "Ensuring Electrical Safety and Reliability in Renewable Energy Projects | Best Practices & Grid Compliance | JEF Techno",
-      description: "Discover how electrical safety, reliability, earthing systems, lightning protection, power quality studies, and grid compliance help renewable energy projects achieve long-term performance, safety, and operational excellence.",
-      keywords: "Renewable Energy Projects, Electrical Safety in Renewable Energy, Renewable Energy Reliability, Solar Power Safety, Wind Farm Electrical Safety, Earthing System for Renewable Energy, Lightning Protection for Solar Plants, Grid Compliance Studies, Power Quality Studies, Renewable Energy Grid Integration, Electrical Safety Audit, Renewable Energy Infrastructure, Power System Studies, Renewable Energy Reliability Engineering, Sustainable Energy Projects",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about power system studies grid reliability from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "power system studies grid reliability, electrical grid compliance power studies, power system studies for utilities, grid efficiency power system studies, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/reliability-in-renewable-energy-project",
+      canonical: "https://www.jeftechno.com/blog/blog6",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -425,11 +425,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-9.png",
     metaTags: {
-      title: "Protecting Your Business from Lightning Strikes | Lightning Protection Systems & Surge Protection | JEF Techno",
-      description: "Protect your business from lightning strikes with comprehensive lightning protection systems, surge protection devices, earthing solutions, and risk assessments. Learn how to safeguard people, assets, and critical infrastructure from lightning-related damage.",
-      keywords: "Protecting Business from Lightning, Lightning Protection System, Business Lightning Protection, Lightning Risk Assessment, Surge Protection Devices, Earthing System Design, Lightning Safety for Businesses, Commercial Lightning Protection, Industrial Lightning Protection, Lightning Arrestor, Lightning Protection Audit, IS IEC 62305, Electrical Surge Protection, Lightning Safety Solutions, Facility Protection from Lightning",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about automated lightning risk assessment tool from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "automated lightning risk assessment tool, JEF Shield software, lightning risk assessment IEC 62305-2, automated LPS risk assessment report, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/protecting-your-business-from-lightning",
+      canonical: "https://www.jeftechno.com/blog/blog9",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -660,11 +660,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
-      title: "Automated Lightning Risk Assessment Tool | Lightning Protection Risk Analysis & IS/IEC 62305 Compliance | JEF Techno",
-      description: "Discover automated lightning risk assessment tools for accurate lightning protection design, risk analysis, BOQ generation, and compliance with IS/IEC 62305 standards. Learn how JEF Shield simplifies lightning risk management and protection planning.",
-      keywords: "Automated Lightning Risk Assessment, Lightning Risk Assessment Tool, JEF Shield, Lightning Protection System Design, IS IEC 62305 Risk Assessment, Lightning Risk Analysis, Lightning Protection Software, Lightning Safety Audit, Lightning Protection Design Tool, Surge Protection Assessment, Earthing Design Software, Lightning Protection Compliance, Automated Risk Assessment Tool, Lightning Hazard Evaluation, Lightning Safety Solutions",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning protection system for business from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning protection system for business, business risk lightning strikes, commercial lightning protection systems, why businesses need LPS, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/automated-lightning-risk",
+      canonical: "https://www.jeftechno.com/blog/blog7",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -761,11 +761,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-11.png",
     metaTags: {
-      title: "Electrical Fire Causes and Prevention | Electrical Fire Safety, Risk Assessment & Protection Solutions | JEF Techno",
-      description: "Learn the major causes of electrical fires and how to prevent them through electrical safety audits, thermography, power quality analysis, earthing systems, protection devices, and proactive maintenance strategies.",
-      keywords: "Electrical Fire Prevention, Electrical Fire Safety, Causes of Electrical Fires, Electrical Safety Audit, Electrical Fire Risk Assessment, Electrical Thermography, Power Quality Analysis, Earthing System Audit, Arc Flash Protection, Electrical Hazard Prevention, Electrical Maintenance Safety, Fire Prevention in Buildings, Electrical System Reliability, Industrial Fire Safety, Electrical Safety Solutions",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning protection for solar plants from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning protection for solar plants, lightning arrestors for solar panels, surge protection devices solar plants, solar plant lightning damage causes, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/electrical-fire",
+      canonical: "https://www.jeftechno.com/blog/blog11",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -850,11 +850,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-12.png",
     metaTags: {
-      title: "Why Do Solar Panels Need Lightning Arrestors? | Lightning Protection for Solar Power Plants | JEF Techno",
-      description: "Learn why lightning arrestors are essential for solar panels and solar power plants. Discover how lightning protection systems, surge protection devices, grounding systems, and risk assessments protect solar assets from lightning-related damage and downtime.",
-      keywords: "Lightning Arrestor for Solar Panels, Solar Panel Lightning Protection, Lightning Protection for Solar Plants, Solar Farm Lightning Protection, Surge Protection Device for Solar Panels, Earthing System for Solar Plants, Lightning Risk Assessment Solar Plant, Solar Power Plant Safety, Lightning Protection System, Solar Inverter Protection, Grounding for Solar Panels, Solar PV Lightning Protection, IEC 62305 Solar Protection, Renewable Energy Safety, Solar Plant Risk Management",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about warehouse protective device testing from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "warehouse protective device testing, circuit breaker trip testing, warehouse electrical safety testing, fuse and breaker testing intervals, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/need-of-lightning-arrestor-for-solar-panels",
+      canonical: "https://www.jeftechno.com/blog/blog12",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -954,11 +954,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-13.png",
     metaTags: {
-      title: "Warehouse Electrical Protection & Safety | Electrical Fire Prevention, Earthing & Lightning Protection | JEF Techno",
-      description: "Learn how warehouse electrical protection and safety measures help prevent electrical fires, equipment failures, lightning damage, power quality issues, and operational downtime. Explore grounding systems, safety audits, and electrical risk management strategies.",
-      keywords: "Warehouse Electrical Protection, Warehouse Electrical Safety, Electrical Fire Prevention Warehouse, Warehouse Lightning Protection, Earthing System Warehouse, Electrical Safety Audit, Warehouse Fire Safety, Power Quality Analysis Warehouse, Electrical Risk Assessment, Industrial Warehouse Safety, Electrical Hazard Prevention, Grounding Systems Warehouse, Surge Protection Devices, Electrical Infrastructure Safety, Warehouse Electrical Compliance",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about MCB selection for warehouses from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "MCB selection for warehouses, miniature circuit breaker selection guide, MCB nuisance tripping prevention, MCB type for inrush current loads, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/warehouse-electrical-protection-safety",
+      canonical: "https://www.jeftechno.com/blog/blog13",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -984,11 +984,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-14.png",
     metaTags: {
-      title: "Selecting the Right MCB Type for Electrical Safety | MCB Selection Guide, Protection & Reliability | JEF Techno",
-      description: "Learn how to select the right MCB type for electrical safety, equipment protection, operational reliability, and fire prevention. Understand MCB characteristics, load requirements, inrush currents, protection coordination, and electrical safety best practices.",
-      keywords: "MCB Selection Guide, Miniature Circuit Breaker Types, Electrical Safety MCB, MCB for Electrical Protection, MCB Selection Based on Load, Electrical Fire Prevention, MCB Tripping Issues, Electrical Distribution Safety, Circuit Breaker Selection, MCB Type B C D Curve, Protection Coordination, Electrical Safety Audit, Warehouse Electrical Safety, Industrial Electrical Protection, Electrical Reliability",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning risk assessment steps from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning risk assessment steps, IS/IEC 62305-2 risk assessment, JEF Shield lightning risk software, lightning protection level 1 to 4, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/selecting-the-right-mcb-type-for-electrical-safety",
+      canonical: "https://www.jeftechno.com/blog/blog14",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1015,11 +1015,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
-      title: "How to Assess Lightning Risk Quickly | JEF Techno",
-      description: "Learn how to quickly assess lightning risk for any building or structure using JEF SHIELD, an automated risk assessment software built on IS/IEC 62305-2.",
-      keywords: "lightning risk assessment, JEF SHIELD, IS/IEC 62305-2, lightning protection level, risk assessment software, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning protection system for business from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning protection system for business, business risk lightning strikes, commercial lightning protection systems, why businesses need LPS, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/How-to-assess-lightning-risk-quickly",
+      canonical: "https://www.jeftechno.com/blog/blog7",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1083,11 +1083,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-13.png",
     metaTags: {
-      title: "7 Things to Consider While Designing a Lightning Protection System | JEF Techno",
-      description: "Key steps for designing a lightning protection system: accurate data collection, risk assessment using JEF SHIELD, determining protection level, LPS design, choosing methods, and bill of materials.",
-      keywords: "lightning protection system design, LPS design, risk assessment, IS/IEC 62305, rolling sphere method, mesh method, protection angle method, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about MCB selection for warehouses from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "MCB selection for warehouses, miniature circuit breaker selection guide, MCB nuisance tripping prevention, MCB type for inrush current loads, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/7-things-to-consider-designing-lightning-protection-system",
+      canonical: "https://www.jeftechno.com/blog/blog13",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1171,11 +1171,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-16.png",
     metaTags: {
-      title: "Economic Benefits of Power Factor and Harmonic Studies | JEF Techno",
-      description: "Understand how power factor correction and harmonic reduction can significantly lower electricity bills and improve system efficiency in industrial and commercial facilities.",
-      keywords: "power factor, harmonic distortion, power quality services, kVAh billing, MSEDCL, hysteresis losses, eddy current losses, transformer losses, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Power factor and harmonic studies benefits explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "power factor and harmonic studies benefits, economic benefits of power quality studies, reduce energy losses power factor, harmonic distortion cost reduction, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/pq-services-economic-benefits-power-factor-harmonic-studies",
+      canonical: "https://www.jeftechno.com/blog/blog16",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1260,11 +1260,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-10.png",
     metaTags: {
-      title: 'Type A vs Type B Earthing – Which is Better? | JEF Techno',
-      description: "Compare Type A (TT) and Type B (TN-C-S) earthing systems. Understand the advantages of concrete-embedded foundation earth electrodes and how to choose the right earthing system for your installation.",
-      keywords: "Type A earthing, Type B earthing, TT earthing, TN-C-S earthing, foundation earth electrode, earthing system, grounding, IS 3043, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about hospital electrical fire prevention from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "hospital electrical fire prevention, electrical safety in hospitals, hospital power quality fire risk, earthing for medical equipment, hospital electrical wiring standards, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/type-a-vs-type-b-earthing",
+      canonical: "https://www.jeftechno.com/blog/blog10",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1326,11 +1326,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-17.png",
     metaTags: {
-      title: "Selection of Low Voltage SPD for Main DB – With Proof from IEC Standards | JEF Techno",
-      description: "Clear guidance on selecting the right LV SPD for the main distribution board, backed by IEC standards. Learn what actually matters – Iimp and Voltage Protection Level – not the class or component type.",
-      keywords: "LV SPD selection, main DB, surge protection device, Iimp, IS/IEC 61643-12, IEC 60364-5-53, Class I SPD, CT-2 configuration, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Type a vs type b earthing comparison explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "type A vs type B earthing comparison, TT earthing vs TN-C-S earthing, concrete embedded foundation earth electrode, which earthing system is better, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/selection-of-low-voltage-spd-for-main-db",
+      canonical: "https://www.jeftechno.com/blog/blog17",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1391,11 +1391,11 @@ export const blogData = {
     date: "",
     imageUrl: "/BlogImg/blog-18.png",
     metaTags: {
-      title: "SPD Selection & Installation – Myths vs Facts | JEF Techno",
-      description: "Dispel common myths about LV SPD selection and installation. Learn the correct connection types (CT-1 vs CT-2), protection modes, installation wire lengths, and why proper SPD installation is a specialist job.",
-      keywords: "SPD selection, SPD installation, LV surge protection, CT-1 CT-2 connection, IEC 60364-5-53, Class I SPD, Class II SPD, myths facts SPD, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Lv spd selection for main db explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "LV SPD selection for main DB, surge protection device selection standards, SPD Iimp rating main distribution board, IEC standards SPD selection proof, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/spd-selection-and-installation-myths-and-fact",
+      canonical: "https://www.jeftechno.com/blog/blog18",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1507,11 +1507,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-19.png",
     metaTags: {
-      title: "NBC & IS Recommend SPD for Protection of Sensitive Electronic Equipment | JEF Techno",
-      description: "Understand why NBC and Indian Standards recommend Surge Protection Devices (SPDs) for sensitive electronics. Learn about SPD classes, correct selection of Iimp ratings, and MOV vs Spark Gap applications.",
-      keywords: "NBC SPD recommendation, IS SPD, surge protection device, Class I II III SPD, MOV SPD, Spark gap SPD, sensitive electronics protection, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Spd selection and installation myths and facts explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "SPD selection and installation myths and facts, SPD protection distance 10 meters rule, CT-1 vs CT-2 connection type SPD, SPD lead length installation, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/nbc-is-recommend-spd-for-protection",
+      canonical: "https://www.jeftechno.com/blog/blog19",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1562,11 +1562,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-20.png",
     metaTags: {
-      title: "Sources of Switching Surges & SPD Installation | JEF Techno",
-      description: "Explore the 21 common sources of switching surges in industrial and commercial systems, from capacitor bank switching to ESD, and learn how proper SPD selection and installation can protect sensitive equipment.",
-      keywords: "switching surges, sources of surges, SPD installation, capacitor bank switching, welding surges, DG transfer surges, surge protection, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Nbc is recommended spd for protection explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "NBC IS recommended SPD for protection, surge protection device class I II III, transient overvoltage causes, SPD terminology IEC EN VDE, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/sources-of-switching-surges-installation-of-spds",
+      canonical: "https://www.jeftechno.com/blog/blog20",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1614,11 +1614,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
-      title: "Ways to Protect CNC Machine Electronics from Surges & Avoid EPROM Corruption | JEF Techno",
-      description: "Learn how lightning and switching surges damage CNC machine electronics, cause EPROM corruption, and how proper SPD selection and installation ensures decades of trouble-free CNC operation.",
-      keywords: "CNC machine surge protection, EPROM corruption, lightning damage CNC, SPD for CNC, switching surges industrial, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (identical sitewide — see main audit Sheet 02)",
+      description: "Learn about lightning protection system for business from JEF Techno's engineering team — practical, standards-based guidance from 30+ years in earthing & lightning protection.",
+      keywords: "lightning protection system for business, business risk lightning strikes, commercial lightning protection systems, why businesses need LPS, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/ways-to-protect-cnc-machine",
+      canonical: "https://www.jeftechno.com/blog/blog7",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1671,11 +1671,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-22.png",
     metaTags: {
-      title: "Solutions to Avoid Surges in Industrial & Commercial Areas | JEF Techno",
-      description: "Discover why avoiding surges is critical for industrial and commercial facilities, how SPDs work to protect equipment, and the key factors to consider when selecting and installing surge protection devices.",
-      keywords: "surge solutions, avoid surges, SPD functionality, MCOV, lightning surges, switching surges, surge protection industrial, conducted surges, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Protect cnc machine electronics from surges explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "protect CNC machine electronics from surges, CNC machine surge protection, EPROM corruption lightning surge, why SPD needed despite existing protection, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/solutions-to-avoid-surges",
+      canonical: "https://www.jeftechno.com/blog/blog22",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1725,11 +1725,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-23.png",
     metaTags: {
-      title: "Surges in Industrial and Commercial Power Systems | JEF Techno",
-      description: "Understand how surges enter industrial and commercial power systems – from overhead lines, lightning, switching operations, and manufactured causes – and why protecting electronic equipment with SPDs is essential.",
-      keywords: "surges power systems, industrial surges, commercial surges, IS/IEC 62305, lightning current, switching surges sources, surge protection, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Solutions to avoid surges in power systems explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "solutions to avoid surges in power systems, radiated vs conducted surges, surge protection device functionality MCOV, why avoid electrical surges, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/surges-in-industrial-and-commercial-power-systems",
+      canonical: "https://www.jeftechno.com/blog/blog23",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1776,11 +1776,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-24.png",
     metaTags: {
-      title: "Dispelling Myths & Ensuring a Reliable LV Grounding System | JEF Techno",
-      description: "Bust common myths about LV earthing systems – from copper electrode benefits to isolated electronic earthing. Learn the facts backed by IEEE 80, IS3043, and IEC 61000 standards.",
-      keywords: "LV grounding myths, earthing system facts, copper electrode myth, maintenance free earthing, IS3043, IEEE 80, IEC 61000, earth resistance, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Sources of surges in power systems explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "sources of surges in power systems, causes of electrical surges India, natural vs manufactured surges, IS IEC 62305 source S3, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/dispelling-myths-lv-grounding-system",
+      canonical: "https://www.jeftechno.com/blog/blog24",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1832,11 +1832,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-26.png",
     metaTags: {
-      title: "Earthing Misconception – Types of Earthing | Installation | Design | JEF Techno",
-      description: "Clarify misconceptions about dedicated, independent, and isolated earthing systems. Learn why global earthing is essential as per IEC 61000-5-2, IS 3043, and CEA regulations.",
-      keywords: "earthing misconception, isolated earthing, independent earth electrode, global earthing, IEC 61000-5-2, IS 3043, electronic earthing, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Earthing misconceptions types of earthing explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "earthing misconceptions types of earthing, isolated earth electrode myth, global earthing concept IEC 61000-5-2, why not to separate electronic earth, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/earthing-misconceptions",
+      canonical: "https://www.jeftechno.com/blog/blog26",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1880,11 +1880,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-27.png",
     metaTags: {
-      title: "Application Note – Wind Mills | LPS & SPD | JEF Techno",
-      description: "Understand lightning and surge protection requirements for wind turbines as per IEC 61400-24. Covers LPZ concepts, shielding, global earthing, and SPD selection for windmill electronics.",
-      keywords: "wind turbine lightning protection, IEC 61400-24, LPZ windmill, SPD windmill, surge protection wind energy, global earthing windmill, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Lightning protection wind turbines explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "lightning protection wind turbines, IEC 61400-24 wind turbine lightning protection, lightning protection zones LPZ wind turbine, SPD for wind turbine electronics, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/application-note-wind-mills-lps-spd",
+      canonical: "https://www.jeftechno.com/blog/blog27",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1933,11 +1933,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-28.png",
     metaTags: {
-      title: "Soil Resistivity in Earthing Design – Safety and Reliability | JEF Techno",
-      description: "Understand the importance of soil resistivity in earthing system design. Learn about Wenner's Four-Point Method, multi-layer soil models, IEEE 80, and how soil conditions affect touch and step potentials.",
-      keywords: "soil resistivity earthing design, Wenner four point method, IEEE 80, multi-layer soil model, touch potential, step potential, earth resistance, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Soil resistivity in earthing design explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "soil resistivity in earthing design, Wenner four point method soil resistivity, touch and step potential soil resistivity, CDEGS multilayer soil model, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/importance-of-soil-resistance",
+      canonical: "https://www.jeftechno.com/blog/blog28",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -1987,11 +1987,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-29.png",
     metaTags: {
-      title: "Lightning Phenomenon – Reasons & Solutions | JEF Techno",
-      description: "Understand how lightning is formed, why it strikes, and how it travels from cloud to ground. Learn the science behind lightning protection and why reliable LPS is the only solution.",
-      keywords: "lightning phenomenon, how lightning forms, lightning protection, cloud to ground lightning, intra cloud lightning, LPS solution, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Lightning phenomenon reasons and solutions explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "lightning phenomenon reasons and solutions, how does lightning form, intra-cloud vs cloud-to-ground lightning, why lightning is unpredictable, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/lightning-phenomenon-reasons-solutions",
+      canonical: "https://www.jeftechno.com/blog/blog29",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2026,11 +2026,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-30.png",
     metaTags: {
-      title: "Role of Grounding in Electrical Safety – Design, Compounds & Myths | JEF Techno",
-      description: "Explore the role of grounding in electrical safety. Understand earth loop impedance, global grounding myths, CDEGS software design, and the importance of carbon-based backfill compounds per IEEE 142.",
-      keywords: "grounding electrical safety, earth loop impedance, global earthing, grounding compound, CDEGS software, IEEE 142, backfill compound, maintenance free earthing, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Role of grounding in electrical safety explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "role of grounding in electrical safety, earth pit resistance vs earth loop impedance, grounding compound ground enhancement material, IEEE 142 backfill compound, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/role-of-grounding-in-electrical-safety",
+      canonical: "https://www.jeftechno.com/blog/blog30",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2079,11 +2079,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-31.png",
     metaTags: {
-      title: "Necessity of Maintenance Free Earthing Solution – Challenges | JEF Techno",
-      description: "Understand why maintenance-free earthing solutions are necessary. Learn about the challenges of conventional earthing, the role of soil treatment, and how carbon-based backfill compounds ensure long-term reliability.",
-      keywords: "maintenance free earthing, earthing challenges, soil treatment earthing, conventional earthing problems, IS 3043, backfill compound, IEC 62561-7, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Why maintenance-free earthing is needed, limitations of conventional earth pits, soil treatment and standards for reliable grounding systems.",
+      keywords: "maintenance free earthing solution, maintenance free earthing, earthing maintenance, conventional earthing problems, maintenance free grounding, earth pit maintenance, soil resistivity, conductive concrete backfill, ground enhancement material, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/necessity-maintenance-free-earthing",
+      canonical: "https://www.jeftechno.com/blog/blog31",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2133,11 +2133,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-39.png",
     metaTags: {
-      title: "Power Line and Data Line SPD Protection – Selection Tips | JEF Techno",
-      description: "Learn the selection criteria for power line and data line SPDs. Covers voltage protection levels, impulse current ratings, IS/IEC 61643 standards, instrumentation line SPDs, RS 232, and RF coaxial protection.",
-      keywords: "SPD selection tips, power line SPD, data line SPD, IS/IEC 61643, impulse current, voltage protection level, instrumentation SPD, RS 232 SPD, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Power and data-line SPD selection criteria explained, including Up, Uw, discharge current, instrumentation, RS-232 and RF coaxial applications.",
+      keywords: "power line and data line SPD protection, power line SPD, data line SPD, surge protection device selection, Up, Uw, nominal discharge current, maximum discharge current, impulse current, IEC 61643-11, IEC 61643-21, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/power-line-and-data-line-spd-protection",
+      canonical: "https://www.jeftechno.com/blog/blog32",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2187,11 +2187,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-33.png",
     metaTags: {
-      title: "Lightning Risk in Indian Industries – LPS & SPDs | JEF Techno",
-      description: "Learn about lightning risk assessment for Indian industries using IS/IEC 62305. Understand the 4 sources of damage, 3 types of losses, and how JEF Shield software helps arrive at the best techno-commercial LPS solution.",
-      keywords: "lightning risk India, IS/IEC 62305, lightning protection industries, JEF Shield, LPS SPD India, risk assessment lightning, lightning protection level, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Understand lightning risk in Indian industries, IS/IEC 62305 risk assessment, LPS, coordinated SPDs and practical protection measures.",
+      keywords: "lightning protection for industrial facilities in India, lightning risk assessment India, industrial lightning protection, LPS, surge protection devices, IS IEC 62305, lightning protection zones, lightning risk assessment software, LPL, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/lightning-risk-indian-industries",
+      canonical: "https://www.jeftechno.com/blog/blog33",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2257,11 +2257,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-34.png",
     metaTags: {
-      title: "Electrical Safety in Retail Industry – Safety Guidelines | JEF Techno",
-      description: "Understand the electrical safety challenges in the retail industry. Learn how JEF's electrical safety audit helps identify risks, ensure NBC compliance, and protect people, assets, and equipment.",
-      keywords: "electrical safety retail industry, safety audit retail, NBC fire safety, electrical safety guidelines India, retail fire risk, JEF Techno electrical audit",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Electrical safety guidelines for retail stores, supermarkets and warehouses, including key risks, fire-safety requirements and audit considerations.",
+      keywords: "electrical safety in retail industry, retail electrical safety, electrical safety audit retail, retail fire safety, electrical hazards in retail stores, electrical compliance retail, NBC 2016 fire safety, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/electrical-safety-retail-industry",
+      canonical: "https://www.jeftechno.com/blog/blog34",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2298,11 +2298,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-35.png",
     metaTags: {
-      title: "Earth Pits Installation – Interconnection & Standards | JEF Techno",
-      description: "Understand the correct approach to earth pit installation and interconnection as per IS 3043, IEC 62305-3, IEEE 142, and IEC 61000-5-2. Learn why all earthing systems must be interconnected to achieve equipotential.",
-      keywords: "earth pits installation, interconnection of earth pits, IS 3043 earthing, IEEE 142 electronic earthing, IEC 62305-3 lightning earth, equipotential bonding, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Learn why transformer, lightning and electronic earth terminations should be bonded to the general earth grid to achieve equipotential protection.",
+      keywords: "earth pits installation, earth pit installation, earthing pit, grounding grid, transformer neutral earthing, lightning earthing, electronic equipment earthing, equipotential bonding, IS 3043, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/interconnection-of-earth-pits",
+      canonical: "https://www.jeftechno.com/blog/blog35",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2347,11 +2347,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-36.png",
     metaTags: {
-      title: "Soil Treatment for Good Earthing | JEF Techno",
-      description: "Learn how soil treatment around earth electrodes significantly reduces earth resistance. Understand how carbon-based backfill compounds provide maintenance-free earthing as per IEEE 142 and international standards.",
-      keywords: "soil treatment earthing, backfill compound earthing, earth electrode resistance, carbon backfill, maintenance free earthing, IEEE 142, JEF ECO-SAFE earthing, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Learn how soil treatment, ground enhancement material and conductive backfill can improve earth electrode performance and long-term reliability.",
+      keywords: "soil treatment for good earthing, soil treatment earthing, ground enhancement material, conductive concrete, backfill compound, earth resistance reduction, soil resistivity, maintenance free earthing, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/soil-treatment-for-good-earthing",
+      canonical: "https://www.jeftechno.com/blog/blog36",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2381,11 +2381,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-37.png",
     metaTags: {
-      title: "Ways to Protect CNC Machine – Reasons & Solution | JEF Techno",
-      description: "Learn how to protect CNC machines from lightning and switching surges. Understand EPROM corruption causes, common myths about protection devices, and the correct SPD selection and installation for CNC electronics.",
-      keywords: "CNC machine protection, CNC surge protection, EPROM corruption surges, SPD CNC machine, lightning CNC machine, switching surges CNC, JEF Techno surge protection",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Learn how transient surges, switching events and lightning can damage CNC controls and how SPDs protect CNC, PLC and MMI systems.",
+      keywords: "CNC machine surge protection, CNC machine protection, CNC surge protection, industrial surge protection, transient overvoltage, switching surge, lightning surge, EMI RFI, PLC protection, MMI protection, IEC 61643-11, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/ways-to-protect-cnc-machine",
+      canonical: "https://www.jeftechno.com/blog/blog37",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2427,11 +2427,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-38.png",
     metaTags: {
-      title: "Soil Resistivity in Earthing Design – Safety and Reliability | JEF Techno",
-      description: "Understand the importance of soil resistivity in earthing system design. Learn about Wenner's Four-Point Method, multi-layer soil models, IEEE 80, and how soil conditions affect touch and step potentials.",
-      keywords: "soil resistivity earthing design, Wenner four point method, IEEE 80, multi-layer soil model, touch potential, step potential, earth resistance, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Learn how soil resistivity affects earthing design, touch and step potentials, and how the Wenner four-point method supports reliable design.",
+      keywords: "soil resistivity in earthing design, soil resistivity measurement, earthing design, Wenner four point method, touch voltage, step voltage, multilayer soil model, IEEE 80, CDEGS, grounding design, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/soil-resistivity-earthing-design-safety-reliability",
+      canonical: "https://www.jeftechno.com/blog/blog38",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2474,11 +2474,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-39.png",
     metaTags: {
-      title: "Power Line and Data Line SPD Protection – Selection Tips | JEF Techno",
-      description: "Learn the selection criteria for power line and data line SPDs. Covers voltage protection levels, impulse current ratings, IS/IEC 61643 standards, instrumentation line SPDs, RS 232, and RF coaxial protection.",
-      keywords: "SPD selection tips, power line SPD, data line SPD, IS/IEC 61643, impulse current, voltage protection level, instrumentation SPD, RS 232 SPD, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Power and data-line SPD selection criteria explained, including Up, Uw, discharge current, instrumentation, RS-232 and RF coaxial applications.",
+      keywords: "power line and data line SPD protection, power line SPD, data line SPD, surge protection device selection, Up, Uw, nominal discharge current, maximum discharge current, impulse current, IEC 61643-11, IEC 61643-21, H1, first 100 words, one relevant H2, meta title, meta description, one image alt where natural, and descriptive slug if migrated",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/power-line-data-line-spd-protection-selection-tips",
+      canonical: "https://www.jeftechno.com/blog/blog32",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2528,11 +2528,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-27.png",
     metaTags: {
-      title: "Application Note – Wind Mills | LPS & SPD | JEF Techno",
-      description: "Understand lightning and surge protection requirements for wind turbines as per IEC 61400-24. Covers LPZ concepts, shielding, global earthing, and SPD selection for windmill electronics.",
-      keywords: "wind turbine lightning protection, IEC 61400-24, LPZ windmill, SPD windmill, surge protection wind energy, global earthing windmill, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Lightning protection wind turbines explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "lightning protection wind turbines, IEC 61400-24 wind turbine lightning protection, lightning protection zones LPZ wind turbine, SPD for wind turbine electronics, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/application-note-wind-mills-lps-spd-2",
+      canonical: "https://www.jeftechno.com/blog/blog27",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2574,11 +2574,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-41.png",
     metaTags: {
-      title: "How Does a Lightning Protection System Work | JEF Techno",
-      description: "Understand how a lightning protection system works — from lightning rods and grounding conductors to surge protection devices. Learn about fire risks, LPS installation, and the role of SPDs in protecting buildings.",
-      keywords: "how lightning protection works, lightning rod, LPS installation, surge protection device SPD, grounding electricity, fire risk lightning, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "How Does A Lightning Protection System Work: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "how does a lightning protection system work, lightning protection system, lightning rods, lightning protection grounding, lightning surge protection, SPD protection, lightning protection installation, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/how-lps-work",
+      canonical: "https://www.jeftechno.com/blog/blog41",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2626,11 +2626,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-42.png",
     metaTags: {
-      title: "EMI Between Overhead Power Lines & Buried Pipelines | JEF Techno",
-      description: "Understand electromagnetic interference (EMI) between high voltage overhead power transmission lines and nearby buried pipelines. Learn about inductive, conductive, and capacitive coupling and mitigation solutions.",
-      keywords: "EMI overhead power lines pipelines, inductive coupling pipeline, conductive coupling HV lines, AC interference pipeline, cathodic protection EMI, pipeline corrosion AC, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "Emi Between Overhead Power Lines & Buried Pipelines: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "EMI between overhead power lines and buried pipelines, AC interference pipeline, overhead power line pipeline interference, AC corrosion pipeline, electromagnetic interference pipeline, cathodic protection interference, pipeline grounding, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/emi-overhead-power-lines-buried-pipelines",
+      canonical: "https://www.jeftechno.com/blog/blog42",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2670,11 +2670,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-43.png",
     metaTags: {
-      title: "The Importance of Fire Safety | JEF Techno",
-      description: "Understand the importance of fire safety in buildings and commercial spaces. Learn about NBC 2016 Chapter 4 requirements covering Life Safety, Fire Prevention, and Fire Protection, and how regular fire safety audits can prevent catastrophic accidents.",
-      keywords: "fire safety importance, NBC 2016 fire safety, life safety fire, fire prevention buildings, fire protection systems, fire safety audit India, JEF Techno fire safety",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "The Importance Of Fire Safety: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "fire safety audit, fire safety, electrical fire safety, fire risk assessment, NBC fire safety, NBC 2016 Part 4, fire protection systems, building fire safety audit, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/importance-of-fire-safety",
+      canonical: "https://www.jeftechno.com/blog/blog43",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2727,11 +2727,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-44.png",
     metaTags: {
-      title: "Power Quality – Events and Parameters | JEF Techno",
-      description: "Understand power quality events and parameters as defined by IEEE and IEC. Learn about interruptions, voltage sags, swells, transients, harmonics, notching, noise, voltage unbalance, and frequency variations.",
-      keywords: "power quality events, voltage sag, voltage swell, harmonics power quality, IEC 61000-4-30, IEEE power quality, transient overvoltage, voltage unbalance, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "Power Quality – Events And Parameters: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "power quality events and parameters, power quality, power quality parameters, voltage sag, voltage swell, harmonics, transients, voltage unbalance, flicker, IEC 61000-4-30, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/power-quality-events-parameters",
+      canonical: "https://www.jeftechno.com/blog/blog44",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2782,11 +2782,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-45.png",
     metaTags: {
-      title: "Need for LPS – Lightning Protection System Adequacy Study | JEF Techno",
-      description: "Learn why a Lightning Protection System Adequacy Study is essential. Understand how IS/IEC 62305 replaced IS 2309, the methodology of LPS adequacy study, and the protection techniques to minimize lightning risk.",
-      keywords: "LPS adequacy study, IS/IEC 62305, IS 2309 replaced, lightning protection system study, NBC 2016 lightning, CEA lightning regulations, risk assessment lightning, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "Need For Lps – Lightning Protection System Adequacy Study: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "lightning protection system adequacy study, LPS adequacy study, lightning risk assessment, IS IEC 62305, lightning protection audit, LPL 1 to 4, coordinated SPD protection, earthing and bonding, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/need-for-lps",
+      canonical: "https://www.jeftechno.com/blog/blog45",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2825,11 +2825,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-41.png",
     metaTags: {
-      title: "How Does a Lightning Protection System Work | JEF Techno",
-      description: "Understand how a lightning protection system works — from lightning rods and grounding conductors to surge protection devices. Learn about fire risks, LPS installation, and the role of SPDs in protecting buildings.",
-      keywords: "how lightning protection works, lightning rod, LPS installation, surge protection device SPD, grounding electricity, fire risk lightning, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno (appears sitewide; verify page source)",
+      description: "How Does A Lightning Protection System Work: technical guidance, key considerations and practical engineering insights from JEF Techno.",
+      keywords: "how does a lightning protection system work, lightning protection system, lightning rods, lightning protection grounding, lightning surge protection, SPD protection, lightning protection installation, H1, first 100 words, one relevant H2, title, meta description, one natural image alt, and URL only if a safe descriptive migration is approved.",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/how-lps-work-2",
+      canonical: "https://www.jeftechno.com/blog/blog41",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">
@@ -2880,11 +2880,11 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
     date: "",
     imageUrl: "/BlogImg/blog-29.png",
     metaTags: {
-      title: "Power Line and Data Line SPD Protection – Selection Tips | JEF Techno",
-      description: "Learn the selection criteria for power line and data line SPDs. Covers voltage protection levels, impulse current ratings, IS/IEC 61643 standards, instrumentation line SPDs, RS 232, and RF coaxial protection.",
-      keywords: "SPD selection tips, power line SPD, data line SPD, IS/IEC 61643, impulse current, voltage protection level, instrumentation SPD, RS 232 SPD, JEF Techno",
+      title: "Industrial Electrical Engineering Services | JEF Techno",
+      description: "Lightning phenomenon reasons and solutions explained with real IEC/IS standards references from JEF Techno's engineering team.",
+      keywords: "lightning phenomenon reasons and solutions, how does lightning form, intra-cloud vs cloud-to-ground lightning, why lightning is unpredictable, H1, first 100 words, one H2, meta title, meta description, image alt text, URL slug",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      canonical: "https://www.jeftechno.com/blogs/power-line-data-line-spd-protection-selection-tips-3",
+      canonical: "https://www.jeftechno.com/blog/blog29",
     },
     content: (
       <div className="flex flex-col gap-8 text-white/80 font-light leading-relaxed">

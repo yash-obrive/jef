@@ -17,7 +17,7 @@ const ServiceItem = ({ icon, text, path, isVisible }) => (
         src={icon}
         
         className="w-full h-full object-contain"
-      />
+       alt="Image"/>
     </div>
 
     <Link href={path}>
@@ -42,7 +42,7 @@ const ServiceItem2 = ({ icon, text, path, isVisible }) => (
         src={icon}
         
         className="w-full h-full object-contain"
-      />
+       alt="Image"/>
     </div>
 
     <Link href={path}>
@@ -164,7 +164,7 @@ const ServicesComponent = () => {
                     <div key={index} className="flex flex-col">
                       <div className={`flex gap-5 items-center mt-8 first:mt-10 min-h-[60px] transition-all duration-500 ease-in-out ${isHovered3 ? "opacity-100 translate-y-0 visible" : "opacity-0 translate-y-4 invisible"}`}>
                         <div className="w-14 h-14 flex items-center justify-center shrink-0">
-                          <img loading="lazy" src={service.icon}  className="w-full h-full object-contain" />
+                          <img loading="lazy" src={service.icon}  className="w-full h-full object-contain"  alt="Image"/>
                         </div>
                         <div className="flex items-center gap-4">
                           <Link href={service.path}>

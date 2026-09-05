@@ -37,7 +37,7 @@ function Button({ text, icon }) {
                 {text}
             </span>
             {icon && (
-                <img loading="lazy" src={icon}  className="object-contain flex-1 w-full aspect-square max-w-[19px]" />
+                <img loading="lazy" src={icon}  className="object-contain flex-1 w-full aspect-square max-w-[19px]"  alt="Image"/>
             )}
         </button>
     );

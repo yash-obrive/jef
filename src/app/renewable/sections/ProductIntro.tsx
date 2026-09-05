@@ -44,7 +44,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         />
 
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[22px] md:text-[32px] tracking-[4px] uppercase font-montserrat leading-[1.2]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         >
           RENEWABLE – POWER SYSTEM STUDIES
-        </motion.h1>
+        </motion.h2>
       </header>
     </section>
   );

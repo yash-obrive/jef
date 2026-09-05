@@ -1,35 +1,25 @@
 import Solution5 from "./solution5";
 
 export const metadata = {
-  title: "ESE Lightning Protection | JEF",
-  description:
-    "JEF offers next-generation ESE (Early Streamer Emission) lightning rods with protection radius up to 120m. Nimbus® and NLP 2200 series for wide-area lightning protection.",
-  keywords:
-    "ESE lightning protection, early streamer emission, Nimbus lightning rod, NLP 2200, lightning rod protection radius, external lightning protection, electrical safety",
+  title: "Ese Lightning Protection System | JEF Techno",
+  description: "Expert ESE lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultation today.",
+  keywords: "ESE lightning protection system, early streamer emission air terminal, ESE lightning arrester, early streamer emission technology, ESE lightning protection system services, ESE lightning protection system company, ESE lightning protection system for industrial plants, ESE lightning protection system consultant, ESE lightning protection system design and installation, ESE lightning protection system, early streamer emission air terminal, ESE lightning arrester, early streamer emission technology, ESE lightning protection system services, ESE lightning protection system company, ESE lightning protection system for industrial plants, ESE lightning protection system consultant, ESE lightning protection system design and installation, best ESE lightning protection system company in India, ESE lightning protection system company in UAE, how to select a ESE lightning protection system provider for a factory, ESE lightning protection system as per IS/IEC 62305, turnkey ESE lightning protection system for industrial plants, ESE lightning protection system cost for commercial building, certified ESE lightning protection system consultant near me, ESE lightning protection system for data centers and warehouses, earthing system, lightning arrester, surge protection device, soil resistivity, earth pit testing, risk assessment IEC 62305, equipotential bonding, down conductor, air termination network, touch and step potential, electrical safety compliance, power system reliability, industrial electrical audit, 6-10 occurrences across 1,600 words (H1, first 100 words, 2x H2, meta title, meta description, image alt, URL/slug, closing CTA)",
+  alternates: {
+    canonical: "https://www.jeftechno.com/Products/ese-lightning-protection",
+  },
   openGraph: {
-    title: "ESE Lightning Protection | JEF",
-    description:
-      "Advanced ESE lightning protection systems with wide-area coverage and high lightning current withstand capacity.",
-    url: "https://www.jeftechno.com/ese-lightning-protection",
-    siteName: "JEF UAE",
-    images: [
-      {
-        url: "/SerivePage/EMIEMCLogo.png",
-        width: 800,
-        height: 600,
-      },
-    ],
-    locale: "en_US",
+    title: "Ese Lightning Protection System | JEF Techno",
+    description: "Expert ESE lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultation today.",
+    url: "https://www.jeftechno.com/Products/ese-lightning-protection",
     type: "website",
+    siteName: "Jef Techno",
+    images: [{ url: "/SerivePage/EMIEMCLogo.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ESE Lightning Protection | JEF",
-    description: "Advanced ESE lightning protection systems with wide-area coverage.",
+    title: "Ese Lightning Protection System | JEF Techno",
+    description: "Expert ESE lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultation today.",
     images: ["/SerivePage/EMIEMCLogo.png"],
-  },
-  alternates: {
-    canonical: "https://www.jeftechno.com/ese-lightning-protection",
   },
 };
 

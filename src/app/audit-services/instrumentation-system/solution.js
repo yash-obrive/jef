@@ -6,7 +6,6 @@ import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import WhyAudit from "./sections/WhyAudit";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
-import FAQ from "./sections/FAQ";
 import DownloadSection from "./sections/DownloadSection";
 
 const InstrumentationSystemAudit = () => {
@@ -31,8 +30,7 @@ const InstrumentationSystemAudit = () => {
        
       />
       <AreaOfExpertise />
-      <FAQ  />
-      <DownloadSection />
+<DownloadSection />
     </div>
   );
 };

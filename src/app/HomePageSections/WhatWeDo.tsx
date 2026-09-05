@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import "./components/whatwedo.css";
 
 export default function WhatWeDoSection() {
@@ -53,7 +52,7 @@ export default function WhatWeDoSection() {
 
   const sections = {
     products: {
-      png: "/jef-logo.svg",
+      png: "/HomePageImg/J.png",
       dots: [
         {
           heading: "CLPS\n ",
@@ -221,15 +220,13 @@ export default function WhatWeDoSection() {
       "
     >
       {/* BG */}
-      <Image
+      <img
         src={background}
-        fill
-        alt="JEF Techno Engineering Services Background"
-        className={`object-cover transition-all duration-[1800ms] ease-in-out ${
+        
+        className={`absolute inset-0 w-full h-full object-cover transition-all duration-[1800ms] ease-in-out ${
           showContent ? "opacity-100 scale-100" : "opacity-0 scale-105"
         }`}
-        priority
-       />
+       loading="lazy"  alt="Image"/>
 
       {/* VIDEO */}
       <video
@@ -238,11 +235,18 @@ export default function WhatWeDoSection() {
         playsInline
         onEnded={() => setShowContent(true)}
         className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
-          showContent ? "opacity-0" : "opacity-100"
+          videoStarted ? (showContent ? "opacity-0" : "opacity-100") : "opacity-0"
         }`}
       >
         <source src="/HomePageImg/Earthzoom.mp4" type="video/mp4" />
       </video>
+
+      {/* Black cover that fades out once video starts — prevents flash */}
+      <div
+        className={`absolute inset-0 bg-black z-[5] transition-opacity duration-700 pointer-events-none ${
+          videoStarted ? "opacity-0" : "opacity-100"
+        }`}
+      />
 
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-black/35 z-10" />
@@ -286,7 +290,7 @@ export default function WhatWeDoSection() {
                     xl:text-[30px]
                     tracking-[4px]
                     uppercase
-                    text-[#FF0000]
+                    text-white
                     xl:whitespace-nowrap
                   "
                 >
@@ -356,12 +360,15 @@ export default function WhatWeDoSection() {
             `}
           >
             {/* The character image now explicitly mounts and handles scaling on mobile */}
-            <Image
+            <img
               key={activeSection}
               src={currentSection.png}
-              fill
-              alt={`${activeSection} section illustration`}
+              
               className="
+                absolute
+                inset-0
+                w-full
+                h-full
                 object-contain
                 opacity-90
                 pointer-events-none
@@ -373,7 +380,7 @@ export default function WhatWeDoSection() {
                 animate-[fadeScale_0.7s_ease]
                 rotate-[-20deg]
               "
-             />
+             loading="lazy"  alt="Image"/>
 
             {currentSection.dots.map((dot, index) => {
               const isActive = activeCard === index;

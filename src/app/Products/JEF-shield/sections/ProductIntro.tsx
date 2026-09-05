@@ -46,7 +46,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         />
 
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[28px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export default function ProductIntro() {
         >
           JEF SHIELD AND JEF E-BUILD - DESIGN AND INSTALLATION <br />TOOLS
           
-        </motion.h1>
+        </motion.h2>
 
        
 

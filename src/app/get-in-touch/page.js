@@ -1,21 +1,24 @@
 import GetInTouchForm from "./contactpage";
 
 export const metadata = {
+  title: "Contact Us | JEF UAE – Connect for Electrical Solutions",
+  description: "Get in touch with JEF Techno's engineering team in India, UAE, Saudi Arabia and the USA. Request a consultation on earthing, LPS or power studies.",
+  keywords: "contact JEF Techno, JEF Techno office locations, JEF Techno phone number, JEF Techno enquiry form, JEF Techno India UAE USA offices",
+  alternates: {
+    canonical: "https://www.jeftechno.com/get-in-touch",
+  },
+  openGraph: {
     title: "Contact Us | JEF UAE – Connect for Electrical Solutions",
-    description:
-        "Reach out to JEF UAE for inquiries, support, or collaboration. Our team is ready to assist you with tailored electrical and safety solutions.",
-    keywords:
-        "contact JEF UAE, electrical solutions, safety systems, customer support, business inquiries, JEF UAE contact",
-    alternates: {
-        canonical: "https://www.jeftechno.com/get-in-touch",
-    },
-    openGraph: {
-        url: "https://www.jeftechno.com/get-in-touch",
-        description:
-            "Reach out to JEF UAE for inquiries, support, or collaboration. Our team is ready to assist you with tailored electrical and safety solutions.",
-        siteName: "Contact Us | JEF UAE – Connect for Electrical Solutions",
-        title: "Contact Us | JEF UAE – Connect for Electrical Solutions",
-    },
+    description: "Get in touch with JEF Techno's engineering team in India, UAE, Saudi Arabia and the USA. Request a consultation on earthing, LPS or power studies.",
+    url: "https://www.jeftechno.com/get-in-touch",
+    type: "website",
+    siteName: "Jef Techno",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | JEF UAE – Connect for Electrical Solutions",
+    description: "Get in touch with JEF Techno's engineering team in India, UAE, Saudi Arabia and the USA. Request a consultation on earthing, LPS or power studies.",
+  },
 };
 
 export default function GetInTouchPage() {

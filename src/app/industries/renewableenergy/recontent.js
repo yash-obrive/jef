@@ -293,7 +293,7 @@ function RenewableEnergyResource() {
                                     src={backgroundImage}
                                     
                                     className="absolute inset-0 w-full h-full object-cover"
-                                 loading="lazy" />
+                                 loading="lazy"  alt="Image"/>
                             </div>
                         )}
                         <section className="flex flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">

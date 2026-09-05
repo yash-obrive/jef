@@ -6,14 +6,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
-const WhatWeDoSection = dynamic(() => import("./HomePageSections/WhatWeDo"));
-const WhyChooseJEFSection = dynamic(() => import("./HomePageSections/WhyChooseJEFSection"));
-const FounderMessageSection = dynamic(() => import("./HomePageSections/FounderMessageSection"));
-const OurIndustriesSection = dynamic(() => import("./HomePageSections/Industry"));
-const BlogsSection = dynamic(() => import("./HomePageSections/BlogSection"));
-const HomeFAQ = dynamic(() => import("./HomePageSections/HomeFAQ"));
-
+import WhatWeDoSection from "./HomePageSections/WhatWeDo";
+import WhyChooseJEFSection from "./HomePageSections/WhyChooseJEFSection";
+import FounderMessageSection from "./HomePageSections/FounderMessageSection";
+import BlogsSection from "./HomePageSections/BlogSection";
+import OurIndustriesSection from "./HomePageSections/Industry";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -117,54 +114,8 @@ function HomeClient() {
   const carouselRef = useRef(null);
   const totalSlides = 3;
 
-  useGSAP(() => {
-    let mm = gsap.matchMedia();
-    mm.add(
-      {
-        largeScreen: "(min-width: 1025px)",
-        mediumScreen: "(min-width: 768px) and (max-width: 1024px)",
-        smallScreen: "(max-width: 767px)",
-      },
-      (context) => {
-        let { largeScreen, mediumScreen, smallScreen } = context.conditions;
-        let tl = gsap.timeline({
-          scrollTrigger: {
-            trigger: ".container",
-            toggleActions: "play none none reverse",
-            start: "10 10%",
-            end: "center 50%",
-            pin: true,
-          },
-        });
-        if (largeScreen) {
-          tl.to(".title1", { x: "3vw", opacity: 0, scrub: true }, "display")
-            .to(".description1", { y: "1rem", opacity: 0 }, "display")
-            .fromTo(".title2", { x: "2vw", opacity: 0 }, { x: 0, opacity: 1 })
-            .fromTo(".description2", { y: "0.5rem", opacity: 0 }, { y: 0, opacity: 1 })
-            .to(".image1", { x: "60rem", y: "-40rem" }, "display")
-            .to(".image2", { x: "-63rem", y: "-40rem" }, "display")
-            .to(".buttonRM0", { x: "300rem" }, "display")
-            .fromTo(".buttonRM1", { x: "20rem", opacity: 0 }, { x: "0rem", opacity: 1 });
-        }
-        if (mediumScreen) {
-          tl.to(".title1", { x: "2vw", opacity: 0.5, scrub: true }, "display")
-            .to(".description1", { y: "1rem", opacity: 0.5 }, "display")
-            .fromTo(".title2", { x: "1vw", opacity: 0 }, { x: 0, opacity: 0.8 })
-            .fromTo(".description2", { y: "0.3rem", opacity: 0 }, { y: 0, opacity: 0.8 })
-            .to(".image1", { x: "30rem", y: "-20rem" }, "display")
-            .to(".image2", { x: "10rem", y: "-18rem" }, "display")
-            .to(".buttonRM0", { x: "150rem" }, "display")
-            .fromTo(".buttonRM1", { x: "10rem", opacity: 0 }, { x: "0rem", opacity: 1 });
-        }
-        if (smallScreen) {
-          tl.to(".SmImg1", { x: "-150%" }, "display")
-            .to(".SmImg2", { x: "-113%" }, "display")
-            .to(".textSM1", { y: "200%" }, "display")
-            .to(".textSM2", { y: "-215%" }, "display");
-        }
-      },
-    );
-  });
+  // Removed dead useGSAP block that was trying to pin a non-existent ".container"
+
 
   const [showVideo, setShowVideo] = useState(false);
   const [player, setPlayer] = useState(null);
@@ -232,14 +183,14 @@ function HomeClient() {
 
   return (
     <>
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden bg-black">
         <div
           ref={carouselRef}
           className="bg-no-repeat flex w-[300%] h-full transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
           style={{ transform: `translateX(-${(index * 100) / 3}%)` }}
         >
           <div className="relative w-full h-full ">
-            <video poster="/Og/Electrical-Engineering-Consulting-Company.Jpg" preload="auto"
+            <video
               ref={(el) => (videoRefs.current[0] = el)}
               autoPlay
               loop
@@ -249,17 +200,15 @@ function HomeClient() {
             >
               <source src="/HomePageImg/Banner-1.mp4" type="video/mp4" />
             </video>
-            <div className="inset-y-[45%] xl:mt-[2%] section-container flex relative flex-col self-center max-md:mt-10 max-md:max-w-full ">
-              <h1 className="2xl:text-5xl lg:text-4xl md:text-3xl text-3xl font-bold h-auto my-auto tracking-wider text-white uppercase">
-                Electrical Engineering Consulting Company In India & The Middle East | JEF Techno
+            <div className="inset-y-2/3 xl:mt-[2%] section-container flex relative flex-col self-center max-md:mt-10 max-md:max-w-full ">
+              <h1 className="2xl:text-6xl lg:text-4xl md:text-3xl text-3xl font-bold h-32 md:h-20 2xl:h-36 my-auto tracking-wider text-white">
+                THINK ELECTRICAL, <br />
+                THINK JEF
               </h1>
-              <p className="text-white mt-6 max-w-4xl text-sm lg:text-base hidden md:block opacity-90 leading-relaxed">
-                JEF Techno provides electrical engineering consulting company for industrial, commercial and utility facilities across India, the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain) and Southeast Asia (Singapore, Malaysia), designed and installed in compliance with IS/IEC 62305 and IS 3043. Founded in 1994 and headquartered in Bengaluru, the company has delivered projects for clients including Amazon, L&T and Syngenta, combining site risk assessment, engineering design, installation and a patented AI-based automated safety audit tool for ongoing compliance monitoring.
-              </p>
             </div>
           </div>
           <div className="relative w-full h-full">
-            <video poster="/Og/Electrical-Engineering-Consulting-Company.Jpg" preload="auto"
+            <video
               ref={(el) => (videoRefs.current[1] = el)}
               autoPlay
               loop
@@ -278,7 +227,7 @@ function HomeClient() {
             </div>
           </div>
           <div className="relative w-full h-full">
-            <video poster="/Og/Electrical-Engineering-Consulting-Company.Jpg" preload="auto"
+            <video
               ref={(el) => (videoRefs.current[2] = el)}
               autoPlay
               loop
@@ -295,7 +244,7 @@ function HomeClient() {
             </div>
           </div>
         </div>
-        <div ref={coverRef} className="absolute w-full h-full bg-zinc-800"></div>
+
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[88%] flex gap-8 z-20">
           {[0, 1, 2].map((item) => (
@@ -316,7 +265,6 @@ function HomeClient() {
       <FounderMessageSection />
       <OurIndustriesSection />
       <BlogsSection />
-            <HomeFAQ />
     </>
   );
 }

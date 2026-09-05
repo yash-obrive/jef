@@ -50,7 +50,7 @@ const ProductIntro = () => {
         />
 
         {/* Title */}
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[24px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ const ProductIntro = () => {
           viewport={{ once: true }}
         >
           POWER SYSTEM STUDIES
-        </motion.h1>
+        </motion.h2>
 
         {/* Intro Text */}
         <div className="w-full max-w-[1700px]">

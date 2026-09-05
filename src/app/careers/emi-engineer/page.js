@@ -84,7 +84,7 @@ function JobDetails() {
 function IconText({ icon, text }) {
   return (
     <div className="flex gap-3 items-center">
-      <img loading="lazy" src={icon}  className="object-contain shrink-0 self-stretch my-auto w-4 md:w-5 aspect-square" />
+      <img loading="lazy" src={icon}  className="object-contain shrink-0 self-stretch my-auto w-4 md:w-5 aspect-square"  alt="Image"/>
       <span className="self-stretch text-xs md:text-sm my-auto">{text}</span>
     </div>
   );
@@ -109,7 +109,7 @@ function JobOverviewCard({ data }) {
       <div className="flex flex-col mt-8 w-full text-base">
         {overviewItems.map((item, index) => (
           <div key={index} className="flex gap-5 items-start mt-7 w-full first:mt-0">
-            <img loading="lazy" src={item.icon}  className="object-contain shrink-0 w-6 aspect-square" />
+            <img loading="lazy" src={item.icon}  className="object-contain shrink-0 w-6 aspect-square"  alt="Image"/>
             <div className="flex flex-col flex-1 shrink basis-0">
               <div className="font-medium text-stone-900">{item.label}</div>
               <div className=" text-gray-500">{item.value}</div>

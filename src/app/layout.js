@@ -84,6 +84,47 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-9QGX5CDEGB');
           `}
         </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.jeftechno.com/#website",
+                  url: "https://www.jeftechno.com/",
+                  name: "JEF Techno",
+                  description: "Industrial Electrical Engineering Services & Consulting",
+                  publisher: {
+                    "@id": "https://www.jeftechno.com/#organization"
+                  }
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.jeftechno.com/#organization",
+                  name: "JEF Techno",
+                  url: "https://www.jeftechno.com/",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://www.jeftechno.com/HomePageImg/NavbarImg/JefTechno_logo_%202.png"
+                  },
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    telephone: "+91-80-26485082",
+                    contactType: "customer service"
+                  },
+                  sameAs: [
+                    "https://www.facebook.com/JEFTECHNO/",
+                    "https://x.com/JeftechnoIndia",
+                    "https://www.linkedin.com/company/jefgroup/",
+                    "https://www.youtube.com/@JEFgroup"
+                  ]
+                }
+              ]
+            })
+          }}
+        />
       </head>
       <body
         className={`${montserrat.variable} antialiased`}

@@ -405,7 +405,7 @@ const services = useMemo(() => [
             src={backgroundImage}
             
             className="absolute inset-0 w-full h-full object-cover"
-           loading="lazy" />
+           loading="lazy"  alt="Image"/>
         </div>
       )}
 

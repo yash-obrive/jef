@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Hero from "./sections/Hero";
 import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
-import FAQ from "./sections/FAQ";
 import Download from "./sections/Download";
 
 const ESELightningProtection = () => {
@@ -34,9 +33,7 @@ const ESELightningProtection = () => {
       <DetailedContent />
 
       {/* FAQ Section */}
-      <FAQ />
-
-      {/* Download Section */}
+{/* Download Section */}
       <Download />
     </div>
   );

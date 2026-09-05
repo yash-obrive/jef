@@ -50,7 +50,7 @@ export default function ProductIntro() {
         />
 
         {/* Heading */}
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[28px] md:text-[36px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ export default function ProductIntro() {
           viewport={{ once: true }}
         >
           LIGHTNING PROTECTION SOLUTIONS
-        </motion.h1>
+        </motion.h2>
 
         {/* Original text */}
         <div className="flex flex-col gap-6 max-w-[1700px]">

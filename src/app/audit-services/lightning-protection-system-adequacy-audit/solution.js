@@ -6,7 +6,6 @@ import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 
 import AreaOfExpertise from "./sections/AreaOfExpertise";
-import FAQ from "./sections/FAQ";
 import DownloadSection from "./sections/DownloadSection";
 import ReferenceStandards from "./sections/ReferenceStandards";
 
@@ -25,8 +24,7 @@ const LPSAAAudit = () => {
      
       <AreaOfExpertise />
       <ReferenceStandards/>
-      <FAQ  />
-      <DownloadSection />
+<DownloadSection />
     </div>
   );
 };

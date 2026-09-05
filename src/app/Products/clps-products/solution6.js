@@ -5,7 +5,6 @@ import Hero from "./sections/Hero";
 import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import WhyJefCLPS from "./sections/WhyJefCLPS";
-import FAQ from "./sections/FAQ";
 import Download from "./sections/Download";
 
 
@@ -42,9 +41,7 @@ const LPS = () => {
       <WhyJefCLPS />
 
       {/* FAQ Section */}
-      <FAQ />
-
-      {/* Download Section */}
+{/* Download Section */}
       <Download />
 
       {/* Our Services Section (Circle Slider) */}

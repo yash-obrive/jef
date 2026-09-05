@@ -55,7 +55,7 @@ export default function ProductIntro({
           viewport={{ once: true }}
         />
 
-        <motion.h1
+         <motion.h2
           className="mb-8 text-[#FF0000] text-[22px] sm:text-[28px] md:text-[34px] font-bold uppercase tracking-[5px]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,7 +65,7 @@ export default function ProductIntro({
           LIGHTNING PROTECTION SYSTEM
           <br />
           ADEQUACY AUDIT
-        </motion.h1>
+        </motion.h2>
 
         <p className="mx-auto max-w-[1450px] text-[13px] sm:text-[15px] md:text-[20px] leading-[1.75] text-white/90 whitespace-pre-line">
           {introText}

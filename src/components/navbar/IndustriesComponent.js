@@ -10,7 +10,7 @@ const IndustriesItem = ({ path, icon, text }) => (
       src={icon}
       
       className="object-contain shrink-0 self-stretch my-auto w-9 aspect-square"
-    />
+     alt="Image"/>
     <Link href={path}>
       <div className="text-xs self-stretch hover:text-gray-400 my-auto uppercase">
         {text}

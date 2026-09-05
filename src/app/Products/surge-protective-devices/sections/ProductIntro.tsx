@@ -50,7 +50,7 @@ export default function ProductIntro() {
         />
 
         {/* Heading */}
-        <motion.h1
+         <motion.h2
           className="text-[#FF0000] font-bold text-[28px] md:text-[32px] tracking-[2px] uppercase font-montserrat"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ export default function ProductIntro() {
         >
          INTERNAL LIGHTNING PROTECTION — SURGE PROTECTIVE <br />
 DEVICES AND LIGHTNING PROTECTION ZONES
-        </motion.h1>
+        </motion.h2>
 
        
       </header>

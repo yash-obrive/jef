@@ -55,6 +55,9 @@ const cards = [
 const duplicatedCards = [...cards, ...cards];
 
 export default function WhyRca() {
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => setIsMounted(true), []);
+
  
   const [currentIndex, setCurrentIndex] = useState(0);
   const originalCardsCount = duplicatedCards.length / 2; 
@@ -124,7 +127,7 @@ export default function WhyRca() {
               className="flex gap-6 md:gap-12 w-max"
               // We let Framer Motion animate directly using a responsive ternary check
               animate={{
-                x: typeof window !== 'undefined' && window.innerWidth >= 768 
+                x: isMounted && window.innerWidth >= 768 
                   ? `calc(-${currentIndex} * (460px + 48px))` // Desktop: 1 whole card slide
                   : `calc(-${currentIndex} * (300px + 24px))`  // Mobile: 1 whole card slide
               }}

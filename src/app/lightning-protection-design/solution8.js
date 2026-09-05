@@ -421,7 +421,7 @@ const Solution8 = () => {
                                     src={backgroundImage}
                                     
                                     className="absolute inset-0 w-full h-full object-cover"
-                                 loading="lazy" />
+                                 loading="lazy"  alt="Image"/>
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
@@ -472,7 +472,7 @@ const Solution8 = () => {
                                     src={backgroundImage}
                                     
                                     className="absolute inset-0 w-full h-full object-cover"
-                                 loading="lazy" />
+                                 loading="lazy"  alt="Image"/>
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
