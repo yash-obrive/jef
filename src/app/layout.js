@@ -60,6 +60,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Preload first banner poster to prevent black flash on initial load */}
+        <link rel="preload" as="image" href="/HomePageImg/Banner-1-poster.jpg" />
+        
         <Script id="gtm-init" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];
