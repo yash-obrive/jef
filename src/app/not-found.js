@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -17,18 +18,18 @@ export default function NotFound() {
           The page you are looking for doesn't exist or has been moved.
         </p>
         <div className="flex gap-4">
-          <a
+          <Link
             href="/"
             className="px-8 py-3 bg-[#FF0000] text-white rounded-sm hover:bg-red-700 transition-colors font-medium"
           >
             Go Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="/get-in-touch"
             className="px-8 py-3 border border-white/20 text-white rounded-sm hover:bg-white/5 transition-colors font-medium"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </main>
 

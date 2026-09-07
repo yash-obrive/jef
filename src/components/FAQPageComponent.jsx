@@ -85,27 +85,26 @@ export default function FAQPageComponent({ title, parentTitle, parentPath, faqs 
               <Link href={parentPath}>
                 <button
                   className="
-                    relative
-                    overflow-hidden
                     group
                     w-auto
-                    px-8
-                    h-[52px]
-                    sm:h-[56px]
-                    rounded-full
-                    bg-[#FF0000]
                     flex
                     items-center
                     justify-center
-                    gap-[10px]
+                    gap-[12px]
+                    px-8
+                    py-4
+                    rounded-full
+                    border
+                    border-white
+                    bg-transparent
                     uppercase
                     text-white
                     tracking-[2px]
                     text-[13px]
                     sm:text-[14px]
-                    transition-colors
+                    transition-all
                     duration-300
-                    hover:bg-[#F9F7F2]
+                    hover:border-[#FF0000]
                     hover:text-[#FF0000]
                     font-montserrat
                     font-medium

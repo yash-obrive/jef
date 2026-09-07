@@ -1,25 +1,23 @@
 import Solution6 from "./solution6";
 
 export const metadata = {
-  title: "Conventional Lightning Protection System | JEF Techno",
-  description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
-  keywords: "conventional lightning protection system (CLPS), Franklin rod lightning arrester, mesh cage lightning protection, air termination network, conventional lightning protection system services, conventional lightning protection system company, conventional lightning protection system for industrial plants, conventional lightning protection system consultant, conventional lightning protection system design and installation, conventional lightning protection system (CLPS), Franklin rod lightning arrester, mesh cage lightning protection, air termination network, conventional lightning protection system services, conventional lightning protection system company, conventional lightning protection system for industrial plants, conventional lightning protection system consultant, conventional lightning protection system design and installation, best conventional lightning protection system company in India, conventional lightning protection system company in UAE, how to select a conventional lightning protection system provider for a factory, conventional lightning protection system as per IS/IEC 62305, turnkey conventional lightning protection system for industrial plants, conventional lightning protection system cost for commercial building, certified conventional lightning protection system consultant near me, conventional lightning protection system for data centers and warehouses, earthing system, lightning arrester, surge protection device, soil resistivity, earth pit testing, risk assessment IEC 62305, equipotential bonding, down conductor, touch and step potential, electrical safety compliance, power system reliability, industrial electrical audit, grounding and bonding, 6-10 occurrences across 1,600 words (H1, first 100 words, 2x H2, meta title, meta description, image alt, URL/slug, closing CTA)",
+  title: "Conventional Lightning Protection System | JEF Techno  [53 chars]",
+  description: "",
+  keywords: "conventional lightning protection system (CLPS), Franklin rod lightning arrester, mesh cage lightning protection, air termination network, conventional lightning protection system services, conventional lightning protection system company, conventional lightning protection system for industrial plants, conventional lightning protection system consultant, conventional lightning protection system design and installation, best conventional lightning protection system company in India, conventional lightning protection system company in UAE, how to select a conventional lightning protection system provider for a factory, conventional lightning protection system as per IS/IEC 62305, turnkey conventional lightning protection system for industrial plants, conventional lightning protection system cost for commercial building, certified conventional lightning protection system consultant near me, conventional lightning protection system for data centers and warehouses, earthing system, lightning arrester, surge protection device, soil resistivity, earth pit testing, risk assessment IEC 62305, equipotential bonding, down conductor, touch and step potential, electrical safety compliance, power system reliability, industrial electrical audit, grounding and bonding",
   alternates: {
-    canonical: "https://www.jeftechno.com/Products/clps-products",
+    canonical: "https://www.jeftechno.com/products/clps-products",
   },
   openGraph: {
-    title: "Conventional Lightning Protection System | JEF Techno",
-    description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
-    url: "https://www.jeftechno.com/Products/clps-products",
+    title: "Conventional Lightning Protection System | JEF Techno  [53 chars]",
+    description: "",
+    url: "https://www.jeftechno.com/products/clps-products",
     type: "website",
     siteName: "Jef Techno",
-    images: [{ url: "/clps/clpf-logo.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Conventional Lightning Protection System | JEF Techno",
-    description: "Expert conventional lightning protection system by JEF Techno — 30+ yrs, IS/IEC 62305 compliant. Trusted by Amazon, L&T, Syngenta. Get a free consultati...",
-    images: ["/clps/clpf-logo.png"],
+    title: "Conventional Lightning Protection System | JEF Techno  [53 chars]",
+    description: "",
   },
 };
 

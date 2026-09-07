@@ -33,14 +33,28 @@ const BlogPostPage = () => {
     <div className="bg-[#232427] min-h-screen font-montserrat pt-[100px] md:pt-[120px] lg:pt-[140px]">
       {/* Breadcrumbs */}
       <div className="w-full bg-[#2D2E30] py-4 border-b border-white/5">
-        <div className="section-container px-4 sm:px-6 lg:px-0 flex flex-wrap items-center gap-2 text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1px] uppercase">
-          <Link href="/" className="text-[#FF0000]">Home</Link>
-          <span className="text-white/20">›</span>
-          <Link href="/blogs" className="text-[#FF0000] hover:text-[#FF0000]">Our Blogs</Link>
-          <span className="text-white/20">›</span>
-          <span className="text-[#FF0000]">Consulting Services</span>
-          <span className="text-white/20">›</span>
-          <span className="text-white/40">Our Blogs</span>
+        <div className="section-container px-4 sm:px-6 lg:px-0 flex flex-wrap items-center gap-2 text-[8px] sm:text-[10px] md:text-xs tracking-tight md:tracking-[1px]">
+          <ul className="flex items-center flex-wrap gap-2 m-0 p-0 list-none">
+            <li>
+              <Link href="/" className="hover:text-white transition-colors uppercase">
+                HOME
+              </Link>
+            </li>
+            <li>
+              <span className="mx-2 text-white/40">›</span>
+            </li>
+            <li>
+              <Link href="/blogs" className="hover:text-white transition-colors uppercase">
+                OUR BLOGS
+              </Link>
+            </li>
+            <li>
+              <span className="mx-2 text-white/40">›</span>
+            </li>
+            <li className="text-[#FF0000] uppercase truncate">
+              {post.breadcrumbTitle || post.title}
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -67,12 +81,12 @@ const BlogPostPage = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-12 overflow-hidden shadow-2xl"
+            className="mb-12 overflow-hidden shadow-2xl w-full aspect-[16/9] bg-white/5 rounded-xl"
           >
             <img
               src={post.imageUrl}
               alt={post.title}
-              className="w-full h-auto object-cover"
+              className="w-full h-full object-cover"
                loading="lazy" />
           </motion.div>
 

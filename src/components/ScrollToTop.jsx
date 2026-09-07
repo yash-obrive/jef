@@ -41,8 +41,8 @@ export default function ScrollToTop() {
           onClick={scrollToTop}
           aria-label="Scroll to top"
           style={{
-            width: "36px",
-            height: "36px",
+            width: "42px",
+            height: "42px",
             borderRadius: "50%",
             backgroundColor: "#FF0000",
             border: "none",
@@ -63,8 +63,8 @@ export default function ScrollToTop() {
           }}
         >
           <svg
-            width="16"
-            height="16"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="white"

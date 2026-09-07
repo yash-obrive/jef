@@ -196,6 +196,7 @@ function HomeClient() {
               loop
               muted
               playsInline
+              poster="/HomePageImg/Banner-1-poster.jpg"
               className="absolute size-full object-cover"
             >
               <source src="/HomePageImg/Banner-1.mp4" type="video/mp4" />
@@ -214,6 +215,7 @@ function HomeClient() {
               loop
               muted
               playsInline
+              poster="/HomePageImg/Banner-2-poster.jpg"
               className="absolute size-full object-cover"
             >
               <source src="/HomePageImg/Banner-2.mp4" type="video/mp4" />
@@ -233,6 +235,7 @@ function HomeClient() {
               loop
               muted
               playsInline
+              poster="/HomePageImg/Banner-3-poster.jpg"
               className="absolute size-full object-cover"
             >
               <source src="/HomePageImg/Banner-3.mp4" type="video/mp4" />

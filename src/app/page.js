@@ -2,35 +2,23 @@ import HomeClient from "./HomeClient";
 
 export const metadata = {
   title: "Electrical & Technical Engineering Service Provider | Jef Techno",
-  description: "Expert Electrical Engineering Consulting Company By JEF Techno — 30+ Yrs, IS/IEC 62305 Compliant. Trusted By Amazon, Decathlon, TATA, L&T, Syngenta. Contact Us Today !",
+  description: "",
   keywords: "Electrical Engineering Consulting Company India, Lightning Protection And Earthing Company, Power Quality And Electrical Safety Audit Firm, Industrial Electrical Consultant, Electrical Engineering Consulting Company Services, Electrical Engineering Consulting Company Company, Electrical Engineering Consulting Company For Industrial Plants, Electrical Engineering Consulting Company Consultant, Electrical Engineering Consulting Company Design And Installation, Best Electrical Engineering Consulting Company Company In India, Electrical Engineering Consulting Company Company In UAE, How To Select A Electrical Engineering Consulting Company Provider For A Factory, Electrical Engineering Consulting Company As Per IS/IEC 62305, Turnkey Electrical Engineering Consulting Company For Industrial Plants, Electrical Engineering Consulting Company Cost For Commercial Building, Certified Electrical Engineering Consulting Company Consultant Near Me, Electrical Engineering Consulting Company For Data Centers And Warehouses, Earthing System, Lightning Arrester, Surge Protection Device, Soil Resistivity, Earth Pit Testing, Risk Assessment IEC 62305, Equipotential Bonding, Down Conductor, Air Termination Network, Touch And Step Potential, Electrical Safety Compliance, Power System Reliability, Industrial Electrical Audit",
   alternates: {
     canonical: "https://www.jeftechno.com/",
   },
   openGraph: {
-    title: "Electrical Engineering Consulting Company | Jef Techno",
-    description: "Expert Electrical Engineering Consulting Company By JEF Techno — 30+ Yrs, IS/IEC 62305 Compliant. Trusted By Amazon, Decathlon, TATA, L&T, Syngenta. Contact Us Today !",
+    title: "Electrical & Technical Engineering Service Provider | Jef Techno",
+    description: "",
     url: "https://www.jeftechno.com/",
     type: "website",
     siteName: "Jef Techno",
-    images: [{ url: "/Og/Electrical-Engineering-Consulting-Company.Jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Electrical & Technical Engineering Service Provider | Jef Techno",
-    description: "Expert Electrical Engineering Consulting Company By JEF Techno — 30+ Yrs, IS/IEC 62305 Compliant. Trusted By Amazon, Decathlon, TATA, L&T, Syngenta. Contact Us Today !",
-    images: ["/Og/Electrical-Engineering-Consulting-Company.Jpg"],
+    description: "",
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1
-    }
-  }
 };
 
 export default function Page() {
