@@ -52,7 +52,7 @@ const BlogPostPage = () => {
               <span className="mx-2 text-white/40">›</span>
             </li>
             <li className="text-[#FF0000] uppercase truncate">
-              {post.breadcrumbTitle || post.title}
+              {(post.breadcrumbTitle || post.title).replace(/^\/+|\/+$/g, '').trim()}
             </li>
           </ul>
         </div>

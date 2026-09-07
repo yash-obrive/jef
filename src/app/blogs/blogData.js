@@ -428,7 +428,7 @@ export const blogData = {
   'protecting-your-business-from-lightning': {
     category: "BLOG",
     title: "PROTECTING YOUR BUSINESS FROM LIGHTNING STRIKES: THE IMPORTANCE OF LIGHTNING PROTECTION SYSTEMS",
-    breadcrumbTitle: "/COMMERCIAL BUILDING LIGHTNING PROTECTION",
+    breadcrumbTitle: "COMMERCIAL BUILDING LIGHTNING PROTECTION",
     date: "",
     imageUrl: "/BlogImg/blog-9.png",
     metaTags: {
@@ -506,7 +506,7 @@ export const blogData = {
   'ram-mandir-lightning-protection': {
     category: "BLOG",
     title: "WHEN FAITH MEETS ENGINEERING: HOW JEF BUILT THE WORLD'S FIRST 200kA LIGHTNING PROTECTION SYSTEM FOR AYODHYA'S RAM MANDIR",
-    breadcrumbTitle: "/AYODHYA RAM MANDIR LIGHTNING PROTECTION",
+    breadcrumbTitle: "AYODHYA RAM MANDIR LIGHTNING PROTECTION",
     date: "April 2026",
     imageUrl: "/BlogImg/HomePageBlog4.png",
     metaTags: {
@@ -665,7 +665,7 @@ export const blogData = {
   'automated-lightning-risk': {
     category: "BLOG",
     title: "AUTOMATED LIGHTNING RISK ASSESSMENT AND TOOL",
-    breadcrumbTitle: "/LIGHTNING RISK ASSESSMENT SOFTWARE",
+    breadcrumbTitle: "LIGHTNING RISK ASSESSMENT SOFTWARE",
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
@@ -767,7 +767,7 @@ export const blogData = {
   'electrical-fire': {
     category: "BLOG",
     title: "ELECTRICAL FIRE IN COVID-19 HOSPITALS – A PREVENTABLE EMERGENCY",
-    breadcrumbTitle: "/ELECTRICAL SAFETY CONSULTANT",
+    breadcrumbTitle: "ELECTRICAL SAFETY CONSULTANT",
     date: "",
     imageUrl: "/BlogImg/blog-11.png",
     metaTags: {
@@ -962,7 +962,7 @@ export const blogData = {
   'warehouse-electrical-protection-safety': {
     category: "BLOG",
     title: "ARE YOU 100% CERTAIN THAT ALL THE PROTECTIVE DEVICES IN YOUR WAREHOUSE POWER DISTRIBUTION SYSTEM WILL TRIP ON TIME—EVERY TIME?",
-    breadcrumbTitle: "/WAREHOUSE ELECTRICAL SAFETY",
+    breadcrumbTitle: "WAREHOUSE ELECTRICAL SAFETY",
     date: "",
     imageUrl: "/BlogImg/blog-13.png",
     metaTags: {
@@ -993,7 +993,7 @@ export const blogData = {
   'selecting-the-right-mcb-type-for-electrical-safety': {
     category: "BLOG",
     title: "HAVE YOU SELECTED THE RIGHT TYPE OF MINIATURE CIRCUIT BREAKER (MCB) IN YOUR WAREHOUSE OR STORES?",
-    breadcrumbTitle: "/MCB SELECTION FOR WAREHOUSE",
+    breadcrumbTitle: "MCB SELECTION FOR WAREHOUSE",
     date: "",
     imageUrl: "/BlogImg/blog-14.png",
     metaTags: {
@@ -1025,7 +1025,7 @@ export const blogData = {
   'How-to-assess-lightning-risk-quickly': {
     category: "BLOG",
     title: "HOW TO ASSESS LIGHTNING RISK QUICKLY?",
-    breadcrumbTitle: "/LIGHTNING RISK ASSESSMENT INDIA",
+    breadcrumbTitle: "LIGHTNING RISK ASSESSMENT INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
@@ -1094,7 +1094,7 @@ export const blogData = {
   '7-things-to-consider-designing-lightning-protection-system': {
     category: "BLOG",
     title: "7 THINGS TO CONSIDER WHILE DESIGNING A LIGHTNING PROTECTION SYSTEM",
-    breadcrumbTitle: "/LIGHTNING PROTECTION SYSTEM DESIGN",
+    breadcrumbTitle: "LIGHTNING PROTECTION SYSTEM DESIGN",
     date: "",
     imageUrl: "/BlogImg/blog-13.png",
     metaTags: {
@@ -1273,7 +1273,7 @@ export const blogData = {
   'type-a-vs-type-b-earthing': {
     category: "BLOG",
     title: 'Type "A" vs Type "B" Earthing – Which is better?',
-    breadcrumbTitle: "/EARTHING CONSULTANT INDIA",
+    breadcrumbTitle: "EARTHING CONSULTANT INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-10.png",
     metaTags: {
@@ -1340,7 +1340,7 @@ export const blogData = {
   'selection-of-low-voltage-spd-for-main-db': {
     category: "BLOG",
     title: "SELECTION OF LOW VOLTAGE SPD FOR MAIN DB - Proof",
-    breadcrumbTitle: "/SURGE PROTECTION INDIA",
+    breadcrumbTitle: "SURGE PROTECTION INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-17.png",
     metaTags: {
@@ -1406,7 +1406,7 @@ export const blogData = {
   'spd-selection-and-installation-myths-and-fact': {
     category: "BLOG",
     title: "SPD SELECTION & INSTALLATION - MYTHS & FACTS",
-    breadcrumbTitle: "/SPD SELECTION AND INSTALLATION",
+    breadcrumbTitle: "SPD SELECTION AND INSTALLATION",
     date: "",
     imageUrl: "/BlogImg/blog-18.png",
     metaTags: {
@@ -1579,7 +1579,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'sources-of-switching-surges-installation-of-spds': {
     category: "BLOG",
     title: "Sources of Switching Surges – Installation of SPDs",
-    breadcrumbTitle: "/SWITCHING SURGES IN ELECTRICAL SYSTEMS",
+    breadcrumbTitle: "SWITCHING SURGES IN ELECTRICAL SYSTEMS",
     date: "",
     imageUrl: "/BlogImg/blog-20.png",
     metaTags: {
@@ -1632,7 +1632,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'ways-to-protect-cnc-machine': {
     category: "BLOG",
     title: "WAYS TO PROTECT CNC MACHINE'S ELECTRONICS FROM SURGES",
-    breadcrumbTitle: "/CNC MACHINE SURGE PROTECTION",
+    breadcrumbTitle: "CNC MACHINE SURGE PROTECTION",
     date: "",
     imageUrl: "/BlogImg/blog-7.png",
     metaTags: {
@@ -1690,7 +1690,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'solutions-to-avoid-surges': {
     category: "BLOG",
     title: "SOLUTIONS TO AVOID SURGES IN INDUSTRIAL AND COMMERCIAL POWER SYSTEM",
-    breadcrumbTitle: "/INDUSTRIAL SURGE PROTECTION INDIA",
+    breadcrumbTitle: "INDUSTRIAL SURGE PROTECTION INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-22.png",
     metaTags: {
@@ -1745,7 +1745,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'surges-in-industrial-and-commercial-power-systems': {
     category: "BLOG",
     title: "SOURCES OF SURGES IN INDUSTRIAL AND COMMERCIAL POWER SYSTEMS",
-    breadcrumbTitle: "/CAUSES OF ELECTRICAL SURGES",
+    breadcrumbTitle: "CAUSES OF ELECTRICAL SURGES",
     date: "",
     imageUrl: "/BlogImg/blog-23.png",
     metaTags: {
@@ -1797,7 +1797,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'dispelling-myths-lv-grounding-system': {
     category: "BLOG",
     title: "DISPELLING MYTHS & ENSURING A RELIABLE LV GROUNDING SYSTEM",
-    breadcrumbTitle: "/LV GROUNDING SYSTEM CONSULTANT",
+    breadcrumbTitle: "LV GROUNDING SYSTEM CONSULTANT",
     date: "",
     imageUrl: "/BlogImg/blog-24.png",
     metaTags: {
@@ -1955,7 +1955,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'importance-of-soil-resistance': {
     category: "BLOG",
     title: "SOIL RESISTIVITY IN EARTHING DESIGN – SAFETY and RELIABILITY",
-    breadcrumbTitle: "/EARTHING CONSULTANT INDIA",
+    breadcrumbTitle: "EARTHING CONSULTANT INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-28.png",
     metaTags: {
@@ -2010,7 +2010,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'lightning-phenomenon-reasons-solutions': {
     category: "BLOG",
     title: "LIGHTNING PHENOMENON – Reasons & Solutions",
-    breadcrumbTitle: "/LIGHTNING PROTECTION SYSTEM IN INDIA",
+    breadcrumbTitle: "LIGHTNING PROTECTION SYSTEM IN INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-29.png",
     metaTags: {
@@ -2104,7 +2104,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'necessity-maintenance-free-earthing': {
     category: "BLOG",
     title: "NECESSITY OF MAINTENANCE FREE EARTHING SOLUTION – Challenges",
-    breadcrumbTitle: "/EARTHING SOLUTION INDIA",
+    breadcrumbTitle: "EARTHING SOLUTION INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-31.png",
     metaTags: {
@@ -2159,7 +2159,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'power-line-and-data-line-spd-protection': {
     category: "BLOG",
     title: "POWER LINE AND DATA LINE SPD PROTECTION – SELECTION TIPS",
-    breadcrumbTitle: "/RAM MANDIR LIGHTNING PROTECTION",
+    breadcrumbTitle: "RAM MANDIR LIGHTNING PROTECTION",
     date: "",
     imageUrl: "/BlogImg/blog-39.png",
     metaTags: {
@@ -2214,7 +2214,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'lightning-risk-indian-industries': {
     category: "BLOG",
     title: "Lightning risk in Indian Industries – LPS & SPDs",
-    breadcrumbTitle: "/INDUSTRIAL LIGHTNING PROTECTION INDIA",
+    breadcrumbTitle: "INDUSTRIAL LIGHTNING PROTECTION INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-33.png",
     metaTags: {
@@ -2285,7 +2285,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'electrical-safety-retail-industry': {
     category: "BLOG",
     title: "ELECTRICAL SAFETY IN RETAIL INDUSTRY – Safety Guidelines",
-    breadcrumbTitle: "/ELECTRICAL SAFETY AUDIT RETAIL INDUSTRY",
+    breadcrumbTitle: "ELECTRICAL SAFETY AUDIT RETAIL INDUSTRY",
     date: "",
     imageUrl: "/BlogImg/blog-34.png",
     metaTags: {
@@ -2327,7 +2327,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'interconnection-of-earth-pits': {
     category: "BLOG",
     title: "EARTH PITS INSTALLATION",
-    breadcrumbTitle: "/EARTH PIT INTERCONNECTION",
+    breadcrumbTitle: "EARTH PIT INTERCONNECTION",
     date: "",
     imageUrl: "/BlogImg/blog-35.png",
     metaTags: {
@@ -2377,7 +2377,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'soil-treatment-for-good-earthing': {
     category: "BLOG",
     title: "SOIL TREATMENT – Good Earthing",
-    breadcrumbTitle: "/SOIL TREATMENT FOR EARTHING",
+    breadcrumbTitle: "SOIL TREATMENT FOR EARTHING",
     date: "",
     imageUrl: "/BlogImg/blog-36.png",
     metaTags: {
@@ -2458,7 +2458,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'soil-resistivity-earthing-design-safety-reliability': {
     category: "BLOG",
     title: "SOIL RESISTIVITY IN EARTHING DESIGN – SAFETY and RELIABILITY",
-    breadcrumbTitle: "/RENEWABLE ENERGY ELECTRICAL SAFETY",
+    breadcrumbTitle: "RENEWABLE ENERGY ELECTRICAL SAFETY",
     date: "",
     imageUrl: "/BlogImg/blog-38.png",
     metaTags: {
@@ -2606,7 +2606,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'how-lps-work': {
     category: "BLOG",
     title: "HOW DOES A LIGHTNING PROTECTION SYSTEM WORK",
-    breadcrumbTitle: "/LIGHTNING RISK ASSESSMENT SOFTWARE",
+    breadcrumbTitle: "LIGHTNING RISK ASSESSMENT SOFTWARE",
     date: "",
     imageUrl: "/BlogImg/blog-41.png",
     metaTags: {
@@ -2659,7 +2659,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'emi-overhead-power-lines-buried-pipelines': {
     category: "BLOG",
     title: "EMI BETWEEN OVERHEAD POWER LINES & BURIED PIPELINES",
-    breadcrumbTitle: "/POWER SYSTEM CONSULTANT INDIA",
+    breadcrumbTitle: "POWER SYSTEM CONSULTANT INDIA",
     date: "",
     imageUrl: "/BlogImg/blog-42.png",
     metaTags: {
@@ -2704,7 +2704,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'importance-of-fire-safety': {
     category: "BLOG",
     title: "THE IMPORTANCE OF FIRE SAFETY",
-    breadcrumbTitle: "/OIL AND GAS ELECTRICAL SAFETY AUDIT",
+    breadcrumbTitle: "OIL AND GAS ELECTRICAL SAFETY AUDIT",
     date: "",
     imageUrl: "/BlogImg/blog-43.png",
     metaTags: {
@@ -2762,7 +2762,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'power-quality-events-parameters': {
     category: "BLOG",
     title: "POWER QUALITY – EVENTS AND PARAMETERS",
-    breadcrumbTitle: "/POWER QUALITY ANALYSIS",
+    breadcrumbTitle: "POWER QUALITY ANALYSIS",
     date: "",
     imageUrl: "/BlogImg/blog-44.png",
     metaTags: {
@@ -2818,7 +2818,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'need-for-lps': {
     category: "BLOG",
     title: "NEED FOR LPS – LIGHTNING PROTECTION SYSTEM ADEQUACY STUDY",
-    breadcrumbTitle: "/WIND TURBINE LIGHTNING PROTECTION",
+    breadcrumbTitle: "WIND TURBINE LIGHTNING PROTECTION",
     date: "",
     imageUrl: "/BlogImg/blog-45.png",
     metaTags: {
@@ -2862,7 +2862,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'how-lps-work-2': {
     category: "BLOG",
     title: "HOW DOES A LIGHTNING PROTECTION SYSTEM WORK",
-    breadcrumbTitle: "/COMMERCIAL LIGHTNING PROTECTION",
+    breadcrumbTitle: "COMMERCIAL LIGHTNING PROTECTION",
     date: "",
     imageUrl: "/BlogImg/blog-41.png",
     metaTags: {
@@ -2918,7 +2918,7 @@ b. Protection between Live conductor and neutral is RECOMMENDED to ensure equipm
   'power-line-data-line-spd-protection-selection-tips-3': {
     category: "BLOG",
     title: "POWER LINE AND DATA LINE SPD PROTECTION – SELECTION TIPS",
-    breadcrumbTitle: "/POWER LINE AND DATA LINE SPD",
+    breadcrumbTitle: "POWER LINE AND DATA LINE SPD",
     date: "",
     imageUrl: "/BlogImg/blog-29.png",
     metaTags: {
