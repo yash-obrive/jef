@@ -117,7 +117,7 @@ export default function AboutUsServicesSection() {
           <h2
             className="
             lg:mt-10
-              text-[#FF0000]
+              text-white
               font-lg
               uppercase
               tracking-[4px]
@@ -151,8 +151,8 @@ export default function AboutUsServicesSection() {
           "
         >
           <img
-            src="/jef-logo.svg"
-            alt="JEF Logo"
+            src="/HomePageImg/J.png"
+            alt="J"
             className="
               absolute
   

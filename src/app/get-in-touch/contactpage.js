@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const GetInTouchForm = () => {
 
@@ -21,6 +22,7 @@ const GetInTouchForm = () => {
     const [query, setQuery] = useState("");
     const [marketing, setMarketing] = useState("");
     const [showConfirmation, setShowConfirmation] = useState(false);
+    const [captchaToken, setCaptchaToken] = useState(null);
 
     const name = `${firstname} ${lastname}`;
 
@@ -45,33 +47,19 @@ const GetInTouchForm = () => {
 
     const handleSubmitForm = async () => {
 
+        if (!captchaToken) {
+            alert("Please verify that you are not a robot.");
+            return;
+        }
+
         const contactformData = {
             name,
             email,
             mobile: phone,
             companyName: company,
             message: query,
+            captchaToken,
         };
-
-        toggleConfirmation();
-        setTimeout(() => {
-            const element = document.querySelector('.thank-you');
-            const elementRect = element.getBoundingClientRect();
-            const elementTop = elementRect.top + window.scrollY;
-            const centerPosition = elementTop - (window.innerHeight / 2) + (elementRect.height / 2);
-
-            window.scrollTo({
-                top: centerPosition,
-                behavior: 'smooth'
-            });
-        }, 0);
-
-        setFirstName("");
-        setLastName("");
-        setEmail("");
-        setPhone("");
-        setCompany("");
-        setQuery("");
 
         try {
             const response = await axios.post(
@@ -84,8 +72,32 @@ const GetInTouchForm = () => {
                 }
             );
             console.log("Server response:", response.data);
+
+            toggleConfirmation();
+            setTimeout(() => {
+                const element = document.querySelector('.thank-you');
+                if (element) {
+                    const elementRect = element.getBoundingClientRect();
+                    const elementTop = elementRect.top + window.scrollY;
+                    const centerPosition = elementTop - (window.innerHeight / 2) + (elementRect.height / 2);
+
+                    window.scrollTo({
+                        top: centerPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 0);
+
+            setFirstName("");
+            setLastName("");
+            setEmail("");
+            setPhone("");
+            setCompany("");
+            setQuery("");
+
         } catch (error) {
             console.error("Error sending data to server:", error);
+            alert("Something went wrong or Captcha failed. Please try again.");
         }
     };
 
@@ -1555,6 +1567,13 @@ const GetInTouchForm = () => {
                                     </p>
                                 </div>
                             </div>
+
+                            <div className="flex flex-col justify-center items-start mt-9 w-full max-md:max-w-full">
+                                <ReCAPTCHA
+                                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                    onChange={(val) => setCaptchaToken(val)}
+                                />
+                            </div>
                             <div className="flex flex-col justify-center items-start pt-1 mt-9 w-full text-lg font-extralight tracking-widest leading-none text-center text-white uppercase whitespace-nowrap max-md:max-w-full">
                                 <button form="userDetailsForm" type="submit" className="flex overflow-hidden uppercase w-40 h-14 justify-center items-center self-center lg:self-stretch px-7 py-3.5 my-auto bg-[#FF0000] rounded-full ">
                                     Submit
@@ -1630,10 +1649,18 @@ export function OfficeLocations() {
                             </p>
                             <p className="text-[15px] font-light text-[#FF0000]">
                                 Email:{' '}
-                                <a href={`mailto:${office.email}`} className="underline hover:text-black transition-colors">
+                                <a href={`mailto:${office.email}`} className="underline hover:text-white transition-colors">
                                     {office.email}
                                 </a>
                             </p>
+                            <a 
+                                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(office.address)}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-[15px] font-medium text-white underline mt-4 bg-transparent hover:text-[#FF0000] transition-colors inline-block w-fit"
+                            >
+                                View on Map
+                            </a>
                         </article>
                     ))}
                 </div>

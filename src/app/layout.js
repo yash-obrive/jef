@@ -58,7 +58,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Preload first banner poster to prevent black flash on initial load */}
         <link rel="preload" as="image" href="/HomePageImg/Banner-1-poster.jpg" />
@@ -131,6 +131,7 @@ export default function RootLayout({ children }) {
       </head>
       <body
         className={`${montserrat.variable} antialiased`}
+        suppressHydrationWarning
       >
         <noscript>
           <iframe
