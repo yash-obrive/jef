@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const FAQ = ({ faqData }) => {
+const FAQ = ({ faqData = [] }) => {
   const [openId, setOpenId] = useState(null);
 
   const toggleFAQ = (id) => {
