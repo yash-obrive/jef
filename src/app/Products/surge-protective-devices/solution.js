@@ -6,6 +6,7 @@ import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import Download from "./sections/Download";
 import WhyJefSpd from "./sections/WhyJefSpd";
+import FAQ from "./sections/FAQ";
 
 
 
@@ -16,7 +17,10 @@ const SurgeProtectiveDevices = () => {
       <ProductIntro />
       <DetailedContent />
       <WhyJefSpd />
-<Download />
+{/* FAQ Section */}
+      <FAQ />
+
+      <Download />
     </div>
   );
 };

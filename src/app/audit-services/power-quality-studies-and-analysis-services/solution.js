@@ -8,6 +8,7 @@ import WhyAudit from "./sections/WhyAudit";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
 import DownloadSection from "./sections/DownloadSection";
 import OurCertification from "./sections/OurCertification";
+import FAQ from "./sections/FAQ";
 
 const PowerQualityStudiesAudit = () => {
 
@@ -27,7 +28,10 @@ const PowerQualityStudiesAudit = () => {
       />
       <AreaOfExpertise />
       <OurCertification/>
-<DownloadSection />
+{/* FAQ Section */}
+      <FAQ />
+
+      <DownloadSection />
     </div>
   );
 };

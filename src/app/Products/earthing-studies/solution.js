@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import Download from "./sections/Download";
+import FAQ from "./sections/FAQ";
 
 const EarthingStudies = () => {
   return (
@@ -12,7 +13,10 @@ const EarthingStudies = () => {
       <Hero />
       <ProductIntro />
       <DetailedContent />
-<Download />
+{/* FAQ Section */}
+      <FAQ />
+
+      <Download />
     </div>
   );
 };

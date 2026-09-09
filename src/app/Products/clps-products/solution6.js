@@ -6,6 +6,7 @@ import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import WhyJefCLPS from "./sections/WhyJefCLPS";
 import Download from "./sections/Download";
+import FAQ from "./sections/FAQ";
 
 
 const LPS = () => {
@@ -41,7 +42,10 @@ const LPS = () => {
       <WhyJefCLPS />
 
       {/* FAQ Section */}
-{/* Download Section */}
+{/* FAQ Section */}
+      <FAQ />
+
+      {/* Download Section */}
       <Download />
 
       {/* Our Services Section (Circle Slider) */}

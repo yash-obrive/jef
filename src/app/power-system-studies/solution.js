@@ -7,6 +7,7 @@ import DetailedContent from "./sections/DetailedContent";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
 import DownloadSection from "./sections/DownloadSection";
 import WhyPss from "./sections/WhyPss";
+import FAQ from "./sections/FAQ";
 
 const PowerSystemStudies = () => {
 
@@ -22,6 +23,9 @@ const PowerSystemStudies = () => {
       <DetailedContent />
       <AreaOfExpertise />
       <WhyPss/>
+      {/* FAQ Section */}
+      <FAQ />
+
       <DownloadSection />
     </div>
   );

@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import ProductIntro from "./sections/ProductIntro";
 import DetailedContent from "./sections/DetailedContent";
 import Download from "./sections/Download";
+import FAQ from "./sections/FAQ";
 
 const ESELightningProtection = () => {
   const [showLightningPanel, setShowLightningPanel] = useState(false);
@@ -33,7 +34,10 @@ const ESELightningProtection = () => {
       <DetailedContent />
 
       {/* FAQ Section */}
-{/* Download Section */}
+{/* FAQ Section */}
+      <FAQ />
+
+      {/* Download Section */}
       <Download />
     </div>
   );

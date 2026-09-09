@@ -7,6 +7,7 @@ import DetailedContent from "./sections/DetailedContent";
 import WhyAudit from "./sections/WhyAudit";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
 import DownloadSection from "./sections/DownloadSection";
+import FAQ from "./sections/FAQ";
 
 const EarthingHealthAssessment = () => {
  
@@ -22,7 +23,10 @@ const EarthingHealthAssessment = () => {
         
       />
       <AreaOfExpertise />
-<DownloadSection />
+{/* FAQ Section */}
+      <FAQ />
+
+      <DownloadSection />
     </div>
   );
 };

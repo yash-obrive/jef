@@ -8,6 +8,7 @@ import WhyAudit from "./sections/WhyAudit";
 import AreaOfExpertise from "./sections/AreaOfExpertise";
 import DownloadSection from "./sections/DownloadSection";
 import GeneralFireSafety from "./sections/GernalFireSafety";
+import FAQ from "./sections/FAQ";
 
 const ElectricalFireSafetyAudit = () => {
   
@@ -23,7 +24,10 @@ const ElectricalFireSafetyAudit = () => {
       />
       <AreaOfExpertise />
       <GeneralFireSafety/>
-<DownloadSection />
+{/* FAQ Section */}
+      <FAQ />
+
+      <DownloadSection />
     </div>
   );
 };

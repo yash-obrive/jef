@@ -99,11 +99,6 @@ const FAQ = () => {
               );
             })}
           </div>
-          <div className="flex justify-center mt-8">
-            <a href="/faq" className="bg-[#FF0000] text-white px-8 py-3 rounded-md font-bold uppercase tracking-wider hover:bg-red-700 transition-colors">
-              Read More FAQs
-            </a>
-          </div>
         </div>
       </div>
     </section>
