@@ -25,6 +25,7 @@ const MobileMenu = ({ onClose }) => {
       { label: "Blogs", path: "/blogs" },
       { label: "JEF UAE", path: "https://www.jeftechno.com/", newTab: true },
       { label: "JEF SHIELD", path: "https://www.jeftechno.com/JEF_SHIELD/login.php" },
+      { label: "FAQ", path: "/faq" },
       { label: "JEF SAFE", path: "https://www.jeftechno.com/" },
     ],
     about: [

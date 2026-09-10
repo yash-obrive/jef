@@ -67,8 +67,15 @@ function MainFooter() {
     // Construct dynamic FAQ path
     let faqPath = "/faq";
     if (pathname && pathname !== "/") {
-        // If we are already on a faq page, keep it as is. Otherwise append /faq
-        faqPath = pathname.endsWith("/faq") ? pathname : `${pathname}/faq`;
+        // Exclude specific pages that do not have their own nested /faq routes
+        const noNestedFaqRoutes = ["/coming-soon", "/contact"];
+        
+        if (noNestedFaqRoutes.includes(pathname)) {
+            faqPath = "/faq"; // Fallback to global FAQ
+        } else {
+            // If we are already on a faq page, keep it as is. Otherwise append /faq
+            faqPath = pathname.endsWith("/faq") ? pathname : `${pathname}/faq`;
+        }
     }
 
     const itemJefShield = [
@@ -299,6 +306,13 @@ const FAQComponent = () => {
             isOpen: false
         },
         {
+            question: "Internal Links",
+            content: [
+                { label: 'FAQ', path: '/faq' },
+            ],
+            isOpen: false
+        },
+        {
             question: "Internal Use",
             content: [
                 { label: "Employee login", path: "https://jef.greythr.com", newTab: true },
@@ -306,6 +320,28 @@ const FAQComponent = () => {
             isOpen: false
         },
     ]);
+
+    const pathname = usePathname() || "";
+    useEffect(() => {
+        let faqPath = "/faq";
+        if (pathname && pathname !== "/") {
+            const noNestedFaqRoutes = ["/coming-soon", "/contact"];
+            if (noNestedFaqRoutes.includes(pathname)) {
+                faqPath = "/faq";
+            } else {
+                faqPath = pathname.endsWith("/faq") ? pathname : `${pathname}/faq`;
+            }
+        }
+        setFaqData(prev => prev.map(section => {
+            if (section.question === "Internal Links") {
+                return {
+                    ...section,
+                    content: section.content.map(c => c.label === 'FAQ' ? { ...c, path: faqPath } : c)
+                };
+            }
+            return section;
+        }));
+    }, [pathname]);
 
     const toggleFAQ = (index) => {
         setFaqData(
